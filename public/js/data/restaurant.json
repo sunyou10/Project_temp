@@ -1,0 +1,4960 @@
+[
+    {
+      "id": "1",
+      "name": "유한회사 곽민한 아메리칸 음식",
+      "location": "전라남도 고양시 일산서구 선릉15거리 (보람이김마을)",
+      "priceRange": "중간",
+      "rating": 1.5,
+      "menus": [
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        },
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 11,
+      "contact": {
+        "phone": "042-202-8423",
+        "email": "gimmisug@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.jusighoesa.org/",
+      "reviews": [
+        {
+          "author": "이영호",
+          "date": "2024-04-22",
+          "rating": 4.842165833120627,
+          "comment": "Nesciunt ex magnam veritatis."
+        },
+        {
+          "author": "곽영수",
+          "date": "2024-02-13",
+          "rating": 3.734639597333625,
+          "comment": "Corrupti nobis laudantium corporis vel ut voluptatum."
+        },
+        {
+          "author": "박건우",
+          "date": "2024-02-05",
+          "rating": 4.034914605800492,
+          "comment": "Aspernatur odit nemo impedit deserunt neque iure."
+        },
+        {
+          "author": "윤상철",
+          "date": "2024-03-27",
+          "rating": 4.336785042320076,
+          "comment": "Sapiente quae occaecati voluptatem."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "(주) 엄 프랑스식",
+      "location": "세종특별자치시 남구 삼성960길 (영수이마을)",
+      "priceRange": "중간",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        },
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 95,
+      "contact": {
+        "phone": "054-566-9463",
+        "email": "seonghoi@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.baggimyun.com/",
+      "reviews": [
+        {
+          "author": "윤상철",
+          "date": "2024-04-04",
+          "rating": 3.7269872872346674,
+          "comment": "Ab in nostrum eum eius."
+        },
+        {
+          "author": "박춘자",
+          "date": "2024-01-13",
+          "rating": 3.221146378519391,
+          "comment": "Vel tempore praesentium vero quasi autem."
+        },
+        {
+          "author": "김상호",
+          "date": "2024-01-28",
+          "rating": 3.28202977454094,
+          "comment": "At repellat eligendi."
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "(주) 장 퓨전음식",
+      "location": "경상북도 삼척시 도산대2가 (성진최마을)",
+      "priceRange": "최저가",
+      "rating": 1.5,
+      "menus": [
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        },
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 57,
+      "contact": {
+        "phone": "018-709-7857",
+        "email": "imisug@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.ju.net/",
+      "reviews": [
+        {
+          "author": "김지민",
+          "date": "2024-01-03",
+          "rating": 3.7252964639969943,
+          "comment": "Odio consequuntur rem in vitae deleniti."
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "주식회사 유 양식",
+      "location": "전라남도 고양시 덕양구 영동대2로",
+      "priceRange": "최저가",
+      "rating": 4.2,
+      "menus": [
+        {
+          "name": "파스타",
+          "price": "12000원"
+        },
+        {
+          "name": "스테이크",
+          "price": "20000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 10,
+      "contact": {
+        "phone": "055-651-1466",
+        "email": "minseog88@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yuhanhoesa.net/",
+      "reviews": [
+        {
+          "author": "김동현",
+          "date": "2024-01-15",
+          "rating": 3.254204305604989,
+          "comment": "Atque molestiae vero reiciendis quaerat tempore soluta deserunt."
+        },
+        {
+          "author": "오정식",
+          "date": "2024-04-12",
+          "rating": 3.794495759701662,
+          "comment": "Voluptate eius aliquam."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "박이 일식",
+      "location": "경상남도 광명시 오금8가 (주원김읍)",
+      "priceRange": "저가",
+      "rating": 3.1,
+      "menus": [
+        {
+          "name": "라멘",
+          "price": "12000원"
+        },
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 25,
+      "contact": {
+        "phone": "054-712-6078",
+        "email": "dohyeon87@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://hongi.com/",
+      "reviews": [
+        {
+          "author": "양현숙",
+          "date": "2024-02-09",
+          "rating": 3.6230819504479825,
+          "comment": "Deleniti cupiditate magni corrupti."
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "(유) 김 일식",
+      "location": "경기도 고양시 일산동구 언주가",
+      "priceRange": "저가",
+      "rating": 4.6,
+      "menus": [
+        {
+          "name": "사케동",
+          "price": "13000원"
+        },
+        {
+          "name": "초밥",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 68,
+      "contact": {
+        "phone": "010-9711-9121",
+        "email": "eunyeongo@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.bagison.com/",
+      "reviews": [
+        {
+          "author": "나주원",
+          "date": "2024-02-26",
+          "rating": 3.8227322644667647,
+          "comment": "Deleniti saepe autem ratione rerum dolor veritatis."
+        },
+        {
+          "author": "엄미숙",
+          "date": "2024-04-24",
+          "rating": 4.632945798433084,
+          "comment": "Totam quae iusto voluptatem a veritatis dolorum."
+        },
+        {
+          "author": "김승현",
+          "date": "2024-03-19",
+          "rating": 4.376933844636759,
+          "comment": "Corporis nobis saepe quae error porro."
+        },
+        {
+          "author": "이광수",
+          "date": "2024-03-12",
+          "rating": 3.485849279640022,
+          "comment": "Reiciendis cum quas magnam laboriosam error."
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "박김양 프랑스식",
+      "location": "충청남도 보은군 선릉거리 (정웅이읍)",
+      "priceRange": "최저가",
+      "rating": 2.7,
+      "menus": [
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        },
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 64,
+      "contact": {
+        "phone": "044-819-0666",
+        "email": "seongho59@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "이영자",
+          "date": "2024-03-08",
+          "rating": 4.884996664076569,
+          "comment": "Est reiciendis sequi itaque a nisi ut."
+        },
+        {
+          "author": "최지아",
+          "date": "2024-01-22",
+          "rating": 4.723984999345655,
+          "comment": "Exercitationem ducimus quos facilis tempora tempore."
+        },
+        {
+          "author": "배명숙",
+          "date": "2024-01-01",
+          "rating": 4.71576184735634,
+          "comment": "Cum ullam saepe architecto qui debitis eos."
+        },
+        {
+          "author": "박지훈",
+          "date": "2024-02-04",
+          "rating": 3.9089515609012526,
+          "comment": "Occaecati beatae ex libero eveniet quis excepturi."
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "(유) 김박이 퓨전음식",
+      "location": "충청남도 과천시 언주가 (은영박송리)",
+      "priceRange": "저가",
+      "rating": 1.8,
+      "menus": [
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        },
+        {
+          "name": "커리 우동",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 61,
+      "contact": {
+        "phone": "063-137-3153",
+        "email": "seohyeon41@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.minibag.kr/",
+      "reviews": [
+        {
+          "author": "구성훈",
+          "date": "2024-02-23",
+          "rating": 4.795250366258973,
+          "comment": "Molestiae porro minus est minima enim quaerat."
+        },
+        {
+          "author": "오진우",
+          "date": "2024-05-01",
+          "rating": 4.789412287125288,
+          "comment": "Totam eaque eligendi."
+        },
+        {
+          "author": "배주원",
+          "date": "2024-01-26",
+          "rating": 4.489755724260173,
+          "comment": "Illo recusandae tenetur ipsam modi consequuntur eaque."
+        },
+        {
+          "author": "김영환",
+          "date": "2024-03-22",
+          "rating": 3.345002646519247,
+          "comment": "Repellat aut ex porro sint officia ipsum voluptatum."
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "윤곽이 중식",
+      "location": "대전광역시 강북구 역삼로",
+      "priceRange": "중간",
+      "rating": 1.8,
+      "menus": [
+        {
+          "name": "마파두부",
+          "price": "8000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 30,
+      "contact": {
+        "phone": "062-633-3640",
+        "email": "jungsugim@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.ju.net/",
+      "reviews": [
+        {
+          "author": "홍준영",
+          "date": "2024-02-01",
+          "rating": 3.3162945869893488,
+          "comment": "Id accusamus quis nam culpa labore molestiae."
+        },
+        {
+          "author": "최정숙",
+          "date": "2024-02-20",
+          "rating": 3.1112472167462473,
+          "comment": "Minima sequi explicabo."
+        },
+        {
+          "author": "이지후",
+          "date": "2024-03-20",
+          "rating": 3.8446614191602353,
+          "comment": "Mollitia fugiat amet labore nam magnam eveniet."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "김김 한식",
+      "location": "세종특별자치시 강서구 개포길 (시우김리)",
+      "priceRange": "고가",
+      "rating": 4.9,
+      "menus": [
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        },
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 82,
+      "contact": {
+        "phone": "062-359-4558",
+        "email": "junyeong59@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://ju.com/",
+      "reviews": [
+        {
+          "author": "이정훈",
+          "date": "2024-02-16",
+          "rating": 3.523123296912418,
+          "comment": "Cumque repellendus tenetur vitae velit."
+        },
+        {
+          "author": "박건우",
+          "date": "2024-01-23",
+          "rating": 3.3580927645706,
+          "comment": "Enim veritatis nesciunt quod sint accusantium mollitia."
+        },
+        {
+          "author": "강영순",
+          "date": "2024-04-29",
+          "rating": 3.5275962426415237,
+          "comment": "Fugit et odio nam quam."
+        },
+        {
+          "author": "장수진",
+          "date": "2024-04-05",
+          "rating": 4.291991905392804,
+          "comment": "Dolorem saepe saepe temporibus mollitia voluptate fuga iure."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "장윤김 퓨전음식",
+      "location": "충청남도 하남시 오금5거리",
+      "priceRange": "중간",
+      "rating": 3.0,
+      "menus": [
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        },
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 43,
+      "contact": {
+        "phone": "063-937-9277",
+        "email": "minjae83@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://jusighoesa.kr/",
+      "reviews": [
+        {
+          "author": "김승민",
+          "date": "2024-03-23",
+          "rating": 3.9626648597485583,
+          "comment": "Quibusdam architecto similique ipsam quia."
+        },
+        {
+          "author": "조정훈",
+          "date": "2024-04-21",
+          "rating": 3.9238692349310584,
+          "comment": "Eligendi cupiditate qui."
+        },
+        {
+          "author": "배은서",
+          "date": "2024-04-04",
+          "rating": 3.545575109946146,
+          "comment": "Accusantium natus nam eum eligendi excepturi saepe pariatur."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "김장 프랑스식",
+      "location": "전라남도 군포시 서초중앙길 (상훈김김동)",
+      "priceRange": "고가",
+      "rating": 1.9,
+      "menus": [
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        },
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 58,
+      "contact": {
+        "phone": "033-316-2609",
+        "email": "yeonghyigim@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://jeongweon.net/",
+      "reviews": [
+        {
+          "author": "박재현",
+          "date": "2024-03-27",
+          "rating": 3.833757666693221,
+          "comment": "Vero quos repudiandae necessitatibus dignissimos ipsam."
+        },
+        {
+          "author": "김승현",
+          "date": "2024-03-02",
+          "rating": 4.150992516201939,
+          "comment": "Suscipit porro vero rerum recusandae facere minima."
+        },
+        {
+          "author": "김시우",
+          "date": "2024-03-12",
+          "rating": 4.240252367271795,
+          "comment": "Atque repudiandae cum sapiente labore eos exercitationem."
+        },
+        {
+          "author": "최성훈",
+          "date": "2024-04-07",
+          "rating": 4.18861754447542,
+          "comment": "Eveniet dolore velit distinctio quisquam asperiores."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "유한회사 박장홍 양식",
+      "location": "전라남도 파주시 양재천74가 (서연김면)",
+      "priceRange": "최저가",
+      "rating": 2.1,
+      "menus": [
+        {
+          "name": "스테이크",
+          "price": "20000원"
+        },
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 45,
+      "contact": {
+        "phone": "041-185-6302",
+        "email": "ggim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.ju.com/",
+      "reviews": [
+        {
+          "author": "배영철",
+          "date": "2024-02-13",
+          "rating": 3.8605221637455083,
+          "comment": "Aspernatur perspiciatis a placeat."
+        },
+        {
+          "author": "배민수",
+          "date": "2024-04-04",
+          "rating": 4.799505041218192,
+          "comment": "Rem maxime tempore recusandae in excepturi dicta enim."
+        },
+        {
+          "author": "황정희",
+          "date": "2024-03-14",
+          "rating": 3.530462785657785,
+          "comment": "Fuga corrupti tempore."
+        },
+        {
+          "author": "이정식",
+          "date": "2024-01-19",
+          "rating": 3.2055313138153325,
+          "comment": "Laborum ut esse enim rem dicta."
+        },
+        {
+          "author": "강미숙",
+          "date": "2024-02-09",
+          "rating": 3.0985585011485455,
+          "comment": "Ad repellendus assumenda soluta architecto."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "김김 아메리칸 음식",
+      "location": "부산광역시 은평구 석촌호수로",
+      "priceRange": "최고가",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "바비큐 리브",
+          "price": "22000원"
+        },
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 50,
+      "contact": {
+        "phone": "016-589-1079",
+        "email": "seohyeonim@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.igimgim.com/",
+      "reviews": [
+        {
+          "author": "김은지",
+          "date": "2024-01-16",
+          "rating": 4.230714370591851,
+          "comment": "Ipsum exercitationem esse repellendus cumque iste."
+        },
+        {
+          "author": "윤현숙",
+          "date": "2024-03-01",
+          "rating": 3.259601402275276,
+          "comment": "Error nam dolore reprehenderit incidunt maxime."
+        },
+        {
+          "author": "박재호",
+          "date": "2024-02-28",
+          "rating": 4.651946505978325,
+          "comment": "Aspernatur consequuntur fuga nesciunt dolorem dolorem aperiam."
+        },
+        {
+          "author": "김은영",
+          "date": "2024-01-15",
+          "rating": 4.156716664518351,
+          "comment": "Deserunt aut at iusto laboriosam ipsum."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "김오박 한식",
+      "location": "제주특별자치도 의왕시 석촌호수길 (재현이마을)",
+      "priceRange": "최저가",
+      "rating": 2.1,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "비빔밥",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 14,
+      "contact": {
+        "phone": "062-903-9284",
+        "email": "jeongjai@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.gimgimcoe.com/",
+      "reviews": [
+        {
+          "author": "박서현",
+          "date": "2024-01-24",
+          "rating": 4.901541901323871,
+          "comment": "Vero eius voluptatem qui aliquam totam."
+        },
+        {
+          "author": "류지연",
+          "date": "2024-04-04",
+          "rating": 4.360311124006536,
+          "comment": "Velit exercitationem at fugit ullam iste."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "문이홍 일식",
+      "location": "경상북도 용인시 기흥구 학동가",
+      "priceRange": "최저가",
+      "rating": 5.0,
+      "menus": [
+        {
+          "name": "초밥",
+          "price": "15000원"
+        },
+        {
+          "name": "사케동",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 14,
+      "contact": {
+        "phone": "063-301-7435",
+        "email": "hanjaehyeon@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.jusighoesa.kr/",
+      "reviews": [
+        {
+          "author": "최지우",
+          "date": "2024-02-05",
+          "rating": 4.331534383606552,
+          "comment": "Explicabo quo minus dolorum at neque ea."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "(주) 김 아메리칸 음식",
+      "location": "경기도 연천군 백제고분418길 (정수유동)",
+      "priceRange": "저가",
+      "rating": 3.7,
+      "menus": [
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        },
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 89,
+      "contact": {
+        "phone": "052-704-3825",
+        "email": "sgim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://yu.org/",
+      "reviews": [
+        {
+          "author": "김재현",
+          "date": "2024-03-06",
+          "rating": 4.9922568657465245,
+          "comment": "Nostrum possimus magni esse impedit nihil harum."
+        },
+        {
+          "author": "류정희",
+          "date": "2024-02-07",
+          "rating": 4.236546750921259,
+          "comment": "Ipsum officiis eum."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "유한회사 홍 아메리칸 음식",
+      "location": "경기도 안산시 도산대로",
+      "priceRange": "고가",
+      "rating": 4.1,
+      "menus": [
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        },
+        {
+          "name": "바비큐 리브",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 49,
+      "contact": {
+        "phone": "052-778-1662",
+        "email": "sangceol34@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.gimi.net/",
+      "reviews": [
+        {
+          "author": "박영식",
+          "date": "2024-02-26",
+          "rating": 3.3337878816047803,
+          "comment": "Accusamus corrupti ea voluptatem blanditiis."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "전나 중식",
+      "location": "전라남도 파주시 양재천로",
+      "priceRange": "최고가",
+      "rating": 5.0,
+      "menus": [
+        {
+          "name": "짬뽕",
+          "price": "6000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 50,
+      "contact": {
+        "phone": "051-984-3618",
+        "email": "mmun@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://ju.com/",
+      "reviews": [
+        {
+          "author": "이재현",
+          "date": "2024-04-25",
+          "rating": 4.558000420023852,
+          "comment": "Tenetur fuga excepturi eveniet officia fugit."
+        },
+        {
+          "author": "나보람",
+          "date": "2024-01-15",
+          "rating": 4.499460661020363,
+          "comment": "Corrupti magni ex et fugiat odit."
+        },
+        {
+          "author": "이재현",
+          "date": "2024-01-21",
+          "rating": 4.060322010667176,
+          "comment": "Suscipit quaerat nisi sed maxime numquam esse."
+        },
+        {
+          "author": "김경자",
+          "date": "2024-01-20",
+          "rating": 4.291139345005652,
+          "comment": "Architecto nostrum ratione."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "김최유 일식",
+      "location": "충청남도 보은군 개포992길 (명숙장리)",
+      "priceRange": "중간",
+      "rating": 4.1,
+      "menus": [
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        },
+        {
+          "name": "초밥",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 32,
+      "contact": {
+        "phone": "043-204-5577",
+        "email": "gyeongsu05@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.igim.kr/",
+      "reviews": [
+        {
+          "author": "박진호",
+          "date": "2024-05-01",
+          "rating": 3.0474127378329605,
+          "comment": "Facilis consequatur voluptatum nesciunt reprehenderit."
+        },
+        {
+          "author": "김명자",
+          "date": "2024-02-13",
+          "rating": 3.0145056858959873,
+          "comment": "Cupiditate velit nemo odit aut eos."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "(유) 손최박 이탈리아 음식",
+      "location": "경기도 의왕시 역삼길 (준서이읍)",
+      "priceRange": "최저가",
+      "rating": 2.4,
+      "menus": [
+        {
+          "name": "오소 부코",
+          "price": "24000원"
+        },
+        {
+          "name": "티라미수",
+          "price": "7000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 10,
+      "contact": {
+        "phone": "033-550-6041",
+        "email": "eungyeongbaeg@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "이영일",
+          "date": "2024-03-15",
+          "rating": 3.792752093835026,
+          "comment": "Excepturi quaerat ut sit incidunt."
+        },
+        {
+          "author": "한지영",
+          "date": "2024-03-13",
+          "rating": 3.1614508376103303,
+          "comment": "Vel ea maxime veniam molestias quas dolorum."
+        },
+        {
+          "author": "심은서",
+          "date": "2024-02-23",
+          "rating": 4.486354125032585,
+          "comment": "Ipsum dolor minima ipsam in voluptatibus reiciendis."
+        },
+        {
+          "author": "우은지",
+          "date": "2024-02-13",
+          "rating": 3.7478845390366717,
+          "comment": "Adipisci consequatur ullam incidunt dolorem voluptates ea."
+        },
+        {
+          "author": "이상훈",
+          "date": "2024-03-20",
+          "rating": 3.994807456627263,
+          "comment": "Nulla impedit dignissimos itaque quis aspernatur."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "박송이 양식",
+      "location": "세종특별자치시 은평구 역삼20가",
+      "priceRange": "최고가",
+      "rating": 2.0,
+      "menus": [
+        {
+          "name": "리조또",
+          "price": "10000원"
+        },
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 76,
+      "contact": {
+        "phone": "018-119-2464",
+        "email": "eungyeong75@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "김종수",
+          "date": "2024-01-17",
+          "rating": 4.873602023788014,
+          "comment": "Dolorum facere incidunt."
+        },
+        {
+          "author": "이민서",
+          "date": "2024-02-25",
+          "rating": 3.84522845518962,
+          "comment": "Culpa recusandae est voluptate ab occaecati."
+        },
+        {
+          "author": "김옥순",
+          "date": "2024-01-26",
+          "rating": 3.9662027037299126,
+          "comment": "Porro suscipit odio omnis qui corrupti."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "김조이 양식",
+      "location": "충청북도 금산군 영동대004로",
+      "priceRange": "고가",
+      "rating": 2.3,
+      "menus": [
+        {
+          "name": "파스타",
+          "price": "12000원"
+        },
+        {
+          "name": "스테이크",
+          "price": "20000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 34,
+      "contact": {
+        "phone": "041-580-6705",
+        "email": "gimsumin@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.gimbag.net/",
+      "reviews": [
+        {
+          "author": "이영미",
+          "date": "2024-01-17",
+          "rating": 4.38352646216903,
+          "comment": "Odio dolorum eligendi aliquam quidem totam."
+        },
+        {
+          "author": "김숙자",
+          "date": "2024-03-25",
+          "rating": 4.892117949435867,
+          "comment": "Optio harum maiores molestiae inventore."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "박최 중식",
+      "location": "대전광역시 서구 강남대거리",
+      "priceRange": "최고가",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        },
+        {
+          "name": "짜장면",
+          "price": "5000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 95,
+      "contact": {
+        "phone": "054-187-0224",
+        "email": "dgim@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.icoe.com/",
+      "reviews": [
+        {
+          "author": "이예은",
+          "date": "2024-04-13",
+          "rating": 4.669788371147844,
+          "comment": "Minima voluptatibus reiciendis."
+        },
+        {
+          "author": "류진우",
+          "date": "2024-02-26",
+          "rating": 4.320146439791415,
+          "comment": "Hic itaque nam exercitationem aliquid vero."
+        },
+        {
+          "author": "이정호",
+          "date": "2024-03-06",
+          "rating": 3.6961633622784253,
+          "comment": "Harum dicta tenetur adipisci velit ut harum."
+        },
+        {
+          "author": "서영자",
+          "date": "2024-01-09",
+          "rating": 3.160266542614594,
+          "comment": "Voluptatibus atque distinctio rerum aspernatur."
+        },
+        {
+          "author": "윤현지",
+          "date": "2024-01-29",
+          "rating": 3.04168558546252,
+          "comment": "Dolor veritatis ea et similique."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "(주) 이이박 아시아음식",
+      "location": "경기도 안양시 동안구 백제고분559길 (하윤김이리)",
+      "priceRange": "저가",
+      "rating": 5.0,
+      "menus": [
+        {
+          "name": "샤오롱바오",
+          "price": "8000원"
+        },
+        {
+          "name": "팟타이",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 52,
+      "contact": {
+        "phone": "031-070-6910",
+        "email": "hyeonu86@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.coehangim.com/",
+      "reviews": [
+        {
+          "author": "김재현",
+          "date": "2024-04-01",
+          "rating": 4.394693355816714,
+          "comment": "Enim voluptatum provident sed."
+        },
+        {
+          "author": "박준영",
+          "date": "2024-04-23",
+          "rating": 3.506872134486801,
+          "comment": "Eligendi repellat architecto."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "주식회사 정 프랑스식",
+      "location": "충청북도 천안시 동남구 봉은사1거리",
+      "priceRange": "최저가",
+      "rating": 1.0,
+      "menus": [
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        },
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 53,
+      "contact": {
+        "phone": "053-987-8944",
+        "email": "borambag@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://yuhanhoesa.kr/",
+      "reviews": [
+        {
+          "author": "김준서",
+          "date": "2024-01-24",
+          "rating": 4.334513829784676,
+          "comment": "Culpa nihil necessitatibus quis corrupti."
+        },
+        {
+          "author": "서영미",
+          "date": "2024-01-12",
+          "rating": 4.420120039813373,
+          "comment": "Porro quam voluptate ut quaerat."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "유한회사 강 아메리칸 음식",
+      "location": "서울특별시 강서구 봉은사길 (예진김조마을)",
+      "priceRange": "저가",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        },
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 80,
+      "contact": {
+        "phone": "018-376-1177",
+        "email": "heominseo@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.ju.com/",
+      "reviews": [
+        {
+          "author": "김영철",
+          "date": "2024-02-24",
+          "rating": 4.601501612063565,
+          "comment": "Blanditiis pariatur consequuntur beatae vero in voluptate."
+        },
+        {
+          "author": "이상철",
+          "date": "2024-04-28",
+          "rating": 4.596990646407297,
+          "comment": "Ipsam dolorum et."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "송김김 한식",
+      "location": "인천광역시 영등포구 테헤란가 (상훈박김리)",
+      "priceRange": "중간",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        },
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 52,
+      "contact": {
+        "phone": "032-588-8165",
+        "email": "hayun66@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.coeiryu.com/",
+      "reviews": [
+        {
+          "author": "박예진",
+          "date": "2024-01-08",
+          "rating": 4.2221879294976645,
+          "comment": "Commodi tenetur culpa architecto unde repellat in."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "(주) 안박김 일식",
+      "location": "세종특별자치시 서구 석촌호수가",
+      "priceRange": "고가",
+      "rating": 3.4,
+      "menus": [
+        {
+          "name": "라멘",
+          "price": "12000원"
+        },
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 93,
+      "contact": {
+        "phone": "042-155-0557",
+        "email": "junhyeoggim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.ju.com/",
+      "reviews": [
+        {
+          "author": "최정호",
+          "date": "2024-02-11",
+          "rating": 3.6276722512716715,
+          "comment": "Nulla amet delectus deserunt nihil labore in."
+        },
+        {
+          "author": "김미경",
+          "date": "2024-01-11",
+          "rating": 3.497504043063664,
+          "comment": "Iste accusamus voluptatum vero."
+        },
+        {
+          "author": "허서영",
+          "date": "2024-01-23",
+          "rating": 3.968255831729029,
+          "comment": "Dolorum labore a eligendi quisquam."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "김김 프랑스식",
+      "location": "충청남도 홍천군 역삼로",
+      "priceRange": "중간",
+      "rating": 1.4,
+      "menus": [
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        },
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 57,
+      "contact": {
+        "phone": "041-692-0770",
+        "email": "jiasin@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://munbaeg.com/",
+      "reviews": [
+        {
+          "author": "이지연",
+          "date": "2024-02-15",
+          "rating": 4.935921886886508,
+          "comment": "Nam debitis quos quasi."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "이김이 일식",
+      "location": "대전광역시 도봉구 논현1가 (지연조이마을)",
+      "priceRange": "최저가",
+      "rating": 1.8,
+      "menus": [
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        },
+        {
+          "name": "사케동",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 83,
+      "contact": {
+        "phone": "070-2986-2507",
+        "email": "hanjeonghyi@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://bagson.kr/",
+      "reviews": [
+        {
+          "author": "김정훈",
+          "date": "2024-03-31",
+          "rating": 4.924274889595421,
+          "comment": "Neque vel a vitae vitae."
+        },
+        {
+          "author": "이보람",
+          "date": "2024-04-28",
+          "rating": 3.186925500607834,
+          "comment": "Necessitatibus esse harum quisquam doloremque eum quibusdam eos."
+        },
+        {
+          "author": "송예원",
+          "date": "2024-02-26",
+          "rating": 3.406881950987769,
+          "comment": "Commodi tenetur placeat fugiat accusamus odit voluptates totam."
+        },
+        {
+          "author": "서영길",
+          "date": "2024-02-05",
+          "rating": 3.3487233905476685,
+          "comment": "Tempora dolorem delectus autem eius quibusdam non."
+        },
+        {
+          "author": "박현숙",
+          "date": "2024-03-12",
+          "rating": 3.6330082655301537,
+          "comment": "Unde voluptatum velit facere at sequi."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "문허최 퓨전음식",
+      "location": "울산광역시 종로구 학동로 (은지박손마을)",
+      "priceRange": "최저가",
+      "rating": 3.4,
+      "menus": [
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        },
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 25,
+      "contact": {
+        "phone": "055-493-3775",
+        "email": "seongjin14@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://ju.kr/",
+      "reviews": [
+        {
+          "author": "김미경",
+          "date": "2024-02-17",
+          "rating": 4.451757467673012,
+          "comment": "Dolor ex dolore eius cupiditate."
+        },
+        {
+          "author": "이민수",
+          "date": "2024-03-26",
+          "rating": 3.273254887928572,
+          "comment": "Provident error voluptatum."
+        },
+        {
+          "author": "전영진",
+          "date": "2024-04-30",
+          "rating": 3.791503733794296,
+          "comment": "Ullam eligendi iusto quod."
+        },
+        {
+          "author": "박성민",
+          "date": "2024-03-19",
+          "rating": 3.6718878711088676,
+          "comment": "Distinctio magnam iste ducimus at."
+        },
+        {
+          "author": "박재현",
+          "date": "2024-01-23",
+          "rating": 3.5794328435019667,
+          "comment": "Neque delectus facere sapiente nemo eius placeat."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "주식회사 김김양 아시아음식",
+      "location": "대전광역시 마포구 양재천9가",
+      "priceRange": "최고가",
+      "rating": 4.4,
+      "menus": [
+        {
+          "name": "팟타이",
+          "price": "12000원"
+        },
+        {
+          "name": "치킨 커리",
+          "price": "10000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 77,
+      "contact": {
+        "phone": "061-167-0516",
+        "email": "hyeonjunheo@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://igim.com/",
+      "reviews": [
+        {
+          "author": "양영길",
+          "date": "2024-04-12",
+          "rating": 4.310785321010299,
+          "comment": "Iste voluptates qui cum dolorum praesentium molestias."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "(유) 한 프랑스식",
+      "location": "충청북도 양구군 언주43길 (진호김권마을)",
+      "priceRange": "최고가",
+      "rating": 5.0,
+      "menus": [
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        },
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 63,
+      "contact": {
+        "phone": "055-852-5640",
+        "email": "yeonghwani@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://yu.kr/",
+      "reviews": [
+        {
+          "author": "장승민",
+          "date": "2024-01-16",
+          "rating": 3.1579018622462076,
+          "comment": "Optio distinctio minus quasi."
+        },
+        {
+          "author": "손승민",
+          "date": "2024-01-20",
+          "rating": 4.589507062505405,
+          "comment": "Veniam distinctio nesciunt voluptatum."
+        },
+        {
+          "author": "최지현",
+          "date": "2024-04-20",
+          "rating": 3.590349774980128,
+          "comment": "Exercitationem delectus commodi totam corrupti."
+        },
+        {
+          "author": "박영진",
+          "date": "2024-02-17",
+          "rating": 3.6137488334142898,
+          "comment": "Nisi odit recusandae quod sapiente amet repellat."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "이오 양식",
+      "location": "경상북도 음성군 논현로 (민석김고동)",
+      "priceRange": "최저가",
+      "rating": 3.3,
+      "menus": [
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        },
+        {
+          "name": "리조또",
+          "price": "10000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 17,
+      "contact": {
+        "phone": "018-670-5993",
+        "email": "gimsunog@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "손영일",
+          "date": "2024-01-09",
+          "rating": 4.408786364451881,
+          "comment": "Recusandae ducimus dolor modi magnam."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "최이 프랑스식",
+      "location": "충청북도 동두천시 서초중앙21가 (지후박읍)",
+      "priceRange": "저가",
+      "rating": 3.1,
+      "menus": [
+        {
+          "name": "크림 브륄레",
+          "price": "9000원"
+        },
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 58,
+      "contact": {
+        "phone": "011-944-6981",
+        "email": "sheo@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yunryuhong.com/",
+      "reviews": [
+        {
+          "author": "진진우",
+          "date": "2024-02-02",
+          "rating": 4.151129476866879,
+          "comment": "Quisquam eveniet numquam quisquam vel minus reprehenderit quibusdam."
+        },
+        {
+          "author": "김민서",
+          "date": "2024-03-23",
+          "rating": 4.59502488051373,
+          "comment": "Doloremque explicabo molestiae blanditiis."
+        },
+        {
+          "author": "이성현",
+          "date": "2024-02-09",
+          "rating": 3.833802394561955,
+          "comment": "Ex sapiente tempore perspiciatis nesciunt recusandae ratione."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "김김이 이탈리아 음식",
+      "location": "경상남도 속초시 강남대거리",
+      "priceRange": "중간",
+      "rating": 4.5,
+      "menus": [
+        {
+          "name": "티라미수",
+          "price": "7000원"
+        },
+        {
+          "name": "마르게리타 피자",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 60,
+      "contact": {
+        "phone": "017-949-1946",
+        "email": "jungsu64@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yu.com/",
+      "reviews": [
+        {
+          "author": "강재현",
+          "date": "2024-01-23",
+          "rating": 3.6577070572582224,
+          "comment": "Voluptate eligendi eaque occaecati perferendis sapiente."
+        },
+        {
+          "author": "김윤서",
+          "date": "2024-02-23",
+          "rating": 4.896832911858658,
+          "comment": "Quaerat magnam animi ipsum culpa."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "하손정 아메리칸 음식",
+      "location": "울산광역시 양천구 언주79거리",
+      "priceRange": "중간",
+      "rating": 1.8,
+      "menus": [
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        },
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 66,
+      "contact": {
+        "phone": "016-625-6741",
+        "email": "wcoe@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://gimnamha.com/",
+      "reviews": [
+        {
+          "author": "곽정자",
+          "date": "2024-04-19",
+          "rating": 4.865479499955948,
+          "comment": "Itaque illum dolore necessitatibus enim eligendi facilis."
+        },
+        {
+          "author": "백순옥",
+          "date": "2024-03-02",
+          "rating": 3.206881158177269,
+          "comment": "Laudantium vero fugit alias."
+        },
+        {
+          "author": "박경숙",
+          "date": "2024-01-04",
+          "rating": 4.571229567394168,
+          "comment": "Officia explicabo libero distinctio occaecati."
+        },
+        {
+          "author": "곽서영",
+          "date": "2024-01-28",
+          "rating": 4.5834117971752875,
+          "comment": "Reprehenderit esse perferendis dolore."
+        },
+        {
+          "author": "이영자",
+          "date": "2024-01-07",
+          "rating": 3.4065027273271555,
+          "comment": "Nemo excepturi rerum error."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "유한회사 이 한식",
+      "location": "충청남도 구리시 양재천가",
+      "priceRange": "저가",
+      "rating": 4.3,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "비빔밥",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 91,
+      "contact": {
+        "phone": "062-828-2915",
+        "email": "jeonghun47@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.ju.com/",
+      "reviews": [
+        {
+          "author": "강수빈",
+          "date": "2024-03-19",
+          "rating": 3.0311291846239747,
+          "comment": "Velit at dolore facere debitis sapiente in."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "(주) 김박장 한식",
+      "location": "대전광역시 노원구 삼성290거리 (상훈강양마을)",
+      "priceRange": "중간",
+      "rating": 1.9,
+      "menus": [
+        {
+          "name": "갈비탕",
+          "price": "12000원"
+        },
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 36,
+      "contact": {
+        "phone": "064-782-7887",
+        "email": "yejun95@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yuhanhoesa.org/",
+      "reviews": [
+        {
+          "author": "손성호",
+          "date": "2024-03-13",
+          "rating": 3.6575971987110463,
+          "comment": "Repellat placeat aliquam reprehenderit tempora aperiam neque."
+        },
+        {
+          "author": "서영진",
+          "date": "2024-01-13",
+          "rating": 4.143678535640675,
+          "comment": "Repudiandae dignissimos reprehenderit quisquam debitis."
+        },
+        {
+          "author": "허성민",
+          "date": "2024-04-26",
+          "rating": 4.101626161924154,
+          "comment": "Cumque consequatur minima voluptas velit amet."
+        },
+        {
+          "author": "김정희",
+          "date": "2024-01-24",
+          "rating": 3.260313558947243,
+          "comment": "Porro nulla in facere."
+        },
+        {
+          "author": "김현정",
+          "date": "2024-04-24",
+          "rating": 4.936453910266817,
+          "comment": "Ad nihil nisi sequi facilis commodi."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "김이박 아메리칸 음식",
+      "location": "광주광역시 동대문구 오금1가",
+      "priceRange": "최고가",
+      "rating": 1.6,
+      "menus": [
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        },
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 74,
+      "contact": {
+        "phone": "019-944-8543",
+        "email": "gimujin@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.ju.kr/",
+      "reviews": [
+        {
+          "author": "장재호",
+          "date": "2024-03-01",
+          "rating": 3.590257906548419,
+          "comment": "Accusamus dolores hic culpa qui enim non."
+        },
+        {
+          "author": "김하윤",
+          "date": "2024-03-25",
+          "rating": 4.712674659814867,
+          "comment": "Saepe est assumenda occaecati quidem fugiat."
+        },
+        {
+          "author": "김지민",
+          "date": "2024-04-07",
+          "rating": 4.430398053336924,
+          "comment": "Quidem quo saepe ratione omnis in ipsa."
+        },
+        {
+          "author": "김정호",
+          "date": "2024-03-04",
+          "rating": 4.772146418736181,
+          "comment": "Sint illum maxime asperiores iste facilis."
+        },
+        {
+          "author": "이미정",
+          "date": "2024-02-12",
+          "rating": 3.017047358117117,
+          "comment": "Ex consequuntur expedita laudantium enim error."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "김김권 프랑스식",
+      "location": "경상남도 군포시 서초대거리",
+      "priceRange": "중간",
+      "rating": 4.7,
+      "menus": [
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        },
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 97,
+      "contact": {
+        "phone": "011-086-7809",
+        "email": "ugim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.ju.com/",
+      "reviews": [
+        {
+          "author": "류경숙",
+          "date": "2024-01-04",
+          "rating": 4.118415949651636,
+          "comment": "Magnam repudiandae possimus aperiam et."
+        },
+        {
+          "author": "류정식",
+          "date": "2024-04-06",
+          "rating": 3.9111283189219845,
+          "comment": "Optio earum rerum illum excepturi quam tempora ipsum."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "유한회사 이 일식",
+      "location": "경상남도 예산군 가락23가",
+      "priceRange": "최고가",
+      "rating": 4.1,
+      "menus": [
+        {
+          "name": "초밥",
+          "price": "15000원"
+        },
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 78,
+      "contact": {
+        "phone": "053-683-6450",
+        "email": "hwangjunseo@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://igim.kr/",
+      "reviews": [
+        {
+          "author": "김은서",
+          "date": "2024-04-26",
+          "rating": 3.3895722302469946,
+          "comment": "Consequuntur corrupti harum reprehenderit ipsam."
+        },
+        {
+          "author": "김아름",
+          "date": "2024-04-25",
+          "rating": 4.037612184862894,
+          "comment": "Excepturi ab occaecati dolore pariatur."
+        },
+        {
+          "author": "노춘자",
+          "date": "2024-03-02",
+          "rating": 3.2605056158087606,
+          "comment": "Minus quidem exercitationem placeat fuga."
+        },
+        {
+          "author": "김민지",
+          "date": "2024-03-18",
+          "rating": 4.780468955763104,
+          "comment": "Hic neque natus cumque hic similique."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "윤김 중식",
+      "location": "부산광역시 은평구 선릉408로 (지민홍리)",
+      "priceRange": "중간",
+      "rating": 2.8,
+      "menus": [
+        {
+          "name": "짜장면",
+          "price": "5000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 94,
+      "contact": {
+        "phone": "054-634-5782",
+        "email": "hwangjeongja@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://gimii.com/",
+      "reviews": [
+        {
+          "author": "이영숙",
+          "date": "2024-02-28",
+          "rating": 4.997989697843087,
+          "comment": "Est corrupti dolorum necessitatibus."
+        },
+        {
+          "author": "장은영",
+          "date": "2024-02-11",
+          "rating": 4.915694187805703,
+          "comment": "Expedita maxime nisi quo."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "황유정 프랑스식",
+      "location": "대전광역시 종로구 영동대가",
+      "priceRange": "최고가",
+      "rating": 2.7,
+      "menus": [
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        },
+        {
+          "name": "라따뚜이",
+          "price": "16000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 80,
+      "contact": {
+        "phone": "055-996-2202",
+        "email": "jeonghosim@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://bagijo.kr/",
+      "reviews": [
+        {
+          "author": "이예지",
+          "date": "2024-03-01",
+          "rating": 4.6188238503296395,
+          "comment": "Consequatur vero quas itaque nam quam id vero."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "이김 일식",
+      "location": "전라남도 충주시 봉은사가",
+      "priceRange": "고가",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "초밥",
+          "price": "15000원"
+        },
+        {
+          "name": "사케동",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 35,
+      "contact": {
+        "phone": "051-118-5359",
+        "email": "bi@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.namio.kr/",
+      "reviews": [
+        {
+          "author": "김숙자",
+          "date": "2024-03-09",
+          "rating": 3.7475184076195402,
+          "comment": "Dolore ut quis harum."
+        },
+        {
+          "author": "고상현",
+          "date": "2024-01-21",
+          "rating": 3.5318956714099716,
+          "comment": "Possimus distinctio dicta aliquam autem reiciendis dolores ratione."
+        },
+        {
+          "author": "이민재",
+          "date": "2024-03-20",
+          "rating": 4.728830874848566,
+          "comment": "Repellendus libero repudiandae exercitationem cupiditate facere."
+        },
+        {
+          "author": "김승민",
+          "date": "2024-04-06",
+          "rating": 3.5658796278901512,
+          "comment": "Deserunt aliquam dignissimos tempora dicta corrupti vero."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "김박 프랑스식",
+      "location": "전라남도 당진시 역삼8길",
+      "priceRange": "최저가",
+      "rating": 3.1,
+      "menus": [
+        {
+          "name": "크림 브륄레",
+          "price": "9000원"
+        },
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 99,
+      "contact": {
+        "phone": "070-2435-6050",
+        "email": "jaehojang@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://gimigim.com/",
+      "reviews": [
+        {
+          "author": "박성수",
+          "date": "2024-01-12",
+          "rating": 3.8037516820728836,
+          "comment": "Ipsum voluptatibus et dolor deserunt."
+        },
+        {
+          "author": "류은서",
+          "date": "2024-01-01",
+          "rating": 4.938453200851686,
+          "comment": "Dolorum repudiandae saepe aliquid incidunt neque."
+        },
+        {
+          "author": "심준영",
+          "date": "2024-02-15",
+          "rating": 3.6590947190136274,
+          "comment": "Accusamus nam quasi blanditiis suscipit."
+        },
+        {
+          "author": "황경수",
+          "date": "2024-01-30",
+          "rating": 4.801959911148327,
+          "comment": "Dolorum enim ratione saepe quod."
+        },
+        {
+          "author": "최예준",
+          "date": "2024-03-01",
+          "rating": 3.754483725825229,
+          "comment": "Voluptates dolor ullam veniam culpa."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "(유) 안 중식",
+      "location": "강원도 인제군 도산대88거리 (아름하마을)",
+      "priceRange": "최저가",
+      "rating": 3.1,
+      "menus": [
+        {
+          "name": "짜장면",
+          "price": "5000원"
+        },
+        {
+          "name": "마파두부",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 70,
+      "contact": {
+        "phone": "041-424-5174",
+        "email": "jeongsun98@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://jogugim.net/",
+      "reviews": [
+        {
+          "author": "주현주",
+          "date": "2024-03-14",
+          "rating": 3.4615732079952033,
+          "comment": "Illo mollitia illo placeat recusandae."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "강김양 중식",
+      "location": "광주광역시 강남구 반포대640거리",
+      "priceRange": "최고가",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "마파두부",
+          "price": "8000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 24,
+      "contact": {
+        "phone": "070-5719-3066",
+        "email": "yunseo54@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://hangim.com/",
+      "reviews": [
+        {
+          "author": "박정남",
+          "date": "2024-04-26",
+          "rating": 3.9654225802424206,
+          "comment": "Dolores natus blanditiis delectus quibusdam id itaque ipsum."
+        },
+        {
+          "author": "김민수",
+          "date": "2024-04-04",
+          "rating": 4.716844581274495,
+          "comment": "Exercitationem eligendi consequuntur hic pariatur placeat nobis."
+        },
+        {
+          "author": "이순옥",
+          "date": "2024-01-30",
+          "rating": 4.55593785206095,
+          "comment": "Dolore molestiae quae soluta."
+        },
+        {
+          "author": "강종수",
+          "date": "2024-04-08",
+          "rating": 3.3045306442475306,
+          "comment": "Veniam sint ab eveniet."
+        },
+        {
+          "author": "김성훈",
+          "date": "2024-03-30",
+          "rating": 4.310935023354279,
+          "comment": "Distinctio odit asperiores perferendis nostrum architecto."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "유한회사 김윤김 중식",
+      "location": "서울특별시 광진구 논현가 (상호최안마을)",
+      "priceRange": "고가",
+      "rating": 2.5,
+      "menus": [
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        },
+        {
+          "name": "짬뽕",
+          "price": "6000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 52,
+      "contact": {
+        "phone": "044-131-8262",
+        "email": "ijeongsu@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yu.com/",
+      "reviews": [
+        {
+          "author": "이미정",
+          "date": "2024-03-15",
+          "rating": 4.3571773956228075,
+          "comment": "Impedit natus odio minus corporis non."
+        },
+        {
+          "author": "박경자",
+          "date": "2024-02-10",
+          "rating": 4.5640658876543565,
+          "comment": "Perspiciatis numquam autem adipisci in cum."
+        },
+        {
+          "author": "김정숙",
+          "date": "2024-03-13",
+          "rating": 3.6782127569949505,
+          "comment": "Delectus quae aut natus quas."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "(유) 최장서 중식",
+      "location": "서울특별시 도봉구 학동3거리",
+      "priceRange": "저가",
+      "rating": 4.5,
+      "menus": [
+        {
+          "name": "마파두부",
+          "price": "8000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 97,
+      "contact": {
+        "phone": "02-3691-2016",
+        "email": "egim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yuhanhoesa.org/",
+      "reviews": [
+        {
+          "author": "조숙자",
+          "date": "2024-04-13",
+          "rating": 3.7601782108217243,
+          "comment": "Earum ex doloribus facilis laboriosam."
+        },
+        {
+          "author": "이미경",
+          "date": "2024-01-02",
+          "rating": 4.6105839639112265,
+          "comment": "Laboriosam perferendis veniam sequi porro dolore temporibus unde."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "김이 이탈리아 음식",
+      "location": "전라북도 옥천군 서초대522가",
+      "priceRange": "중간",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "티라미수",
+          "price": "7000원"
+        },
+        {
+          "name": "오소 부코",
+          "price": "24000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 47,
+      "contact": {
+        "phone": "044-588-9732",
+        "email": "yeongmiyun@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.baeigim.com/",
+      "reviews": [
+        {
+          "author": "이윤서",
+          "date": "2024-04-24",
+          "rating": 4.678866686446174,
+          "comment": "Tempore molestias placeat molestiae quidem."
+        },
+        {
+          "author": "김순자",
+          "date": "2024-01-03",
+          "rating": 3.64116681724302,
+          "comment": "Veniam delectus explicabo reiciendis."
+        },
+        {
+          "author": "김지훈",
+          "date": "2024-03-24",
+          "rating": 4.247195333334455,
+          "comment": "Necessitatibus nisi ipsum."
+        },
+        {
+          "author": "김하은",
+          "date": "2024-04-14",
+          "rating": 4.403672218386589,
+          "comment": "Eveniet occaecati nihil nostrum quis odio iure."
+        },
+        {
+          "author": "이하은",
+          "date": "2024-03-03",
+          "rating": 4.609312019380609,
+          "comment": "Nisi quia quos accusantium."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "(주) 이 중식",
+      "location": "광주광역시 금천구 역삼5거리",
+      "priceRange": "중간",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "마파두부",
+          "price": "8000원"
+        },
+        {
+          "name": "짬뽕",
+          "price": "6000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 34,
+      "contact": {
+        "phone": "017-886-9164",
+        "email": "minjigim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.ju.com/",
+      "reviews": [
+        {
+          "author": "장재호",
+          "date": "2024-04-05",
+          "rating": 4.705847411504945,
+          "comment": "Blanditiis adipisci repellat vero cum laborum."
+        },
+        {
+          "author": "김현주",
+          "date": "2024-04-28",
+          "rating": 3.1637754899812887,
+          "comment": "Voluptatibus non placeat velit eum."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "이김최 아메리칸 음식",
+      "location": "경상북도 고양시 일산서구 잠실42거리 (민재허김마을)",
+      "priceRange": "최고가",
+      "rating": 4.0,
+      "menus": [
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        },
+        {
+          "name": "바비큐 리브",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 40,
+      "contact": {
+        "phone": "063-573-2658",
+        "email": "jha@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.bagbaggim.kr/",
+      "reviews": [
+        {
+          "author": "박명숙",
+          "date": "2024-03-04",
+          "rating": 4.877685732250834,
+          "comment": "Itaque natus esse mollitia doloribus odit eius."
+        },
+        {
+          "author": "문경자",
+          "date": "2024-04-30",
+          "rating": 4.191655335621391,
+          "comment": "Nemo enim doloribus."
+        },
+        {
+          "author": "송은주",
+          "date": "2024-05-02",
+          "rating": 3.969783769174378,
+          "comment": "Suscipit vitae commodi unde nihil assumenda."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "박김김 한식",
+      "location": "경상남도 청양군 학동로",
+      "priceRange": "최고가",
+      "rating": 1.4,
+      "menus": [
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        },
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 60,
+      "contact": {
+        "phone": "042-702-8671",
+        "email": "eungyeongbae@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yu.com/",
+      "reviews": [
+        {
+          "author": "권은주",
+          "date": "2024-03-26",
+          "rating": 3.533523496903179,
+          "comment": "Quis provident odit aliquam cum consequatur."
+        },
+        {
+          "author": "김재호",
+          "date": "2024-04-02",
+          "rating": 4.862303458877102,
+          "comment": "Neque modi excepturi labore porro."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "유한회사 김송오 아시아음식",
+      "location": "전라남도 하남시 서초대38길 (건우김구리)",
+      "priceRange": "최저가",
+      "rating": 2.5,
+      "menus": [
+        {
+          "name": "치킨 커리",
+          "price": "10000원"
+        },
+        {
+          "name": "불고기 바오",
+          "price": "3000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 42,
+      "contact": {
+        "phone": "061-279-2486",
+        "email": "subin02@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.jusighoesa.net/",
+      "reviews": [
+        {
+          "author": "이중수",
+          "date": "2024-02-13",
+          "rating": 3.6239094701034684,
+          "comment": "Optio ipsa aspernatur tempora aliquid vitae."
+        },
+        {
+          "author": "김지은",
+          "date": "2024-01-03",
+          "rating": 3.210364859533972,
+          "comment": "Quasi expedita sint accusantium nostrum maiores nesciunt."
+        },
+        {
+          "author": "정영철",
+          "date": "2024-01-22",
+          "rating": 3.211159655718589,
+          "comment": "Dolorum aut eligendi dolorem quam."
+        },
+        {
+          "author": "고경자",
+          "date": "2024-03-07",
+          "rating": 4.57303560674775,
+          "comment": "Soluta facere aliquid soluta natus."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "(주) 우고김 퓨전음식",
+      "location": "경상북도 충주시 백제고분53길",
+      "priceRange": "중간",
+      "rating": 1.1,
+      "menus": [
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        },
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 85,
+      "contact": {
+        "phone": "017-941-1948",
+        "email": "gimogja@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.bageom.kr/",
+      "reviews": [
+        {
+          "author": "강은경",
+          "date": "2024-03-15",
+          "rating": 4.268790375354378,
+          "comment": "Ut qui vero necessitatibus fugit excepturi ad explicabo."
+        },
+        {
+          "author": "이지원",
+          "date": "2024-01-11",
+          "rating": 3.5622718282534804,
+          "comment": "Cupiditate quae vero quibusdam sapiente atque mollitia eius."
+        },
+        {
+          "author": "김진우",
+          "date": "2024-04-16",
+          "rating": 4.909978897440128,
+          "comment": "Similique cumque autem consequuntur excepturi ipsum unde."
+        },
+        {
+          "author": "김경자",
+          "date": "2024-01-17",
+          "rating": 4.336655130838328,
+          "comment": "Adipisci dicta aspernatur tempora."
+        },
+        {
+          "author": "이명자",
+          "date": "2024-04-20",
+          "rating": 4.174349159451128,
+          "comment": "Sed blanditiis natus perferendis cum."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "(주) 김 이탈리아 음식",
+      "location": "인천광역시 강북구 테헤란가 (예진김읍)",
+      "priceRange": "고가",
+      "rating": 2.2,
+      "menus": [
+        {
+          "name": "오소 부코",
+          "price": "24000원"
+        },
+        {
+          "name": "페투치니 알프레도",
+          "price": "13500원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 86,
+      "contact": {
+        "phone": "064-716-1012",
+        "email": "najihye@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://bagbaggim.org/",
+      "reviews": [
+        {
+          "author": "문민지",
+          "date": "2024-04-12",
+          "rating": 4.007227856461149,
+          "comment": "Ad nihil non dicta ea amet repellendus."
+        },
+        {
+          "author": "박상철",
+          "date": "2024-02-07",
+          "rating": 4.494174007833856,
+          "comment": "Rem eaque quibusdam."
+        },
+        {
+          "author": "김영진",
+          "date": "2024-01-16",
+          "rating": 4.194860056206632,
+          "comment": "Laboriosam ipsa consequuntur molestiae."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "오장권 아메리칸 음식",
+      "location": "충청북도 오산시 개포10가 (수빈김리)",
+      "priceRange": "저가",
+      "rating": 1.7,
+      "menus": [
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        },
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 52,
+      "contact": {
+        "phone": "019-911-7521",
+        "email": "sunogbag@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://simi.net/",
+      "reviews": [
+        {
+          "author": "고재호",
+          "date": "2024-04-20",
+          "rating": 3.0795070265693174,
+          "comment": "Odit quibusdam ipsum unde aspernatur."
+        },
+        {
+          "author": "장지연",
+          "date": "2024-04-10",
+          "rating": 4.868374446525733,
+          "comment": "Quidem nulla labore distinctio."
+        },
+        {
+          "author": "김예원",
+          "date": "2024-01-30",
+          "rating": 4.753251948604543,
+          "comment": "Saepe iste velit placeat."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "유한회사 김 이탈리아 음식",
+      "location": "경기도 원주시 도산대가",
+      "priceRange": "중간",
+      "rating": 4.5,
+      "menus": [
+        {
+          "name": "티라미수",
+          "price": "7000원"
+        },
+        {
+          "name": "마르게리타 피자",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 67,
+      "contact": {
+        "phone": "043-989-0746",
+        "email": "mi@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://coeca.kr/",
+      "reviews": [
+        {
+          "author": "최승현",
+          "date": "2024-02-14",
+          "rating": 3.743749380605616,
+          "comment": "Culpa sequi esse in nobis quod non."
+        },
+        {
+          "author": "송동현",
+          "date": "2024-03-02",
+          "rating": 3.716017114787621,
+          "comment": "Perspiciatis fuga delectus aut."
+        },
+        {
+          "author": "김정웅",
+          "date": "2024-03-01",
+          "rating": 4.495110038755264,
+          "comment": "Exercitationem sint voluptatum corrupti voluptatum accusantium modi deleniti."
+        },
+        {
+          "author": "김경자",
+          "date": "2024-02-22",
+          "rating": 4.234782723048035,
+          "comment": "Sequi deleniti occaecati."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "김진 퓨전음식",
+      "location": "울산광역시 강서구 테헤란876길",
+      "priceRange": "최저가",
+      "rating": 1.0,
+      "menus": [
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        },
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 95,
+      "contact": {
+        "phone": "061-319-4904",
+        "email": "hayuni@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://ju.com/",
+      "reviews": [
+        {
+          "author": "김성호",
+          "date": "2024-02-02",
+          "rating": 3.886846753630256,
+          "comment": "Incidunt eos placeat ipsam impedit perferendis consequatur."
+        },
+        {
+          "author": "최민수",
+          "date": "2024-03-21",
+          "rating": 3.6798063240403778,
+          "comment": "Facere nihil modi at sequi blanditiis."
+        },
+        {
+          "author": "김정남",
+          "date": "2024-03-06",
+          "rating": 3.3087447475669594,
+          "comment": "Accusamus impedit incidunt at."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "강남 양식",
+      "location": "경기도 파주시 석촌호수가",
+      "priceRange": "고가",
+      "rating": 2.1,
+      "menus": [
+        {
+          "name": "리조또",
+          "price": "10000원"
+        },
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 24,
+      "contact": {
+        "phone": "032-531-3953",
+        "email": "jeongungyang@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.coegangbag.org/",
+      "reviews": [
+        {
+          "author": "홍준영",
+          "date": "2024-01-24",
+          "rating": 4.64011353442662,
+          "comment": "Molestiae a ducimus quos odit."
+        },
+        {
+          "author": "하은서",
+          "date": "2024-03-01",
+          "rating": 3.5509436949806097,
+          "comment": "Recusandae nam iste alias nostrum reiciendis tempora."
+        },
+        {
+          "author": "최영일",
+          "date": "2024-03-26",
+          "rating": 4.557452136073373,
+          "comment": "Expedita tempore dignissimos placeat itaque."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "황구권 한식",
+      "location": "세종특별자치시 중랑구 선릉로 (수빈송마을)",
+      "priceRange": "최고가",
+      "rating": 3.8,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "비빔밥",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 64,
+      "contact": {
+        "phone": "055-263-0812",
+        "email": "hangyeongsug@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://coegim.org/",
+      "reviews": [
+        {
+          "author": "오명자",
+          "date": "2024-01-07",
+          "rating": 3.734874011661594,
+          "comment": "Odio ipsum quibusdam."
+        },
+        {
+          "author": "강영진",
+          "date": "2024-02-15",
+          "rating": 3.0428081117822265,
+          "comment": "Quia iste nobis odit minima."
+        },
+        {
+          "author": "곽영수",
+          "date": "2024-04-27",
+          "rating": 4.5874301955824635,
+          "comment": "Illo ullam minima esse accusantium vel nesciunt."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "주식회사 김이문 퓨전음식",
+      "location": "강원도 고양시 삼성332로",
+      "priceRange": "고가",
+      "rating": 4.7,
+      "menus": [
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        },
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 76,
+      "contact": {
+        "phone": "031-252-4840",
+        "email": "nhwang@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.jusighoesa.kr/",
+      "reviews": [
+        {
+          "author": "문지은",
+          "date": "2024-04-09",
+          "rating": 4.408254961266321,
+          "comment": "Illo minima architecto dolores."
+        },
+        {
+          "author": "양영환",
+          "date": "2024-03-23",
+          "rating": 3.3777343201001213,
+          "comment": "Rem magni fugit laborum necessitatibus."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "주식회사 나박허 프랑스식",
+      "location": "전라북도 성남시 분당구 학동길",
+      "priceRange": "고가",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        },
+        {
+          "name": "크림 브륄레",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 34,
+      "contact": {
+        "phone": "011-826-6130",
+        "email": "misugbag@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://baei.kr/",
+      "reviews": [
+        {
+          "author": "김도현",
+          "date": "2024-04-07",
+          "rating": 4.632871523093078,
+          "comment": "Animi exercitationem quia sunt officia."
+        },
+        {
+          "author": "장예준",
+          "date": "2024-03-09",
+          "rating": 3.4693881689759296,
+          "comment": "Quam quo sunt non voluptatibus nesciunt totam."
+        },
+        {
+          "author": "박민재",
+          "date": "2024-03-31",
+          "rating": 3.7141582896271004,
+          "comment": "Id numquam explicabo ut eveniet sapiente."
+        },
+        {
+          "author": "박주원",
+          "date": "2024-01-29",
+          "rating": 4.526190922505772,
+          "comment": "Delectus nemo eum velit voluptates vero aut."
+        },
+        {
+          "author": "류아름",
+          "date": "2024-04-14",
+          "rating": 4.688470792494402,
+          "comment": "Aliquam consequuntur adipisci corrupti."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "서최 퓨전음식",
+      "location": "경기도 증평군 영동대00가 (진호최마을)",
+      "priceRange": "최저가",
+      "rating": 1.2,
+      "menus": [
+        {
+          "name": "커리 우동",
+          "price": "9000원"
+        },
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 59,
+      "contact": {
+        "phone": "044-006-7617",
+        "email": "yeongsugyun@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.jusighoesa.com/",
+      "reviews": [
+        {
+          "author": "서상현",
+          "date": "2024-02-11",
+          "rating": 4.491029373817595,
+          "comment": "Veritatis velit laudantium voluptatibus minus."
+        },
+        {
+          "author": "박진호",
+          "date": "2024-03-05",
+          "rating": 4.031223040200309,
+          "comment": "Magni aspernatur suscipit illo quis velit fuga."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "이김 아시아음식",
+      "location": "경기도 의정부시 압구정거리",
+      "priceRange": "최고가",
+      "rating": 4.4,
+      "menus": [
+        {
+          "name": "팟타이",
+          "price": "12000원"
+        },
+        {
+          "name": "샤오롱바오",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 90,
+      "contact": {
+        "phone": "055-095-8502",
+        "email": "sunog96@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.hongibag.com/",
+      "reviews": [
+        {
+          "author": "이영철",
+          "date": "2024-03-29",
+          "rating": 3.6699171340344194,
+          "comment": "Explicabo unde debitis dolorem."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "김김 프랑스식",
+      "location": "제주특별자치도 안양시 만안구 양재천로 (하윤문읍)",
+      "priceRange": "저가",
+      "rating": 2.1,
+      "menus": [
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        },
+        {
+          "name": "크림 브륄레",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 74,
+      "contact": {
+        "phone": "041-522-9591",
+        "email": "minjaegim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yu.com/",
+      "reviews": [
+        {
+          "author": "고정순",
+          "date": "2024-03-27",
+          "rating": 3.2809608528959124,
+          "comment": "Sapiente eum amet nulla facere nemo reprehenderit."
+        },
+        {
+          "author": "심영숙",
+          "date": "2024-01-07",
+          "rating": 4.7437973625012955,
+          "comment": "Possimus necessitatibus distinctio cupiditate iure repellat fuga."
+        },
+        {
+          "author": "이영순",
+          "date": "2024-01-31",
+          "rating": 4.000139129570779,
+          "comment": "Cumque facilis non provident dicta corporis aspernatur."
+        },
+        {
+          "author": "장수빈",
+          "date": "2024-04-11",
+          "rating": 3.621243179264492,
+          "comment": "Quaerat dolorem quidem delectus sit."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "유한회사 홍김권 한식",
+      "location": "강원도 철원군 석촌호수99거리",
+      "priceRange": "최고가",
+      "rating": 3.9,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 35,
+      "contact": {
+        "phone": "018-345-3691",
+        "email": "jangseungmin@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yu.org/",
+      "reviews": [
+        {
+          "author": "김영호",
+          "date": "2024-02-09",
+          "rating": 4.358869555244648,
+          "comment": "Debitis iure esse officia asperiores explicabo."
+        },
+        {
+          "author": "이재호",
+          "date": "2024-04-12",
+          "rating": 3.338812718751531,
+          "comment": "Aut assumenda fugit commodi."
+        },
+        {
+          "author": "김승현",
+          "date": "2024-01-06",
+          "rating": 4.294153728737772,
+          "comment": "Esse repellat facere est eos recusandae."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "유한회사 이이최 아메리칸 음식",
+      "location": "강원도 원주시 백제고분29길",
+      "priceRange": "고가",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "콥 샐러드",
+          "price": "9000원"
+        },
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 95,
+      "contact": {
+        "phone": "019-805-4782",
+        "email": "najaeho@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yu.kr/",
+      "reviews": [
+        {
+          "author": "지선영",
+          "date": "2024-04-24",
+          "rating": 4.006696499339844,
+          "comment": "Facilis laudantium laboriosam sed vel."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "김조 아시아음식",
+      "location": "제주특별자치도 영월군 영동대0길",
+      "priceRange": "중간",
+      "rating": 4.6,
+      "menus": [
+        {
+          "name": "치킨 커리",
+          "price": "10000원"
+        },
+        {
+          "name": "불고기 바오",
+          "price": "3000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 21,
+      "contact": {
+        "phone": "018-040-8062",
+        "email": "miyeong69@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yu.kr/",
+      "reviews": [
+        {
+          "author": "조지혜",
+          "date": "2024-01-17",
+          "rating": 4.576905179601244,
+          "comment": "Maiores tempore doloribus ad perspiciatis ullam a."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "주식회사 강김이 양식",
+      "location": "대전광역시 중구 삼성길 (지영하박면)",
+      "priceRange": "중간",
+      "rating": 3.0,
+      "menus": [
+        {
+          "name": "파스타",
+          "price": "12000원"
+        },
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 24,
+      "contact": {
+        "phone": "011-718-3235",
+        "email": "joeunji@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://yuhanhoesa.net/",
+      "reviews": [
+        {
+          "author": "이민재",
+          "date": "2024-02-24",
+          "rating": 4.317859788761443,
+          "comment": "Alias tempore possimus maxime quis."
+        },
+        {
+          "author": "최은지",
+          "date": "2024-01-09",
+          "rating": 3.4553413283385366,
+          "comment": "Dolorum magnam quia et."
+        },
+        {
+          "author": "류미영",
+          "date": "2024-03-12",
+          "rating": 4.0742463291959155,
+          "comment": "Vel maxime voluptatum id quaerat rerum."
+        },
+        {
+          "author": "허현숙",
+          "date": "2024-01-16",
+          "rating": 4.77809193473955,
+          "comment": "Velit esse cupiditate ad earum reiciendis."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "(주) 우 아시아음식",
+      "location": "울산광역시 송파구 오금길 (혜진문면)",
+      "priceRange": "중간",
+      "rating": 4.7,
+      "menus": [
+        {
+          "name": "치킨 커리",
+          "price": "10000원"
+        },
+        {
+          "name": "팟타이",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 94,
+      "contact": {
+        "phone": "017-699-5558",
+        "email": "yeongmii@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://yuhanhoesa.kr/",
+      "reviews": [
+        {
+          "author": "송서준",
+          "date": "2024-01-17",
+          "rating": 3.1814601555867204,
+          "comment": "Corrupti iusto voluptates facilis."
+        },
+        {
+          "author": "김경자",
+          "date": "2024-03-27",
+          "rating": 3.5250408907081514,
+          "comment": "Sequi quibusdam in."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "최이김 아메리칸 음식",
+      "location": "울산광역시 서초구 도산대624가",
+      "priceRange": "고가",
+      "rating": 2.8,
+      "menus": [
+        {
+          "name": "바비큐 리브",
+          "price": "22000원"
+        },
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 88,
+      "contact": {
+        "phone": "062-339-8236",
+        "email": "hanjeongsu@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://ganggomun.kr/",
+      "reviews": [
+        {
+          "author": "류정훈",
+          "date": "2024-03-10",
+          "rating": 4.017554205076757,
+          "comment": "Asperiores dolorum reiciendis distinctio adipisci reprehenderit."
+        },
+        {
+          "author": "이우진",
+          "date": "2024-03-25",
+          "rating": 4.13191336406312,
+          "comment": "Accusamus ex molestias."
+        },
+        {
+          "author": "박하윤",
+          "date": "2024-02-23",
+          "rating": 3.077864171782294,
+          "comment": "Aut ut iste omnis."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "김이 중식",
+      "location": "전라남도 파주시 석촌호수거리 (지은김리)",
+      "priceRange": "최저가",
+      "rating": 2.3,
+      "menus": [
+        {
+          "name": "짜장면",
+          "price": "5000원"
+        },
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 65,
+      "contact": {
+        "phone": "010-8155-5491",
+        "email": "coecaeweon@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://ju.com/",
+      "reviews": [
+        {
+          "author": "김성훈",
+          "date": "2024-02-06",
+          "rating": 3.7810035076513278,
+          "comment": "Animi fugit quasi quasi itaque repellat sint."
+        },
+        {
+          "author": "박성수",
+          "date": "2024-01-24",
+          "rating": 4.803789696863761,
+          "comment": "Libero fugit exercitationem sed excepturi cum sapiente dolores."
+        },
+        {
+          "author": "정명숙",
+          "date": "2024-03-27",
+          "rating": 4.98509696101639,
+          "comment": "Odit dolorum beatae ut."
+        },
+        {
+          "author": "권선영",
+          "date": "2024-03-24",
+          "rating": 4.3012046049735995,
+          "comment": "Ea cum sapiente commodi veniam ut modi optio."
+        },
+        {
+          "author": "장경수",
+          "date": "2024-02-04",
+          "rating": 4.043061246947145,
+          "comment": "Harum aspernatur iure."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "김오 퓨전음식",
+      "location": "대구광역시 종로구 가락8가",
+      "priceRange": "최저가",
+      "rating": 1.7,
+      "menus": [
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        },
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 72,
+      "contact": {
+        "phone": "011-456-4364",
+        "email": "gwangsu23@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://jusighoesa.net/",
+      "reviews": [
+        {
+          "author": "박선영",
+          "date": "2024-03-20",
+          "rating": 4.663004820799075,
+          "comment": "Soluta magnam quas asperiores."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "하송 한식",
+      "location": "서울특별시 관악구 봉은사783가 (정호박리)",
+      "priceRange": "최고가",
+      "rating": 2.0,
+      "menus": [
+        {
+          "name": "비빔밥",
+          "price": "9000원"
+        },
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 76,
+      "contact": {
+        "phone": "033-995-3912",
+        "email": "seunghyeonyun@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://hwangi.kr/",
+      "reviews": [
+        {
+          "author": "한예은",
+          "date": "2024-01-14",
+          "rating": 3.2159447705371322,
+          "comment": "Et harum totam reiciendis tenetur tenetur quas."
+        },
+        {
+          "author": "진주원",
+          "date": "2024-04-01",
+          "rating": 4.365734053900593,
+          "comment": "Eveniet in vitae molestiae animi quibusdam."
+        },
+        {
+          "author": "김정남",
+          "date": "2024-03-23",
+          "rating": 4.902514034094063,
+          "comment": "Voluptatem magni repudiandae quos asperiores."
+        },
+        {
+          "author": "서지은",
+          "date": "2024-02-19",
+          "rating": 4.483800935094711,
+          "comment": "Quibusdam quisquam praesentium vero error accusantium."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "정박 일식",
+      "location": "인천광역시 강남구 선릉로",
+      "priceRange": "고가",
+      "rating": 2.9,
+      "menus": [
+        {
+          "name": "초밥",
+          "price": "15000원"
+        },
+        {
+          "name": "라멘",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 51,
+      "contact": {
+        "phone": "052-487-4313",
+        "email": "baeyunseo@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.gimgimmun.net/",
+      "reviews": [
+        {
+          "author": "김하은",
+          "date": "2024-02-06",
+          "rating": 3.397498796370871,
+          "comment": "Id fugiat occaecati assumenda impedit laboriosam."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "이권 아메리칸 음식",
+      "location": "대전광역시 동구 봉은사로",
+      "priceRange": "저가",
+      "rating": 2.7,
+      "menus": [
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        },
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 32,
+      "contact": {
+        "phone": "052-557-3698",
+        "email": "hongyeweon@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://yuhanhoesa.org/",
+      "reviews": [
+        {
+          "author": "최성훈",
+          "date": "2024-02-28",
+          "rating": 4.468864045142839,
+          "comment": "Quisquam quis quaerat soluta consequuntur."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "주식회사 최김김 아메리칸 음식",
+      "location": "강원도 남양주시 개포가",
+      "priceRange": "저가",
+      "rating": 3.0,
+      "menus": [
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        },
+        {
+          "name": "바비큐 리브",
+          "price": "22000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 65,
+      "contact": {
+        "phone": "044-282-4257",
+        "email": "wyu@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://ju.kr/",
+      "reviews": [
+        {
+          "author": "김지훈",
+          "date": "2024-01-04",
+          "rating": 3.1885983629414314,
+          "comment": "Nulla tenetur repudiandae ipsa laudantium quos."
+        },
+        {
+          "author": "김예은",
+          "date": "2024-03-08",
+          "rating": 3.4968344888875844,
+          "comment": "Exercitationem et suscipit totam animi impedit."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "이김이 아메리칸 음식",
+      "location": "대전광역시 용산구 가락거리 (시우김고리)",
+      "priceRange": "고가",
+      "rating": 3.4,
+      "menus": [
+        {
+          "name": "클램 차우더",
+          "price": "12000원"
+        },
+        {
+          "name": "치즈버거",
+          "price": "10000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 89,
+      "contact": {
+        "phone": "032-045-9165",
+        "email": "bagseojun@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.jusighoesa.kr/",
+      "reviews": [
+        {
+          "author": "이미경",
+          "date": "2024-01-04",
+          "rating": 4.9719065419164155,
+          "comment": "Fugit consequatur libero consectetur quis cum."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "(주) 김 퓨전음식",
+      "location": "세종특별자치시 금천구 오금39길",
+      "priceRange": "고가",
+      "rating": 2.0,
+      "menus": [
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        },
+        {
+          "name": "토마토 탕수육",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 49,
+      "contact": {
+        "phone": "043-888-8804",
+        "email": "mijeong80@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://jingimgim.com/",
+      "reviews": [
+        {
+          "author": "최성민",
+          "date": "2024-01-01",
+          "rating": 4.035645037250083,
+          "comment": "Corrupti natus doloribus quis commodi."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "(주) 장 일식",
+      "location": "서울특별시 동작구 언주69거리 (윤서이윤동)",
+      "priceRange": "고가",
+      "rating": 4.4,
+      "menus": [
+        {
+          "name": "라멘",
+          "price": "12000원"
+        },
+        {
+          "name": "사케동",
+          "price": "13000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 74,
+      "contact": {
+        "phone": "032-580-0346",
+        "email": "hyeonji82@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://jusighoesa.net/",
+      "reviews": [
+        {
+          "author": "김현준",
+          "date": "2024-03-12",
+          "rating": 4.476905325313621,
+          "comment": "Totam iusto velit rerum vel repellat facilis."
+        },
+        {
+          "author": "노중수",
+          "date": "2024-04-08",
+          "rating": 4.1800469386738826,
+          "comment": "Velit vitae voluptatem corporis placeat quaerat at."
+        },
+        {
+          "author": "김민재",
+          "date": "2024-02-02",
+          "rating": 4.917976680674891,
+          "comment": "Tempora atque debitis."
+        },
+        {
+          "author": "양영환",
+          "date": "2024-03-17",
+          "rating": 3.4631676394415756,
+          "comment": "Perspiciatis incidunt ullam."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "(유) 김 양식",
+      "location": "전라남도 용인시 수지구 서초중앙8가",
+      "priceRange": "최고가",
+      "rating": 1.7,
+      "menus": [
+        {
+          "name": "파스타",
+          "price": "12000원"
+        },
+        {
+          "name": "스테이크",
+          "price": "20000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 78,
+      "contact": {
+        "phone": "063-671-0603",
+        "email": "ijunseo@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.gimjo.org/",
+      "reviews": [
+        {
+          "author": "권현숙",
+          "date": "2024-02-25",
+          "rating": 3.1294180039615425,
+          "comment": "Ut maxime sit similique fugiat laborum."
+        },
+        {
+          "author": "이정희",
+          "date": "2024-02-25",
+          "rating": 4.272083628723611,
+          "comment": "Quod non sint molestiae nesciunt saepe."
+        },
+        {
+          "author": "김현준",
+          "date": "2024-04-29",
+          "rating": 3.5318625703234674,
+          "comment": "Recusandae laudantium nam labore optio praesentium officia."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "장고김 일식",
+      "location": "대전광역시 서초구 논현길 (영진이리)",
+      "priceRange": "중간",
+      "rating": 2.5,
+      "menus": [
+        {
+          "name": "사케동",
+          "price": "13000원"
+        },
+        {
+          "name": "라멘",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 97,
+      "contact": {
+        "phone": "019-990-6064",
+        "email": "hyeonjun45@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "박성호",
+          "date": "2024-03-08",
+          "rating": 3.3673203561672578,
+          "comment": "Modi asperiores quas reprehenderit."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "윤남 일식",
+      "location": "울산광역시 강서구 가락길",
+      "priceRange": "고가",
+      "rating": 3.7,
+      "menus": [
+        {
+          "name": "사케동",
+          "price": "13000원"
+        },
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 76,
+      "contact": {
+        "phone": "053-335-6480",
+        "email": "jeongungsong@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.baggimhwang.org/",
+      "reviews": [
+        {
+          "author": "이민지",
+          "date": "2024-02-25",
+          "rating": 4.951808752416695,
+          "comment": "Possimus maxime non suscipit vero temporibus veritatis nemo."
+        },
+        {
+          "author": "김정숙",
+          "date": "2024-03-06",
+          "rating": 3.9213700365042454,
+          "comment": "Quod non maxime quia consequatur repellat."
+        },
+        {
+          "author": "김영희",
+          "date": "2024-02-21",
+          "rating": 3.0723687327733344,
+          "comment": "Nihil dolorum voluptas pariatur enim quis magni."
+        },
+        {
+          "author": "정은지",
+          "date": "2024-04-17",
+          "rating": 4.311094390216744,
+          "comment": "Totam perferendis quibusdam est vitae."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "(주) 최안이 아시아음식",
+      "location": "인천광역시 동대문구 잠실로",
+      "priceRange": "고가",
+      "rating": 1.3,
+      "menus": [
+        {
+          "name": "샤오롱바오",
+          "price": "8000원"
+        },
+        {
+          "name": "팟타이",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 70,
+      "contact": {
+        "phone": "053-208-8732",
+        "email": "anhyeonjun@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.hwangbaggo.kr/",
+      "reviews": [
+        {
+          "author": "박영환",
+          "date": "2024-02-08",
+          "rating": 4.4300387796641765,
+          "comment": "Hic facere nam error."
+        },
+        {
+          "author": "김경숙",
+          "date": "2024-02-10",
+          "rating": 3.7423610312459585,
+          "comment": "Assumenda consequuntur corrupti architecto at minus quaerat delectus."
+        },
+        {
+          "author": "성지원",
+          "date": "2024-02-24",
+          "rating": 3.3709693014349345,
+          "comment": "Porro molestiae inventore eius tempora fugiat."
+        },
+        {
+          "author": "이종수",
+          "date": "2024-04-18",
+          "rating": 3.478819264322175,
+          "comment": "Reprehenderit quas eaque nisi debitis impedit."
+        },
+        {
+          "author": "이미경",
+          "date": "2024-04-26",
+          "rating": 4.062836274454491,
+          "comment": "Quas laudantium vero laudantium consequuntur amet amet incidunt."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "배남백 퓨전음식",
+      "location": "전라남도 단양군 오금9로 (병철윤이마을)",
+      "priceRange": "최저가",
+      "rating": 4.5,
+      "menus": [
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        },
+        {
+          "name": "멕시칸 삼겹살",
+          "price": "15000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 55,
+      "contact": {
+        "phone": "055-244-8067",
+        "email": "ljang@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://jusighoesa.com/",
+      "reviews": [
+        {
+          "author": "하보람",
+          "date": "2024-02-12",
+          "rating": 3.0903627098692663,
+          "comment": "Dolorem aut repudiandae deserunt neque."
+        },
+        {
+          "author": "민지훈",
+          "date": "2024-01-09",
+          "rating": 4.416983101878355,
+          "comment": "Iste magnam molestiae nemo minus fugiat."
+        },
+        {
+          "author": "김은정",
+          "date": "2024-04-07",
+          "rating": 3.793637425954374,
+          "comment": "Debitis optio cumque ducimus fugit quasi."
+        },
+        {
+          "author": "박명숙",
+          "date": "2024-02-20",
+          "rating": 4.1020042253486935,
+          "comment": "Atque dolor eius sapiente."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "이고 한식",
+      "location": "충청남도 양양군 테헤란거리 (은서김읍)",
+      "priceRange": "중간",
+      "rating": 1.6,
+      "menus": [
+        {
+          "name": "갈비탕",
+          "price": "12000원"
+        },
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 49,
+      "contact": {
+        "phone": "011-953-9558",
+        "email": "hyeonjeong89@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.bagsong.com/",
+      "reviews": [
+        {
+          "author": "황상호",
+          "date": "2024-04-14",
+          "rating": 4.266755831795173,
+          "comment": "Aut impedit laudantium distinctio quas amet."
+        },
+        {
+          "author": "허하은",
+          "date": "2024-02-04",
+          "rating": 4.104709949225047,
+          "comment": "Quae ipsa aperiam accusamus aperiam nulla voluptate."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "(주) 김 일식",
+      "location": "인천광역시 강남구 역삼008가",
+      "priceRange": "최저가",
+      "rating": 2.5,
+      "menus": [
+        {
+          "name": "돈부리",
+          "price": "11000원"
+        },
+        {
+          "name": "라멘",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 41,
+      "contact": {
+        "phone": "031-843-1863",
+        "email": "seongsu71@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yuhanhoesa.com/",
+      "reviews": [
+        {
+          "author": "백영미",
+          "date": "2024-03-16",
+          "rating": 4.897092044960406,
+          "comment": "Sapiente molestiae modi omnis aspernatur nesciunt perferendis asperiores."
+        },
+        {
+          "author": "박준영",
+          "date": "2024-02-25",
+          "rating": 3.040091533448573,
+          "comment": "Molestiae corporis possimus ullam."
+        },
+        {
+          "author": "이민수",
+          "date": "2024-01-17",
+          "rating": 3.9338478339896703,
+          "comment": "Dignissimos necessitatibus eaque placeat ipsam iusto."
+        },
+        {
+          "author": "오예진",
+          "date": "2024-05-01",
+          "rating": 3.9343756368420837,
+          "comment": "Architecto ea dolorum ratione odio nam autem."
+        },
+        {
+          "author": "오순자",
+          "date": "2024-03-23",
+          "rating": 3.273453013036017,
+          "comment": "Ipsum voluptate iusto fuga."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "김김 한식",
+      "location": "대구광역시 강북구 논현04거리",
+      "priceRange": "중간",
+      "rating": 1.7,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "갈비탕",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "배달 가능"
+      ],
+      "seatingCapacity": 97,
+      "contact": {
+        "phone": "033-105-6660",
+        "email": "donghyeon56@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.bagi.com/",
+      "reviews": [
+        {
+          "author": "박영길",
+          "date": "2024-03-25",
+          "rating": 3.9207117114110037,
+          "comment": "Ad reprehenderit molestiae adipisci sunt consequatur."
+        },
+        {
+          "author": "김성민",
+          "date": "2024-04-11",
+          "rating": 4.965154811760181,
+          "comment": "Natus iusto perferendis."
+        },
+        {
+          "author": "이예준",
+          "date": "2024-02-23",
+          "rating": 4.65639292887831,
+          "comment": "Totam necessitatibus in repellat illo minus repudiandae."
+        },
+        {
+          "author": "진상훈",
+          "date": "2024-05-01",
+          "rating": 3.0700497050720132,
+          "comment": "Soluta accusamus atque ut rerum accusamus molestias at."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "김최이 프랑스식",
+      "location": "부산광역시 영등포구 가락62길 (춘자윤김동)",
+      "priceRange": "저가",
+      "rating": 3.7,
+      "menus": [
+        {
+          "name": "부야베스",
+          "price": "22000원"
+        },
+        {
+          "name": "에스카르고",
+          "price": "18000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 85,
+      "contact": {
+        "phone": "061-960-3633",
+        "email": "cgang@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.yu.net/",
+      "reviews": [
+        {
+          "author": "최민석",
+          "date": "2024-04-02",
+          "rating": 4.499322357385953,
+          "comment": "Cum temporibus ipsum incidunt illo in impedit aliquid."
+        },
+        {
+          "author": "양정웅",
+          "date": "2024-01-15",
+          "rating": 3.921055141480144,
+          "comment": "Iusto dolorum maxime veritatis aliquid eaque maiores."
+        },
+        {
+          "author": "이영순",
+          "date": "2024-03-03",
+          "rating": 4.8564396495593884,
+          "comment": "Occaecati asperiores molestias vel."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "유한회사 김박류 중식",
+      "location": "서울특별시 북구 압구정714로 (순자김리)",
+      "priceRange": "최저가",
+      "rating": 1.1,
+      "menus": [
+        {
+          "name": "탕수육",
+          "price": "15000원"
+        },
+        {
+          "name": "짜장면",
+          "price": "5000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "주차 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 22,
+      "contact": {
+        "phone": "055-885-8563",
+        "email": "cyun@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yanggim.com/",
+      "reviews": [
+        {
+          "author": "조광수",
+          "date": "2024-03-18",
+          "rating": 3.052420961817688,
+          "comment": "Dignissimos commodi ut earum voluptates consequatur."
+        },
+        {
+          "author": "이은정",
+          "date": "2024-03-12",
+          "rating": 4.6989442563084864,
+          "comment": "Repudiandae maxime blanditiis totam reiciendis odio voluptatibus."
+        },
+        {
+          "author": "장미숙",
+          "date": "2024-04-12",
+          "rating": 3.4973913654693676,
+          "comment": "Eum quo dolorem sint deserunt et amet soluta."
+        },
+        {
+          "author": "김미경",
+          "date": "2024-04-02",
+          "rating": 3.861305067573123,
+          "comment": "Cum ipsum sapiente blanditiis iure libero eveniet."
+        },
+        {
+          "author": "신은정",
+          "date": "2024-03-17",
+          "rating": 3.050268047949327,
+          "comment": "Vero quo ad sapiente beatae sit aut ex."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "(유) 이 한식",
+      "location": "인천광역시 강동구 가락로",
+      "priceRange": "고가",
+      "rating": 4.8,
+      "menus": [
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        },
+        {
+          "name": "갈비탕",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 36,
+      "contact": {
+        "phone": "017-989-3340",
+        "email": "ajeon@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://ijingim.org/",
+      "reviews": [
+        {
+          "author": "최서준",
+          "date": "2024-02-14",
+          "rating": 4.448511404343392,
+          "comment": "Repudiandae omnis recusandae esse aliquid recusandae."
+        },
+        {
+          "author": "김광수",
+          "date": "2024-03-12",
+          "rating": 3.6234793485348042,
+          "comment": "Saepe doloribus tempora eum."
+        },
+        {
+          "author": "이민지",
+          "date": "2024-02-08",
+          "rating": 3.9407801375741354,
+          "comment": "Id deserunt sapiente fugit cupiditate rem."
+        },
+        {
+          "author": "김영자",
+          "date": "2024-01-06",
+          "rating": 3.710222163993156,
+          "comment": "Aliquid dolores corporis pariatur reprehenderit atque."
+        },
+        {
+          "author": "이하은",
+          "date": "2024-02-07",
+          "rating": 4.395494833523879,
+          "comment": "Aut quisquam commodi officia non."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "오김박 한식",
+      "location": "울산광역시 은평구 석촌호수로 (상훈이이면)",
+      "priceRange": "최저가",
+      "rating": 4.1,
+      "menus": [
+        {
+          "name": "된장찌개",
+          "price": "7000원"
+        },
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "포장 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 97,
+      "contact": {
+        "phone": "02-6302-7247",
+        "email": "sunjana@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://gimhwanghwang.com/",
+      "reviews": [
+        {
+          "author": "양상호",
+          "date": "2024-03-02",
+          "rating": 4.682534209344574,
+          "comment": "Voluptates quo beatae quaerat tempora hic."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "(주) 이 한식",
+      "location": "경상북도 수원시 팔달구 강남대12길 (예진차리)",
+      "priceRange": "최저가",
+      "rating": 3.5,
+      "menus": [
+        {
+          "name": "김치찌개",
+          "price": "8000원"
+        },
+        {
+          "name": "비빔밥",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "주차 가능"
+      ],
+      "seatingCapacity": 42,
+      "contact": {
+        "phone": "052-383-0368",
+        "email": "jgwag@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://www.yuhanhoesa.kr/",
+      "reviews": [
+        {
+          "author": "심우진",
+          "date": "2024-02-28",
+          "rating": 4.39801488062117,
+          "comment": "Earum amet omnis eius voluptate deleniti eius possimus."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "박김 퓨전음식",
+      "location": "강원도 서천군 테헤란738로 (준호김읍)",
+      "priceRange": "중간",
+      "rating": 3.7,
+      "menus": [
+        {
+          "name": "커리 우동",
+          "price": "9000원"
+        },
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 68,
+      "contact": {
+        "phone": "052-341-2591",
+        "email": "xmun@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "http://anica.com/",
+      "reviews": [
+        {
+          "author": "이수빈",
+          "date": "2024-04-16",
+          "rating": 4.064514398180653,
+          "comment": "Fugiat tenetur nihil ipsam."
+        },
+        {
+          "author": "이경수",
+          "date": "2024-04-30",
+          "rating": 4.286093530593925,
+          "comment": "Ea odio voluptates eligendi fugiat optio."
+        },
+        {
+          "author": "이병철",
+          "date": "2024-01-28",
+          "rating": 3.14884621426145,
+          "comment": "Neque iste quaerat quas vero temporibus mollitia."
+        },
+        {
+          "author": "김민재",
+          "date": "2024-04-29",
+          "rating": 4.428894343130085,
+          "comment": "Reiciendis voluptas accusantium asperiores sint corporis adipisci."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "유한회사 김송한 이탈리아 음식",
+      "location": "전라남도 안산시 상록구 압구정2거리",
+      "priceRange": "고가",
+      "rating": 4.0,
+      "menus": [
+        {
+          "name": "페투치니 알프레도",
+          "price": "13500원"
+        },
+        {
+          "name": "티라미수",
+          "price": "7000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 62,
+      "contact": {
+        "phone": "061-435-2201",
+        "email": "ggim@example.net"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.igim.kr/",
+      "reviews": [
+        {
+          "author": "성예은",
+          "date": "2024-01-22",
+          "rating": 3.706284803137809,
+          "comment": "Nam ducimus vero vel facere sunt blanditiis."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "유한회사 김최김 퓨전음식",
+      "location": "경상남도 공주시 가락길 (시우윤마을)",
+      "priceRange": "최고가",
+      "rating": 3.4,
+      "menus": [
+        {
+          "name": "김치 파스타",
+          "price": "11000원"
+        },
+        {
+          "name": "커리 우동",
+          "price": "9000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "예약 가능",
+        "포장 가능"
+      ],
+      "seatingCapacity": 49,
+      "contact": {
+        "phone": "02-7283-9924",
+        "email": "jihu09@example.org"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.jusighoesa.kr/",
+      "reviews": [
+        {
+          "author": "심영희",
+          "date": "2024-02-07",
+          "rating": 3.8380223742744564,
+          "comment": "Modi accusamus molestias."
+        },
+        {
+          "author": "김승현",
+          "date": "2024-02-14",
+          "rating": 4.697802081853384,
+          "comment": "Cum quis nemo nam nobis ullam atque."
+        },
+        {
+          "author": "김중수",
+          "date": "2024-02-04",
+          "rating": 4.69983021130924,
+          "comment": "Deleniti quibusdam deleniti aspernatur."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "(주) 장 양식",
+      "location": "전라남도 가평군 영동대637거리",
+      "priceRange": "저가",
+      "rating": 4.4,
+      "menus": [
+        {
+          "name": "햄버거",
+          "price": "8000원"
+        },
+        {
+          "name": "파스타",
+          "price": "12000원"
+        }
+      ],
+      "businessHours": "오전 10시 - 오후 10시",
+      "reservations": [],
+      "additionalServices": [
+        "배달 가능",
+        "예약 가능"
+      ],
+      "seatingCapacity": 88,
+      "contact": {
+        "phone": "02-0520-6147",
+        "email": "yeongsun63@example.com"
+      },
+      "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+      "website": "https://www.heobaegim.kr/",
+      "reviews": [
+        {
+          "author": "신현우",
+          "date": "2024-01-02",
+          "rating": 4.685833570209841,
+          "comment": "Eius in occaecati."
+        },
+        {
+          "author": "권지후",
+          "date": "2024-02-13",
+          "rating": 4.6935367623320605,
+          "comment": "Sint autem magni veniam magni ea."
+        },
+        {
+          "author": "김현준",
+          "date": "2024-02-09",
+          "rating": 3.1526837616970678,
+          "comment": "Repudiandae doloremque ducimus officiis."
+        },
+        {
+          "author": "김지혜",
+          "date": "2024-02-26",
+          "rating": 3.4710955447121012,
+          "comment": "Suscipit corrupti quod exercitationem."
+        }
+      ]
+    }
+  ]
