@@ -4,6 +4,8 @@ const port = 3000;
 
 
 app.use(express.static('public'));
+app.use('/restaurant',express.static('public'));
+
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
 
 app.get('/location', (req, res) => {
@@ -21,14 +23,9 @@ app.get('/login', (req, res) => {
 })
 
 
-app.get('/:id/', (req, res) => {
-    res.write("<!DOCTYPE html>");
-    res.write("<html>");
-    res.write(" <body>");
-    res.write(" <h1>Detail Page</h1>");
-    res.write(" </body>");
-    res.write("</html>");
-    res.end();
+app.get('/restaurant/:id', (req, res) => {;
+    res.sendFile(__dirname + "/detail.html");
 })
+
 
 app.listen(port, () => console.log(`Page open in  port: ${port}`));
