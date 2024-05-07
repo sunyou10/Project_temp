@@ -9,6 +9,7 @@
 - node_modules : express를 사용하기 위한 폴더입니다.
 - public : html을 구성하는 asset, css, js가 담긴 폴더입니다.
 - app.js : 백엔드를 위한 자바스크립트 파일입니다. 여러 요청을 처리합니다.
+- detail.html : 세부 페이지의 html 입니다.
 - index.html : 메인 페이지의 html 입니다.
 - location.html : 위치를 설정할 페이지의 html입니다.
 - 그 외 프로젝트를 위한 파일
