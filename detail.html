@@ -66,7 +66,9 @@
                         <p> <i class="bi-telephone-forward-fill"></i> <span id="contact-phone"></span></p>
                         <p> <i class="bi-envelope"></i> <span id="contact-email"></span></p>
                         <br />
+                        <p class="lead"><span style="font-weight: bold;">Easy Reservation </span> for members</p>
                         <div class="d-flex">
+                            <input class="form-control text-center me-3" id="inputQuantity" type="date" />
                             <input class="form-control text-center me-3" id="inputQuantity" type="time" />
                             <input class="form-control text-center me-3" id="inputQuantity" type="number" value="1" style="max-width: 4rem" />
                             <button class="btn btn-outline-dark flex-shrink-0" type="button">
@@ -144,6 +146,57 @@
                 </div>
             </div>
         </section>
+
+        <!-- Booking Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <h2 class="fw-bolder mb-4">Book A Table</h2>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="d-flex align-items-center">
+                  <form action="reservations" method="post" role="form" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-4">
+                      <div class="col-lg-4 col-md-6">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <input type="time" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="col-lg-4 col-md-6">
+                        <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                        <div class="validate"></div>
+                      </div>
+                    </div>
+                    <div class="mt-4">
+                      <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+                      <div class="validate"></div>
+                    </div>
+                    <div class="mb-4"></div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-dark flex-shrink-0" type="submit">
+                            <i class="bi-calendar-check-fill me-1"></i>
+                            Make Reservation
+                        </button>
+                    </div>
+                  </form>
+                </div><!-- End Reservation Form -->
+              </div>
+            </div>
+          </section><!-- End Book A Table Section -->
+
         <!-- Footer-->
         <footer class="py-5 bg-dark">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
