@@ -13,14 +13,8 @@ app.get('/location', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
-    res.write("<!DOCTYPE html>");
-    res.write("<html>");
-    res.write(" <body>");
-    res.write(" <h1>good</h1>");
-    res.write(" </body>");
-    res.write("</html>");
-    res.end();
-})
+    res.sendFile(__dirname + '/login.html');  
+    });
 
 
 app.get('/restaurant/:id', (req, res) => {;
