@@ -16,11 +16,21 @@ document.addEventListener("DOMContentLoaded", () => {
         // (식당 이름 위) 키워드 추출
         restaurantData.additionalServices.forEach(elem => {
             const span = document.createElement('span');
-            span.style.marginRight = "10px";
+            span.style.marginRight = "15px";
             span.textContent = `#${elem}`;
 
             const holder = document.querySelector("#keyword-holder");
             holder.appendChild(span);
+        })
+
+        // 태그 추출
+        restaurantData.tag.forEach(elem => {
+            const tag = document.createElement('span');
+            tag.style.marginRight = "15px";
+            tag.textContent = `${elem}`;
+
+            const holder = document.querySelector("#keyword-holder");
+            holder.appendChild(tag);
         })
         
         // 식당 이름
@@ -43,10 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const phone = document.querySelector("#contact-phone");
         phone.textContent = `${restaurantData.contact.phone}`;
 
-        // contact - 2)이메일
-        const email = document.querySelector("#contact-email");
-        email.textContent = `${restaurantData.contact.email}`;
-
         // 메뉴 추출해 아래 타일식으로 제공
         restaurantData.menus.forEach(elem => {
             const container = document.createElement('div');
@@ -61,7 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                 </div>
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#book">
+                            Book a table
+                    </a></div>
                 </div>
             </div>`;
             
