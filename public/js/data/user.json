@@ -1,7 +1,7 @@
 [
     {
         "index": 1,
-        "id": "user001",
+        "id": "user001@naver.com",
         "password": "password123!",
         "location": "서울시 강남구",
         "nickname": "서울푸드러버",
@@ -10,7 +10,7 @@
     },
     {
         "index": 2,
-        "id": "user002",
+        "id": "user002@naver.com",
         "password": "myPass456!",
         "location": "서울시 종로구",
         "nickname": "스시마니아",
@@ -19,7 +19,7 @@
     },
     {
         "index": 3,
-        "id": "user003",
+        "id": "user003@naver.com",
         "password": "secure789!",
         "location": "서울시 서초구",
         "nickname": "매운맛사랑",
@@ -28,7 +28,7 @@
     },
     {
         "index": 4,
-        "id": "user004",
+        "id": "user004@naver.com",
         "password": "helloPass010!",
         "location": "서울시 용산구",
         "nickname": "면사무치",
@@ -37,7 +37,7 @@
     },
     {
         "index": 5,
-        "id": "user005",
+        "id": "user005@naver.com",
         "password": "PassitOn020",
         "location": "서울시 마포구",
         "nickname": "버거헌터",
@@ -46,7 +46,7 @@
     },
     {
         "index": 6,
-        "id": "user006",
+        "id": "user006@naver.com",
         "password": "justDoIt030",
         "location": "서울시 강동구",
         "nickname": "파티쉐",
@@ -55,7 +55,7 @@
     },
     {
         "index": 7,
-        "id": "user007",
+        "id": "user007@naver.com",
         "password": "stayHungry040",
         "location": "서울시 강북구",
         "nickname": "파스타러버",
@@ -64,7 +64,7 @@
     },
     {
         "index": 8,
-        "id": "user008",
+        "id": "user008@naver.com",
         "password": "mySecurePass050",
         "location": "서울시 송파구",
         "nickname": "케밥킹",
@@ -73,7 +73,7 @@
     },
     {
         "index": 9,
-        "id": "user009",
+        "id": "user009@naver.com",
         "password": "Pass999",
         "location": "서울시 성동구",
         "nickname": "맥주사랑",
@@ -82,7 +82,7 @@
     },
     {
         "index": 10,
-        "id": "user010",
+        "id": "user010@naver.com",
         "password": "qwerty123",
         "location": "서울시 동작구",
         "nickname": "서퍼가이",
@@ -91,7 +91,7 @@
     },
     {
         "index": 11,
-        "id": "user011",
+        "id": "user011@naver.com",
         "password": "passKey060",
         "location": "서울시 구로구",
         "nickname": "보드카맨",
@@ -100,7 +100,7 @@
     },
     {
         "index": 12,
-        "id": "user012",
+        "id": "user012@naver.com",
         "password": "unlockMe070",
         "location": "서울시 동대문구",
         "nickname": "커리킹",
@@ -109,7 +109,7 @@
     },
     {
         "index": 13,
-        "id": "user013",
+        "id": "user013@naver.com",
         "password": "pass1234",
         "location": "서울시 노원구",
         "nickname": "브라이마스터",
@@ -118,7 +118,7 @@
     },
     {
         "index": 14,
-        "id": "user014",
+        "id": "user014@naver.com",
         "password": "goSecure080",
         "location": "서울시 서대문구",
         "nickname": "삼바푸디",
@@ -127,7 +127,7 @@
     },
     {
         "index": 15,
-        "id": "user015",
+        "id": "user015@naver.com",
         "password": "finalPass090",
         "location": "서울시 양천구",
         "nickname": "타코팬",
