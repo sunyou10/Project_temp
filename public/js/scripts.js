@@ -34,3 +34,14 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 });
+
+window.addEventListener("load", () => {
+    if(document.cookie.includes('USER')){
+        const button = document.querySelector("#login-button");
+        button.onclick = () => {location.href='/logout';};
+        button.innerHTML = `<i class="bi-person-circle me-1"></i>Logout`;
+
+        const mypage = document.querySelector("#hidden-item");
+        mypage.style.visibility = "visible";
+    }
+});
