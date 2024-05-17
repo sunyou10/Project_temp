@@ -2629,7 +2629,7 @@
     "id": "33",
     "name": "동학",
     "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211229_133%2F1640763715447ST9Mj_JPEG%2F1640763692250.jpg",
-    "location": "서울 노원구 공릉로51길 6 동학",
+    "location": "서울특별시 노원구 공릉로51길 6 동학",
     "tag": [
       "#한식",
       "#가성비",
@@ -2676,7 +2676,7 @@
     "additionalServices": [
       "예약 가능",
       "배달 가능",
-      "포장 가능능"
+      "포장 가능"
     ],
     "seatingCapacity": 30,
     "contact": {
@@ -2710,7 +2710,7 @@
     "id": "34",
     "name": "아소코",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPE5sm6-2cSdnFcISZerL4jZNQuKt_g-yVX00zh=w90-h90-n-k-no",
-    "location": "서울 노원구 동일로184길 53 1층 아소코",
+    "location": "서울특별시 노원구 동일로184길 53 1층 아소코",
     "tag": [
       "#일식",
       "#데이트",
@@ -2791,7 +2791,7 @@
     "id": "35",
     "name": "일상다반",
     "image": "https://lh5.googleusercontent.com/p/AF1QipP4XxgyTtMPnWydOCXDQ3EXmyMBUNEh9bh5l2j3=w90-h90-n-k-no",
-    "location": "서울 노원구 동일로186길 77-17",
+    "location": "서울특별시 노원구 동일로186길 77-17",
     "tag": [
       "#일식",
       "#데이트",
@@ -2864,7 +2864,7 @@
     "id": "36",
     "name": "핏짜굽는언니",
     "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240209_271%2F1707447214890SS8oh_JPEG%2F1000004884.jpg",
-    "location": "서울 노원구 동일로198길 58",
+    "location": "서울특별시 노원구 동일로198길 58",
     "tag": [
       "#양식",
       "#데이트",
@@ -2945,7 +2945,7 @@
     "id": "37",
     "name": "백소정 공릉점",
     "image": "https://lh5.googleusercontent.com/p/AF1QipPcJiUdkT4QZv-vr7bQqA3vt4MZOihGX7c5o66P=w90-h90-n-k-no",
-    "location": "서울 노원구 동일로 1024 1층",
+    "location": "서울특별시 노원구 동일로 1024 1층",
     "tag": [
       "#돈카츠",
       "#데이트",
@@ -3018,7 +3018,7 @@
     "id": "38",
     "name": "만두장성",
     "image": "https://lh5.googleusercontent.com/p/AF1QipNimOtpV_rhhLreqcJ1v4VeCRffy1rjy1yvzog-=w90-h90-n-k-no",
-    "location": "서울 노원구 동일로180길 32 도깨비시장 나-20호",
+    "location": "서울특별시 노원구 동일로180길 32 도깨비시장 나-20호",
     "tag": [
       "#만두",
       "#맛집",
@@ -3082,7 +3082,7 @@
     "id": "39",
     "name": "네코정",
     "image": "https://lh5.googleusercontent.com/p/AF1QipO5cIy73dPshSca0VNPF2silSnOG9SywL-VTQjz=w90-h90-n-k-no",
-    "location": "서울 노원구 동일로192길 77 2층201호",
+    "location": "서울특별시 노원구 동일로192길 77 2층201호",
     "tag": [
       "#일식",
       "#데이트",
@@ -3155,7 +3155,7 @@
     "id": "40",
     "name": "공릉동 닭한마리 본점",
     "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDZfMTEz%2FMDAxNzE0OTcwMDg5NTIz.F5LlWUnKpRUJAe6oRsdgXQ6o0jGSNOD0-MU2MgKWgUgg.4Fjh6x1KS3iL2u9P_90JAxRss-ofB3wbYonhcl8Lv4Eg.JPEG%2F20240506_113934.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울 노원구 동일로192길 77 2층201호",
+    "location": "서울특별시 노원구 동일로192길 77 2층201호",
     "tag": [
       "#닭집",
       "#원조",
@@ -3227,7 +3227,7 @@
     "id": "41",
     "name": "경복식당",
     "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDRfMTgw%2FMDAxNzE0ODI0NjI5MDYz.7Sljf47O7Ji0ss7uCxkeMCyfga8_0qe4b3Y8FKhMb1Ug.k_EPn1CAsms2X21tXO7RZgUssckgQ83-ILUE2PcByggg.JPEG%2F20240503_103648.heic.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울 노원구 공릉로39길 10 대아아파트 상가 경복식당",
+    "location": "서울특별시 노원구 공릉로39길 10 대아아파트 상가 경복식당",
     "tag": [
       "#백반",
       "#원조",
@@ -3282,7 +3282,7 @@
     "id": "42",
     "name": "경성초밥",
     "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190917_223%2F1568730028449uDd2T_JPEG%2F8RA9Ar72Rs5rq8p-1OPyXY8H.jpeg.jpg",
-    "location": "서울 노원구 공릉로 119-5 1층 좌측 경성초밥",
+    "location": "서울특별시 노원구 공릉로 119-5 1층 좌측 경성초밥",
     "tag": [
       "#초밥",
       "#일식",

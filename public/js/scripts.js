@@ -1,39 +1,71 @@
-// index.html에 전체 식당 정보 뿌리기
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('./js/data/restaurant.json')  // js/data/restaurant.json 파일에 대한 GET 요청
-        .then(res => res.json())    // 응답을 json 형태로 반환
-        .then(data => {
-            data.forEach(element => {
-                // json 포맷의 응답 데이터를 순회하며 html에 요소로 추가
-                const container = document.querySelector(".justify-content-center");
-                
-                const content = document.createElement('div');
-                content.className = 'col mb-5';
-                let inner = `
-                <div class="card h-100">
-                    <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <h5 class="fw-bolder">${element.name}</h5>
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <span class="text-muted">${element.rating}</span>
-                            </div>
-                            ${element.location}
-                        </div>
-                    </div>
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="restaurant/${element.id}">View details</a></div>
-                    </div>
-                `
+    // 데이터 로드 및 초기 표시
+    fetch('./js/data/restaurant.json')
+        .then(res => res.json())
+        .then(data => displayRestaurants(data)); // 처음에 모든 식당 정보를 로드
 
-                if(element.additionalServices.includes("주차 가능")) inner += `<div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Parking</div>`;
-                inner += `</div>`;
-                content.innerHTML = inner;
-                container.appendChild(content);
-            });
-        });
+    const searchButton = document.getElementById('searchInput'); // 검색 버튼의 ID
+    // 검색 버튼 클릭 이벤트 리스너
+    searchButton.addEventListener('click', applyFilters);
 });
+
+function applyFilters() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const locationInput = document.getElementById('locationInput').value.toLowerCase();
+    const selectedTags = Array.from(document.querySelectorAll('input[name="tags"]:checked')).map(input => input.value);
+    const selectedPriceRange = document.querySelector('input[name="priceRange"]:checked')?.value;
+    const parkingAvailable = document.getElementById('parkingAvailable').checked;
+
+    fetch('./js/data/restaurant.json')
+        .then(response => response.json())
+        .then(data => {
+            let filteredData = data.filter(restaurant => {
+                const matchesName = restaurant.name.toLowerCase().includes(searchInput);
+                const matchesLocation = restaurant.location.toLowerCase().includes(locationInput);
+                const matchesTags = selectedTags.length === 0 || selectedTags.some(tag => restaurant.tag.includes(tag));
+                const matchesPrice = !selectedPriceRange || restaurant.priceRange === selectedPriceRange;
+                const matchesParking = !parkingAvailable || restaurant.additionalServices.includes("주차 가능");
+
+                return matchesName && matchesLocation && matchesTags && matchesPrice && matchesParking;
+            });
+            displayRestaurants(filteredData);
+        });
+}
+
+function displayRestaurants(restaurants) {
+    const container = document.querySelector(".justify-content-center");
+    container.innerHTML = ''; // 컨테이너 초기화
+
+    restaurants.forEach(restaurant => {
+        const element = document.createElement('div');
+        element.className = 'col mb-5';
+        let inner = `
+            <div class="card h-100">
+                <img class="card-img-top" src="${restaurant.image || 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg'}" alt="${restaurant.name}" />
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">${restaurant.name}</h5>
+                        <div class="d-flex justify-content-center small text-warning mb-2">
+                            <div class="bi-star-fill"></div>
+                            <span class="text-muted">${restaurant.rating.toFixed(1)}</span>
+                        </div>
+                        <div class="tags mb-2">${restaurant.tag.join(', ')}</div>
+                        <div class="price-range mb-2">가격대 : ${restaurant.priceRange}</div> <!-- 가격 범위를 <div>로 변경 -->
+                        <p>${restaurant.location}</p>
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="restaurant/${restaurant.id}">View details</a></div>
+                </div>
+            </div>
+        `;
+        if(restaurant.additionalServices.includes("주차 가능")) {
+            inner += `<div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Parking</div>`;
+        }
+        element.innerHTML = inner;
+        container.appendChild(element);
+    });
+}
 
 window.addEventListener("load", () => {
     if(document.cookie.includes('USER')){

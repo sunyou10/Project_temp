@@ -78,24 +78,112 @@
                         <span class="badge bg-dark text-white ms-1 rounded-pill">Setting</span>
                     </button>
                 </form>
-                </div>
-              </div>
             </div>
-          </header>
-        <!-- Section-->
-        <section class="py-5">
-            <div class="container px-4 px-lg-5 mt-5">
-                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+          <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Catch your Restaurant</h1>
+            <p class="lead fw-normal text-white-50 mb-0">
+              easy reservation
+            </p>
+            <div>
+              <!-- <p class="location" style="font-size: 1.3em; margin-top: 1rem;">
+                <img src="assets/free-icon-location-2776063.png" style="width: 30px" />
+                <a href="/location">Setting your location</a>
+              </p> -->
+              <form class="d-flex" style="display:flex; flex-direction: column; align-items: center; margin-top: 20px;">
+                <button class="btn btn-outline-dark mybtn" type="button" onclick="location.href='/location'">
+                    <img src="assets/free-icon-location-2776063.png" style="width: 30px;" />
+                    Location
+                    <span class="badge bg-dark text-white ms-1 rounded-pill">Setting</span>
+                </button>
+            </form>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+          </div>
+        </div>
+      </header>
+    <!-- Search Filters-->
+    <section class="container mt-4">
+        <div class="filter-bar bg-light p-3 rounded">
+            <div class="filter-header">
+                나만의 식당 찾기
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" id="locationInput" class="form-control mb-2" placeholder="식당 위치 ex) 서대문구, 노원구 ..">
+                    <input type="text" id="searchInput" class="form-control mb-2" placeholder="식당 이름 ex) 일식, 백소정 ..">
+                </div>
+                <div class="col-md-4">
+                    <label for="tags">태그로 필터링:</label>
+                    <div class="d-flex flex-wrap">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" id="couple" name="tags" value="#커플">
+                            <label for="couple">#커플</label>
+                            <input type="checkbox" id="mood" name="tags" value="#감성">
+                            <label for="mood">#감성</label>
+                            <input type="checkbox" id="selfService" name="tags" value="#셀프서비스">
+                            <label for="selfService">#셀프서비스</label>
+                            <input type="checkbox" id="japanese" name="tags" value="#일식">
+                            <label for="japanese">#일식</label>
+                            <input type="checkbox" id="korean" name="tags" value="#한식">
+                            <label for="korean">#한식</label>
+                            <input type="checkbox" id="date" name="tags" value="#데이트">
+                            <label for="date">#데이트</label>
+                            <input type="checkbox" id="dumpling" name="tags" value="#만두">
+                            <label for="dumpling">#만두</label>
+                            <input type="checkbox" id="tasty" name="tags" value="#맛집">
+                            <label for="tasty">#맛집</label>
+                            <input type="checkbox" id="clean" name="tags" value="#청결">
+                            <label for="clean">#청결</label>
+                        </div>
+                        <!-- More checkboxes for other tags -->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="priceRange">가격대:</label>
+                    <div>
+                        <input type="radio" id="lowest" name="priceRange" value="최저가">
+                        <label for="lowest">최저가</label>
+                        <input type="radio" id="low" name="priceRange" value="저가">
+                        <label for="low">저가</label>
+                        <input type="radio" id="medium" name="priceRange" value="중간">
+                        <label for="medium">중간</label>
+                        <input type="radio" id="high" name="priceRange" value="고가">
+                        <label for="high">고가</label>
+                        <input type="radio" id="highest" name="priceRange" value="최고가">
+                        <label for="highest">최고가</label>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <label for="parkingAvailable"></label>
+                    <div>
+                        <input type="checkbox" id="parkingAvailable" name="features" value="주차가능">
+                        <label for="parkingAvailable">주차 가능</label>
+                    </div>
+                    <button class="btn btn-primary w-100" onclick="applyFilters()">Search</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Main content-->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
