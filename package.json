@@ -1,8 +1,7 @@
 {
-  "type": "module",
   "dependencies": {
     "express": "^4.19.2",
-    "fatsecret-api": "^1.0.3"
     "cookie-parser": "^1.4.6",
+    "fatsecret-api": "^1.0.3"
   }
 }
