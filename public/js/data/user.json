@@ -1,137 +1,182 @@
 [
-    {
-        "index": 1,
-        "id": "user001@naver.com",
-        "password": "password123!",
-        "location": "서울시 강남구",
-        "nickname": "서울푸드러버",
-        "review": "여기 김치 너무 맛있어요!",
-        "favorites": ["김치찌개", "비빔밥"]
-    },
-    {
-        "index": 2,
-        "id": "user002@naver.com",
-        "password": "myPass456!",
-        "location": "서울시 종로구",
-        "nickname": "스시마니아",
-        "review": "도심에서 제일 맛있는 스시집!",
-        "favorites": ["초밥", "라멘"]
-    },
-    {
-        "index": 3,
-        "id": "user003@naver.com",
-        "password": "secure789!",
-        "location": "서울시 서초구",
-        "nickname": "매운맛사랑",
-        "review": "팟타이 진짜 중독적이에요!",
-        "favorites": ["팟타이", "그린 커리"]
-    },
-    {
-        "index": 4,
-        "id": "user004@naver.com",
-        "password": "helloPass010!",
-        "location": "서울시 용산구",
-        "nickname": "면사무치",
-        "review": "세계 최고의 만두를 여기서 먹었어요!",
-        "favorites": ["짜장면", "샤오롱바오"]
-    },
-    {
-        "index": 5,
-        "id": "user005@naver.com",
-        "password": "PassitOn020",
-        "location": "서울시 마포구",
-        "nickname": "버거헌터",
-        "review": "쉐이크쉑 버거, 강추합니다!",
-        "favorites": ["치즈버거", "클램 차우더"]
-    },
-    {
-        "index": 6,
-        "id": "user006@naver.com",
-        "password": "justDoIt030",
-        "location": "서울시 강동구",
-        "nickname": "파티쉐",
-        "review": "프랑스 디저트의 진수를 여기서 느꼈어요.",
-        "favorites": ["크림 브륄레", "에스카르고"]
-    },
-    {
-        "index": 7,
-        "id": "user007@naver.com",
-        "password": "stayHungry040",
-        "location": "서울시 강북구",
-        "nickname": "파스타러버",
-        "review": "진정한 이탈리아 파스타의 맛!",
-        "favorites": ["오소 부코", "티라미수"]
-    },
-    {
-        "index": 8,
-        "id": "user008@naver.com",
-        "password": "mySecurePass050",
-        "location": "서울시 송파구",
-        "nickname": "케밥킹",
-        "review": "케밥이 정말 완벽해요!",
-        "favorites": ["케밥", "바클라바"]
-    },
-    {
-        "index": 9,
-        "id": "user009@naver.com",
-        "password": "Pass999",
-        "location": "서울시 성동구",
-        "nickname": "맥주사랑",
-        "review": "맥주와 슈니첼의 완벽한 조합!",
-        "favorites": ["소시지", "비어"]
-    },
-    {
-        "index": 10,
-        "id": "user010@naver.com",
-        "password": "qwerty123",
-        "location": "서울시 동작구",
-        "nickname": "서퍼가이",
-        "review": "여기 해산물 최고예요!",
-        "favorites": ["피시 앤 칩스", "바비큐 새우"]
-    },
-    {
-        "index": 11,
-        "id": "user011@naver.com",
-        "password": "passKey060",
-        "location": "서울시 구로구",
-        "nickname": "보드카맨",
-        "review": "러시아 요리, 견고하고 푸짐해요.",
-        "favorites": ["보드카", "비프 스트로가노프"]
-    },
-    {
-        "index": 12,
-        "id": "user012@naver.com",
-        "password": "unlockMe070",
-        "location": "서울시 동대문구",
-        "nickname": "커리킹",
-        "review": "인도 향신료가 모든 걸 더 좋게 만들어요!",
-        "favorites": ["치킨 커리", "사모사"]
-    },
-    {
-        "index": 13,
-        "id": "user013@naver.com",
-        "password": "pass1234",
-        "location": "서울시 노원구",
-        "nickname": "브라이마스터",
-        "review": "남아공 바비큐, 여기서 먹어보세요!",
-        "favorites": ["보어보사", "퍼니 초프"]
-    },
-    {
-        "index": 14,
-        "id": "user014@naver.com",
-        "password": "goSecure080",
-        "location": "서울시 서대문구",
-        "nickname": "삼바푸디",
-        "review": "브라질 스테이크, 입에서 살살 녹아요!",
-        "favorites": ["카이피리냐", "페조아다"]
-    },
-    {
-        "index": 15,
-        "id": "user015@naver.com",
-        "password": "finalPass090",
-        "location": "서울시 양천구",
-        "nickname": "타코팬",
-        "review": "타코와 테킬라, 완벽한 조합이죠!",
-        "favorites": ["타코", "테킬라"]
-    }
+	{
+		"index": 1,
+		"id": "user001@naver.com",
+		"password": "password123!",
+		"location": "서울시 강남구",
+		"nickname": "서울푸드러버",
+		"review": "여기 김치 너무 맛있어요!",
+		"favorites": [
+			"김치찌개",
+			"비빔밥"
+		]
+	},
+	{
+		"index": 2,
+		"id": "user002@naver.com",
+		"password": "myPass456!",
+		"location": "서울시 종로구",
+		"nickname": "스시마니아",
+		"review": "도심에서 제일 맛있는 스시집!",
+		"favorites": [
+			"초밥",
+			"라멘"
+		]
+	},
+	{
+		"index": 3,
+		"id": "user003@naver.com",
+		"password": "secure789!",
+		"location": "서울시 서초구",
+		"nickname": "매운맛사랑",
+		"review": "팟타이 진짜 중독적이에요!",
+		"favorites": [
+			"팟타이",
+			"그린 커리"
+		]
+	},
+	{
+		"index": 4,
+		"id": "user004@naver.com",
+		"password": "helloPass010!",
+		"location": "서울시 용산구",
+		"nickname": "면사무치",
+		"review": "세계 최고의 만두를 여기서 먹었어요!",
+		"favorites": [
+			"짜장면",
+			"샤오롱바오"
+		]
+	},
+	{
+		"index": 5,
+		"id": "user005@naver.com",
+		"password": "PassitOn020",
+		"location": "서울시 마포구",
+		"nickname": "버거헌터",
+		"review": "쉐이크쉑 버거, 강추합니다!",
+		"favorites": [
+			"치즈버거",
+			"클램 차우더"
+		]
+	},
+	{
+		"index": 6,
+		"id": "user006@naver.com",
+		"password": "justDoIt030",
+		"location": "서울시 강동구",
+		"nickname": "파티쉐",
+		"review": "프랑스 디저트의 진수를 여기서 느꼈어요.",
+		"favorites": [
+			"크림 브륄레",
+			"에스카르고"
+		]
+	},
+	{
+		"index": 7,
+		"id": "user007@naver.com",
+		"password": "stayHungry040",
+		"location": "서울시 강북구",
+		"nickname": "파스타러버",
+		"review": "진정한 이탈리아 파스타의 맛!",
+		"favorites": [
+			"오소 부코",
+			"티라미수"
+		]
+	},
+	{
+		"index": 8,
+		"id": "user008@naver.com",
+		"password": "mySecurePass050",
+		"location": "서울시 송파구",
+		"nickname": "케밥킹",
+		"review": "케밥이 정말 완벽해요!",
+		"favorites": [
+			"케밥",
+			"바클라바"
+		]
+	},
+	{
+		"index": 9,
+		"id": "user009@naver.com",
+		"password": "Pass999",
+		"location": "서울시 성동구",
+		"nickname": "맥주사랑",
+		"review": "맥주와 슈니첼의 완벽한 조합!",
+		"favorites": [
+			"소시지",
+			"비어"
+		]
+	},
+	{
+		"index": 10,
+		"id": "user010@naver.com",
+		"password": "qwerty123",
+		"location": "서울시 동작구",
+		"nickname": "서퍼가이",
+		"review": "여기 해산물 최고예요!",
+		"favorites": [
+			"피시 앤 칩스",
+			"바비큐 새우"
+		]
+	},
+	{
+		"index": 11,
+		"id": "user011@naver.com",
+		"password": "passKey060",
+		"location": "서울시 구로구",
+		"nickname": "보드카맨",
+		"review": "러시아 요리, 견고하고 푸짐해요.",
+		"favorites": [
+			"보드카",
+			"비프 스트로가노프"
+		]
+	},
+	{
+		"index": 12,
+		"id": "user012@naver.com",
+		"password": "unlockMe070",
+		"location": "서울시 동대문구",
+		"nickname": "커리킹",
+		"review": "인도 향신료가 모든 걸 더 좋게 만들어요!",
+		"favorites": [
+			"치킨 커리",
+			"사모사"
+		]
+	},
+	{
+		"index": 13,
+		"id": "user013@naver.com",
+		"password": "pass1234",
+		"location": "서울시 노원구",
+		"nickname": "브라이마스터",
+		"review": "남아공 바비큐, 여기서 먹어보세요!",
+		"favorites": [
+			"보어보사",
+			"퍼니 초프"
+		]
+	},
+	{
+		"index": 14,
+		"id": "user014@naver.com",
+		"password": "goSecure080",
+		"location": "서울시 서대문구",
+		"nickname": "삼바푸디",
+		"review": "브라질 스테이크, 입에서 살살 녹아요!",
+		"favorites": [
+			"카이피리냐",
+			"페조아다"
+		]
+	},
+	{
+		"index": 15,
+		"id": "user015@naver.com",
+		"password": "finalPass090",
+		"location": "서울시 양천구",
+		"nickname": "타코팬",
+		"review": "타코와 테킬라, 완벽한 조합이죠!",
+		"favorites": [
+			"타코",
+			"테킬라"
+		]
+	}
 ]
