@@ -76,5 +76,44 @@ document.addEventListener("DOMContentLoaded", () => {
             const holder = document.querySelector("#menu-holder");
             holder.appendChild(container);
         })
+
+        // 후기 추출
+        restaurantData.reviews.forEach(elem => {
+            const container = document.createElement('div');
+            container.className = "review-container";
+            
+            // 별점만큼 별 달기
+            const starRating = Math.round(elem.rating * 2)/2;
+            full = Math.floor(starRating);
+            half = starRating % 1 !== 0 ? 1 : 0;
+
+            for(let i=0; i < full; i++){
+                container.innerHTML += `<i class="bi bi-star-fill text-warning"></i> `;
+            }
+            if(half === 1) container.innerHTML += `<i class="bi bi-star-half text-warning"></i>`;
+            container.innerHTML += `<span class="text-warning"> ${starRating}<span>`;
+
+            container.innerHTML += `
+                <hr>
+                <div>
+                    <h5>${elem.author}</h5>
+                    <p>${elem.comment}</p>
+                    <p style="float:right">${elem.date}</p>
+                </div> 
+            `;
+            const holder = document.querySelector("#review");
+            holder.appendChild(container);
+        })
     });
+});
+
+window.addEventListener("load", () => {
+    if(document.cookie.includes('USER')){
+        const button = document.querySelector("#login-button");
+        button.onclick = () => {location.href='/logout';};
+        button.innerHTML = `<i class="bi-person-circle me-1"></i>Logout`;
+
+        const mypage = document.querySelector("#hidden-item");
+        mypage.style.visibility = "visible";
+    }
 });
