@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        label {
+            font-size: small;
+        }
+
+        .signup-container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+
+        .input-group {
+            margin-bottom: 12px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background: #0056b3;
+        }
+
+        .help-links {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .help-links a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .help-links a:hover {
+            text-decoration: underline;
+        }
+
+        .remember-me {
+            margin-bottom: 20px;
+        }
+
+        .remember-me input {
+            margin-right: 5px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Register Account</h2>
+        <form action="/submit-your-register-form" onsubmit="signup();">
+            <div class="input-group">
+                <!-- <label for="email">Email</label> -->
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div class="input-group">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" name="password" required placeholder="Password">
+            </div>
+            <div class="input-group">
+                <!-- <label for="password">Confirm-password</label> -->
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm Password">
+            </div>
+            <br>
+            <p>Your Information</p>
+            <div class="input-group">
+                <!-- <label for="username">이메일</label> -->
+                <input type="text" id="nickname" name="nickname" required placeholder="Nickname">
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone-num" name="phone-num" required placeholder="Phone Number">
+            </div>
+            <div class="input-group">
+                <input type="text" id="location" name="location" placeholder="[선택] Location (ex. 서울시 종로구)">
+            </div>
+            <br>
+            <button type="submit" class="login-button">Sign Up</button>
+        </form>
+        
+    </div>
+    <script>
+        function signup(){
+            event.preventDefault();
+            const email = document.querySelector("#email").value;
+            const password = document.querySelector("#password").value;
+            const nickname = document.querySelector("#nickname").value;
+            const phoneNum = document.querySelector("#phone-num").value;
+            const location = document.querySelector("#location").value;
+
+            // confirm password와 비밀번호 같은지 확인
+            const confirm = document.querySelector("#confirm-password");
+            if(password !== confirm.value) {
+                alert("비밀번호가 일치하지 않습니다.");
+                confirm.value = "";
+                confirm.focus();
+            }
+            else {
+                fetch('/submit-your-register-form', {
+                    method : "POST",
+                    headers :{'Content-Type': 'application/json'},
+                    body : JSON.stringify({ email, password, nickname, phoneNum, location})
+                })
+                .then((res) => res.json())
+                .then((data) => {
+                    if(data.success) {
+                        alert('회원가입에 성공했습니다.');
+                    } else {
+                        alert('이미 가입된 이메일입니다.');
+                    }
+                    window.location.href = '/login';
+                    document.querySelector("#email").value = email;
+                })
+            }
+        };
+    </script>
+</body>
+</html>
