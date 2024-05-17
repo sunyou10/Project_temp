@@ -1,5 +1,7 @@
 {
+  "type": "module",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "fatsecret-api": "^1.0.3"
   }
 }
