@@ -1,3 +1,10 @@
+// 쿠키를 읽는 헬퍼 함수
+function getCookie(name) {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(';').shift();
+}
+
 // URL에서 식당 id 추출하기 위한 변수
 const searchParams = new URL(location.href);
 const path = searchParams.pathname.split('/');
@@ -12,6 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
         // id에 해당하는 식당 데이터
         const restaurantData = data[id-1];
+
+        // 이미지 설정
+        const imageHolder = document.querySelector("#restaurant-image");
+        const img = document.createElement('img');
+        img.className = "card-img-top mb-5 mb-md-0";
+        img.src = restaurantData.image ? restaurantData.image : "https://dummyimage.com/600x700/dee2e6/6c757d.jpg";
+        img.alt = "Restaurant Image";
+        imageHolder.appendChild(img);
 
         // (식당 이름 위) 키워드 추출
         restaurantData.additionalServices.forEach(elem => {
@@ -35,8 +50,9 @@ document.addEventListener("DOMContentLoaded", () => {
         
         // 식당 이름
         const name = document.querySelector("#restaurantName");
-        name.textContent = `${restaurantData.name}`;
-
+        name.textContent = `${restaurantData.name}`; 
+        
+            
         // 영업 시간
         const hour = document.querySelector("#hours");
         hour.textContent = `${restaurantData.businessHours}`;
@@ -59,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
             container.className = "col mb-5";
             container.innerHTML = `
             <div class="card h-100">
-                <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                <img class="card-img-top" src="${elem.image}" alt="" />
                 <div class="card-body p-4">
                     <div class="text-center">
                         <h5 class="fw-bolder">${elem.name}</h5>
@@ -72,10 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     </a></div>
                 </div>
             </div>`;
-            
-            const holder = document.querySelector("#menu-holder");
-            holder.appendChild(container);
-        })
+
+    const holder = document.querySelector("#menu-holder");
+    holder.appendChild(container);
 
         // 후기 추출
         restaurantData.reviews.forEach(elem => {
@@ -104,6 +119,74 @@ document.addEventListener("DOMContentLoaded", () => {
             const holder = document.querySelector("#review");
             holder.appendChild(container);
         })
+
+        // 즐겨찾기 버튼 기능 추가
+        const favoriteButton = document.querySelector("#favorite-button");
+        let userFavorites = [];
+        let isFavorite = false;
+        
+        let userCookie = getCookie("USER");
+        try {
+            const decodedUserCookie = decodeURIComponent(userCookie);
+            const userEmail = JSON.parse(decodedUserCookie).id;
+            fetch('js/data/user.json')
+                .then(res => res.json())
+                .then(users => {
+                    const user = users.find(u => u.id === userEmail);
+                    if (user) {
+                        userFavorites = user.favorites;
+                        isFavorite = userFavorites.includes(restaurantData.name);
+                        updateFavoriteButton(isFavorite);
+                    }
+                });
+
+            favoriteButton.addEventListener("click", () => {
+                if (isFavorite) {
+                    if (confirm('이미 즐겨찾기가 된 식당이에요. 즐겨찾기를 삭제하시겠어요?')) {
+                        updateFavoriteStatus(userEmail, restaurantData.name, 'remove');
+                    }
+                } else {
+                    updateFavoriteStatus(userEmail, restaurantData.name, 'add');
+                }
+            });
+        } catch (error) {
+            console.error('Error parsing user cookie:', error);
+            alert('Invalid user cookie. Please log in again.');
+        }
+
+        function updateFavoriteButton(isFavorite) {
+            if (isFavorite) {
+                favoriteButton.innerHTML = '<i class="bi bi-heart-fill"></i>';
+            } else {
+                favoriteButton.innerHTML = '<i class="bi bi-heart"></i>';
+            }
+        }
+
+        function updateFavoriteStatus(email, favorite, action) {
+            fetch('/update-favorites', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email, favorite, action })
+            })
+            .then(res => res.json())
+            .then(response => {
+                if (response.message === 'Favorite added successfully') {
+                    alert(`${restaurantData.name} 식당을 즐겨찾기 했어요!`);
+                    isFavorite = true;
+                } else if (response.message === 'Favorite removed successfully') {
+                    alert(`나중에 다시 찾아와주세요~`);
+                    isFavorite = false;
+                } else {
+                    alert(response.message);
+                }
+                updateFavoriteButton(isFavorite);
+            })
+            .catch(error => {
+                console.error('Error updating user favorites:', error);
+            });
+        }
     });
 });
 
