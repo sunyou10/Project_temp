@@ -223,7 +223,20 @@
       "김송김 태국식",
       "(주) 구 퓨전음식",
       "일상다반",
-      "핏짜굽는언니"
+      "핏짜굽는언니",
+      "경복식당"
+    ],
+    "reservations": [
+      {
+        "name": "jahyeob koo",
+        "email": "rnwkguq1506@naver.com",
+        "phone": "01083145028",
+        "date": "2024-06-06",
+        "time": "06:17",
+        "people": "3",
+        "message": "",
+        "restaurantId": null
+      }
     ]
   }
 ]

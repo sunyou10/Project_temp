@@ -188,6 +188,63 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.error('Error updating user favorites:', error);
             });
         }
+                //체크 버튼
+        const checkTimeButton = document.getElementById('check-time-button');
+        checkTimeButton.addEventListener('click', () => {
+            const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+            if (!userCookie) {
+                alert('로그인이 필요합니다.');
+                return;
+            }
+            
+            const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
+    
+            fetch(`/time-to-reservation?email=${userEmail}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.message) {
+                        alert(data.message);
+                    } else {
+                        alert(`예약까지 남은시간: ${data.days}일 ${data.hours}시간 ${data.minutes}분 ${data.seconds}초`);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+
+        // 예약 일괄 삭제
+        const allRemoveButton = document.getElementById('all-remove-button');
+        allRemoveButton.addEventListener('click', () => {
+            const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+            if (!userCookie) {
+                alert('로그인이 필요합니다.');
+                return;
+            }
+    
+            const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
+    
+            if (confirm('정말로 모든 예약을 삭제하시겠습니까?')) {
+                fetch('/delete-all-reservations', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email: userEmail })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                    } else {
+                        alert('예약 삭제 중 문제가 발생했습니다.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        });
     });
 });
 
