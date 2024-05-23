@@ -10,7 +10,7 @@ const searchParams = new URL(location.href);
 const path = searchParams.pathname.split('/');
 
 // 식당 id
-const id = path[path.length -1];
+const id = path[path.length - 1];
 
 // 식당 id에 맞게 내용 구성하는 코드
 document.addEventListener("DOMContentLoaded", () => {
@@ -89,9 +89,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>`;
 
-    const holder = document.querySelector("#menu-holder");
-    holder.appendChild(container);
-
+          const holder = document.querySelector("#menu-holder");
+          holder.appendChild(container);
+        })
+        
         // 후기 추출
         restaurantData.reviews.forEach(elem => {
             const container = document.createElement('div');
@@ -183,6 +184,44 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 updateFavoriteButton(isFavorite);
             })
+           // 예약 버튼 이벤트 리스너 추가
+            document.getElementById('easyReservationButton').addEventListener('click', () => {
+                const date = document.getElementById('reservationDate').value;
+                const time = document.getElementById('reservationTime').value;
+                const people = document.getElementById('reservationPeople').value;
+
+                console.log("Reservation details:", { date, time, people });
+
+                const reservationData = {
+                    date,
+                    time,
+                    people,
+                    restaurantId: id,
+                    userId: JSON.parse(document.cookie.split('USER=')[1]).id // 현재 로그인한 사용자 ID 가져오기
+                };
+
+                console.log("Sending reservation data:", reservationData);
+
+                fetch('/reserve', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(reservationData)
+                })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(result => {
+                    if (result.success) {
+                        alert('Reservation successful!');
+                    } else {
+                        alert('Reservation failed. Please try again.');
+                    }
+                })
             .catch(error => {
                 console.error('Error updating user favorites:', error);
             });
@@ -200,4 +239,3 @@ window.addEventListener("load", () => {
         mypage.style.visibility = "visible";
     }
 });
-

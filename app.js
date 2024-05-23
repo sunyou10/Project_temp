@@ -7,62 +7,60 @@ const port = 3000;
 const cookieParser = require('cookie-parser');
 const USER_COOKIE_KEY = 'USER'; // 로그인 성공 시 할당할 쿠키 이름
 
+const fs = require('fs').promises;
+const path = require('path'); // path 모듈을 상단으로 이동
 const USERS_JSON_FILENAME = 'public/js/data/user.json';
 
 async function fetchAllUsers() {
-    // 모든 유저 데이터 가져오기
     const data = await fs.readFile(USERS_JSON_FILENAME);
     const users = JSON.parse(data.toString());
     return users;
 }
 
 async function fetchUser(userEmail) {
-    // userEmail이 유저 데이터 내에 있는지 확인
     const users = await fetchAllUsers();
     const user = users.find((user) => user.id === userEmail);
     return user;
 }
 
 async function createUser(newUser) {
-    // 새로운 유저 추가
     const users = await fetchAllUsers();
     users.push(newUser);
     await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, '\t'));
 }
 
 app.use(express.static('public'));
-app.use('/restaurant',express.static('public'));
+app.use('/restaurant', express.static('public'));
 app.use(cookieParser());
 app.use(express.json());
-app.use(express.urlencoded({extended:true}));
+app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
 
 app.get('/location', (req, res) => {
-    res.sendFile(__dirname+'/location.html')
+    res.sendFile(__dirname + '/location.html');
 });
 
 // 로그인
 app.get('/login', (req, res) => {
-    res.sendFile(__dirname + '/login.html');  
+    res.sendFile(__dirname + '/login.html');
 });
 
 app.post('/submit-your-login-form', async (req, res) => {
-    // 로그인 서버 기능
     const { email, password } = req.body;
     const user = await fetchUser(email);
 
-    if(!user) {
-        res.status(400).json({success : false, message: "가입하지 않은 이메일입니다."});
-        return ;
+    if (!user) {
+        res.status(400).json({ success: false, message: "가입하지 않은 이메일입니다." });
+        return;
     }
-    if(password !== user.password) {
-        res.status(400).send({success : false, message: "잘못된 패스워드입니다."});
-        return ;
+    if (password !== user.password) {
+        res.status(400).send({ success: false, message: "잘못된 패스워드입니다." });
+        return;
     }
-    
+
     // 이메일, 비밀번호 다 맞으면 쿠키 할당
-    res.cookie(USER_COOKIE_KEY, JSON.stringify(user)).json({success:true});
+    res.cookie(USER_COOKIE_KEY, JSON.stringify(user)).json({ success: true });
 });
 
 // 로그아웃
@@ -75,20 +73,19 @@ app.get('/logout', (req, res) => {
 app.get('/reset-password', (req, res) => res.sendFile(__dirname + '/find-password.html'));
 
 app.post('/submit-your-findPw-form', async (req, res) => {
-    // 비밀번호 찾기 서버 기능
     const { email, nickname, phoneNum } = req.body;
     const user = await fetchUser(email);
 
-    if(!user) {
-        res.json({success : false});
-        return ;
-    } else{
-        if(user.nickname === nickname) {
-            res.json({success: true, password: `${user.password}`});
+    if (!user) {
+        res.json({ success: false });
+        return;
+    } else {
+        if (user.nickname === nickname) {
+            res.json({ success: true, password: `${user.password}` });
             return;
         } else {
-            res.json({success : false});
-            return ;
+            res.json({ success: false });
+            return;
         }
     }
 })
@@ -99,16 +96,14 @@ app.get('/signup', (req, res) => {
 });
 
 app.post('/submit-your-register-form', async (req, res) => {
-    // 회원가입 서버 기능
-    const { email, password, nickname, phoneNum, location} = req.body;
+    const { email, password, nickname, phoneNum, location } = req.body;
     const user = await fetchUser(email);
 
-    if(user) {
-       // 이미 존재하는 이메일
-       res.status(200).json({success : false});
-       return; 
-    }
-    else {
+    if (user) {
+        // 이미 존재하는 이메일
+        res.status(200).json({ success: false });
+        return;
+    } else {
         const users = await fetchAllUsers();
         const newUser = {
             "index" : users.length + 1,
@@ -121,15 +116,156 @@ app.post('/submit-your-register-form', async (req, res) => {
             "favorites" : []
         };
         await createUser(newUser);
-        res.status(200).json({success : true});
+        res.status(200).json({ success: true });
         return;
     }
 })
 
-app.get('/restaurant/:id', (req, res) => {;
+app.get('/restaurant/:id', (req, res) => {
     res.sendFile(__dirname + "/detail.html");
 });
 
+app.get('/mypage', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/mypage.html');
+});
+
+app.get('/profile', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/profile.html');
+});
+
+app.post('/change-password', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const { password } = req.body;
+    const user = JSON.parse(userCookie);
+    const users = await fetchAllUsers();
+    const userIndex = users.findIndex((u) => u.id === user.id);
+    
+    if (userIndex > -1) {
+        users[userIndex].password = password;
+        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
+        res.json({ success: true });
+    } else {
+        res.json({ success: false });
+    }
+});
+
+// 사용자 정보를 가져오는 엔드포인트
+app.get('/get-user-info', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    res.json({ name: user.id.split('@')[0], nickname: user.nickname, phoneNum: user['phone-number'], location: user.location });
+});
+
+// 사용자 정보를 업데이트하는 엔드포인트
+app.post('/update-profile', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const { nickname, phoneNum, location, password } = req.body;
+    const users = await fetchAllUsers();
+    const userIndex = users.findIndex((u) => u.id === user.id);
+    
+    if (userIndex > -1) {
+        if (nickname) users[userIndex].nickname = nickname;
+        if (phoneNum) users[userIndex]['phone-number'] = phoneNum;
+        if (location) users[userIndex].location = location;
+        if (password) users[userIndex].password = password;
+        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
+        res.json({ success: true });
+    } else {
+        res.json({ success: false });
+    }
+});
+
+// 비밀번호 확인 엔드포인트
+app.post('/verify-password', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const { password } = req.body;
+    const users = await fetchAllUsers();
+    const userIndex = users.findIndex((u) => u.id === user.id);
+
+    if (userIndex > -1 && users[userIndex].password === password) {
+        res.json({ success: true });
+    } else {
+        res.json({ success: false });
+    }
+});
+
+// 회원 탈퇴 엔드포인트
+app.post('/delete-account', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    let users = await fetchAllUsers();
+    users = users.filter((u) => u.id !== user.id);
+
+    await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
+    res.clearCookie(USER_COOKIE_KEY);
+    res.json({ success: true });
+});
+
+app.post('/reserve', async (req, res) => {
+    const reservation = req.body;
+    console.log('Reservation request received:', reservation); // 요청 로그 추가
+
+    // 현재 로그인한 사용자 정보 가져오기 (쿠키 또는 세션에서)
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+
+    // user.json 파일을 읽어와서 해당 사용자의 예약 정보에 추가
+    const users = await fetchAllUsers();
+    const userIndex = users.findIndex(u => u.id === user.id);
+    if (userIndex !== -1) {
+        if (!users[userIndex].reservations) {
+            users[userIndex].reservations = [];
+        }
+        users[userIndex].reservations.push(reservation);
+
+        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
+        res.json({ success: true });
+    } else {
+        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
+    }
+});
 
 app.post('/update-favorites', async (req, res) => {
     const { email, favorite, action } = req.body;

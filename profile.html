@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 정보 수정</title>
+    <link rel="icon" href="assets/panda-logo.png" type="image/png">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 10px 20px;
+            background: #212529;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background: #0056b3;
+        }
+
+        .link-item {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .link-item:hover {
+            text-decoration: underline;
+        }
+
+        .profile-info {
+            margin-bottom: 20px;
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .profile-info div {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>Reservation Panda<br>예약판다</div>
+        <div class="navigation">
+            <a href="/">Home</a>
+            <a href="#" id="logout-link">Logout</a>
+        </div>
+    </header>
+    <div class="form-container">
+        <h2>내 정보</h2>
+        <div class="profile-info" id="profile-info">
+            <div><strong>이름:</strong> <span id="user-name"></span></div>
+            <div><strong>닉네임:</strong> <span id="user-nickname"></span></div>
+            <div><strong>전화번호:</strong> <span id="user-phone"></span></div>
+            <div><strong>위치:</strong> <span id="user-location"></span></div>
+        </div>
+        <h2>개인 정보 수정</h2>
+        <form id="nickname-form">
+            <div class="form-group">
+                <label for="nickname">닉네임</label>
+                <input type="text" id="nickname" name="nickname">
+                <button type="submit">닉네임 변경</button>
+            </div>
+        </form>
+        <form id="phone-form">
+            <div class="form-group">
+                <label for="phone-num">전화번호</label>
+                <input type="text" id="phone-num" name="phone-num">
+                <button type="submit">전화번호 변경</button>
+            </div>
+        </form>
+        <form id="location-form">
+            <div class="form-group">
+                <label for="location">위치</label>
+                <input type="text" id="location" name="location">
+                <button type="submit">위치 변경</button>
+            </div>
+        </form>
+        <form id="password-form">
+            <div class="form-group">
+                <label for="password">비밀번호 변경</label>
+                <input type="password" id="password" name="password">
+                <button type="submit">비밀번호 변경</button>
+            </div>
+        </form>
+        <div class="form-group">
+            <button id="delete-account-button">회원 탈퇴</button>
+        </div>
+    </div>
+
+    <script>
+        // 사용자 정보를 불러와서 표시
+        window.onload = function() {
+            fetch('/get-user-info')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('user-name').textContent = data.name || 'N/A';
+                    document.getElementById('user-nickname').textContent = data.nickname;
+                    document.getElementById('user-phone').textContent = data.phoneNum;
+                    document.getElementById('user-location').textContent = data.location;
+                    document.getElementById('nickname').value = data.nickname;
+                    document.getElementById('phone-num').value = data.phoneNum;
+                    document.getElementById('location').value = data.location;
+                });
+        };
+
+        document.getElementById('logout-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            fetch('/logout', {
+                method: 'GET',
+                credentials: 'same-origin'
+            }).then(response => {
+                if (response.ok) {
+                    window.location.href = '/';
+                }
+            });
+        });
+
+        document.getElementById('nickname-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nickname = document.getElementById('nickname').value;
+            fetch('/update-profile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ nickname })
+            }).then(response => response.json()).then(data => {
+                if (data.success) {
+                    alert('닉네임이 변경되었습니다.');
+                    window.location.reload();
+                } else {
+                    alert('닉네임 변경에 실패했습니다.');
+                }
+            });
+        });
+
+        document.getElementById('phone-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const phoneNum = document.getElementById('phone-num').value;
+            fetch('/update-profile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ phoneNum })
+            }).then(response => response.json()).then(data => {
+                if (data.success) {
+                    alert('전화번호가 변경되었습니다.');
+                    window.location.reload();
+                } else {
+                    alert('전화번호 변경에 실패했습니다.');
+                }
+            });
+        });
+
+        document.getElementById('location-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const location = document.getElementById('location').value;
+            fetch('/update-profile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ location })
+            }).then(response => response.json()).then(data => {
+                if (data.success) {
+                    alert('위치가 변경되었습니다.');
+                    window.location.reload();
+                } else {
+                    alert('위치 변경에 실패했습니다.');
+                }
+            });
+        });
+
+        document.getElementById('password-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const password = document.getElementById('password').value;
+            fetch('/update-profile', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ password })
+            }).then(response => response.json()).then(data => {
+                if (data.success) {
+                    alert('비밀번호가 변경되었습니다.');
+                    window.location.reload();
+                } else {
+                    alert('비밀번호 변경에 실패했습니다.');
+                }
+            });
+        });
+
+        document.getElementById('delete-account-button').addEventListener('click', function(event) {
+            event.preventDefault();
+            const password = prompt('회원탈퇴를 위해 비밀번호를 입력해 주세요:');
+            if (password) {
+                fetch('/verify-password', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ password })
+                }).then(response => response.json()).then(data => {
+                    if (data.success) {
+                        if (confirm('정말로 탈퇴하시겠습니까?')) {
+                            fetch('/delete-account', {
+                                method: 'POST',
+                                credentials: 'same-origin'
+                            }).then(response => response.json()).then(data => {
+                                if (data.success) {
+                                    alert('회원 탈퇴가 완료되었습니다.');
+                                    window.location.href = '/';
+                                } else {
+                                    alert('회원 탈퇴에 실패했습니다.');
+                                }
+                            });
+                        }
+                    } else {
+                        alert('비밀번호가 일치하지 않습니다.');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>

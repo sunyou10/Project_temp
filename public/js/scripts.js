@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function applyFilters() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
-    const locationInput = document.getElementById('locationInput').value.toLowerCase();
     const selectedTags = Array.from(document.querySelectorAll('input[name="tags"]:checked')).map(input => input.value);
     const selectedPriceRange = document.querySelector('input[name="priceRange"]:checked')?.value;
     const parkingAvailable = document.getElementById('parkingAvailable').checked;
@@ -17,12 +16,12 @@ function applyFilters() {
         .then(data => {
             let filteredData = data.filter(restaurant => {
                 const matchesName = restaurant.name.toLowerCase().includes(searchInput);
-                const matchesLocation = restaurant.location.toLowerCase().includes(locationInput);
+                const matchesLocation = restaurant.location.toLowerCase().includes(searchInput);
                 const matchesTags = selectedTags.length === 0 || selectedTags.some(tag => restaurant.tag.includes(tag));
                 const matchesPrice = !selectedPriceRange || restaurant.priceRange === selectedPriceRange;
                 const matchesParking = !parkingAvailable || restaurant.additionalServices.includes("주차 가능");
 
-                return matchesName && matchesLocation && matchesTags && matchesPrice && matchesParking;
+                return (matchesName || matchesLocation) && matchesTags && matchesPrice && matchesParking;
             });
             displayRestaurants(filteredData);
         });
@@ -64,6 +63,7 @@ function displayRestaurants(restaurants) {
     });
 }
 
+// 로그인 시 로그아웃 버튼, 마이베이지 생성
 window.addEventListener("load", () => {
     if(document.cookie.includes('USER')){
         const button = document.querySelector("#login-button");
