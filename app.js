@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const nodemailer = require('nodemailer');
+const moment = require('moment'); // moment.js 추가
 
 const cookieParser = require('cookie-parser');
 const USER_COOKIE_KEY = 'USER'; // 로그인 성공 시 할당할 쿠키 이름
@@ -448,6 +449,70 @@ app.get('/reservations', (req, res) => {
         return;
     }
     res.sendFile(__dirname + '/reservations.html');
+});
+
+// 예약 시간까지 남은 시간 계산
+async function fetchUser(email) {
+    const data = await fs.readFile('public/js/data/user.json');
+    const users = JSON.parse(data);
+    return users.find(user => user.id === email);
+}
+
+app.get('/time-to-reservation', async (req, res) => {
+    const email = req.query.email;
+    const user = await fetchUser(email);
+
+    if (!user || !user.reservations || user.reservations.length === 0) {
+        res.status(400).json({ message: '예약한 정보가 없어요.' });
+        return;
+    }
+
+    const reservation = user.reservations[0];
+    const reservationDate = moment(`${reservation.date} ${reservation.time}`, 'YYYY-MM-DD HH:mm');
+    const now = moment();
+
+    if (reservationDate.isBefore(now)) {
+        res.status(400).json({ message: 'Reservation time has already passed.' });
+    } else {
+        const duration = moment.duration(reservationDate.diff(now));
+        const days = duration.days();
+        const hours = duration.hours();
+        const minutes = duration.minutes();
+        const seconds = duration.seconds();
+
+        res.json({
+            days,
+            hours,
+            minutes,
+            seconds
+        });
+    }
+});
+
+async function saveUsers(users) {
+    await fs.writeFile('public/js/data/user.json', JSON.stringify(users, null, 2), 'utf-8');
+}
+
+// 예약 일괄 삭제
+app.post('/delete-all-reservations', async (req, res) => {
+    const email = req.body.email;
+    const data = await fs.readFile('public/js/data/user.json');
+    const users = JSON.parse(data);
+
+    const user = users.find(user => user.id === email);
+
+    if (!user || !user.reservations || user.reservations.length === 0) {
+        res.status(400).json({ message: '예약한 정보가 없어요.' });
+        return;
+    }
+    
+    if (user) {
+        user.reservations = [];
+        await saveUsers(users);
+        res.json({ success: true, message: '다음에 다시 예약해주세요~!!!' });
+    } else {
+        res.status(404).json({ success: false, message: 'User not found.' });
+    }
 });
 
 app.listen(port, () => console.log(`Page open in  port: ${port}`));

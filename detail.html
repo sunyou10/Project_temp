@@ -24,6 +24,8 @@
             }
         </style>
 
+        <!-- Moment.js -->
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
     </head>
     <body>
         <!-- Navigation-->
@@ -157,6 +159,12 @@
                         <button class="btn btn-outline-dark flex-shrink-0" type="submit">
                             <i class="bi-calendar-check-fill me-1"></i>
                             Make Reservation
+                        </button>
+                        <button class="btn btn-outline-info flex-shrink-0" type="button" id="check-time-button">
+                            예약까지 남은시간 확인
+                        </button>
+                        <button class="btn btn-outline-danger flex-shrink-0" type="button" id="all-remove-button">
+                            예약 일괄 삭제
                         </button>
                     </div>
                   </form>
