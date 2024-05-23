@@ -1,10 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-
+const nodemailer = require('nodemailer');
 
 const cookieParser = require('cookie-parser');
 const USER_COOKIE_KEY = 'USER'; // 로그인 성공 시 할당할 쿠키 이름
+
+require('dotenv').config();
+const { GMAIL_OAUTH_USER, GMAIL_OAUTH_CLIENT_ID, GMAIL_OAUTH_CLIENT_SECRET, GMAIL_OAUTH_REFRESH_TOKEN } = process.env;
 
 const fs = require('fs').promises;
 const path = require('path'); // path 모듈을 상단으로 이동
@@ -27,6 +30,37 @@ async function createUser(newUser) {
     users.push(newUser);
     await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, '\t'));
 }
+
+const sendMail = async (to, subject, html) => {
+    const googleTransporter = await nodemailer.createTransport({
+        service: 'gmail',
+        port: 587,
+        secure: true,
+        auth:{
+            type:'OAuth2',
+            user: GMAIL_OAUTH_USER,
+            clientId: GMAIL_OAUTH_CLIENT_ID,
+            clientSecret: GMAIL_OAUTH_CLIENT_SECRET,
+            refreshToken: GMAIL_OAUTH_REFRESH_TOKEN,
+        },
+    });
+    
+    const mailOptions = {
+        from: '"Reservation-Panda 🐼" <test@test.gmail.com>',
+        to,
+        subject,
+        html
+    };
+
+    try{
+        await googleTransporter.sendMail(mailOptions);
+        console.log(`Mail have sent to ${ to }`);
+    } catch(err){
+        console.log(err);
+    } finally {
+        googleTransporter.close();
+    }
+};
 
 app.use(express.static('public'));
 app.use('/restaurant', express.static('public'));
@@ -103,6 +137,7 @@ app.post('/submit-your-register-form', async (req, res) => {
         res.status(200).json({ success: false });
         return;
     } else {
+        await sendMail(email, '예약판다 가입을 환영합니다!', `환영합니다, ${nickname} 님 :)`);
         const users = await fetchAllUsers();
         const newUser = {
             "index" : users.length + 1,
@@ -131,6 +166,24 @@ app.get('/mypage', (req, res) => {
         return;
     }
     res.sendFile(__dirname + '/mypage.html');
+});
+
+app.get('/reviews', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/reviews.html');
+});
+
+app.get('/favorites', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/favorites.html');
 });
 
 app.get('/profile', (req, res) => {
@@ -294,6 +347,107 @@ app.post('/update-favorites', async (req, res) => {
         console.error('Error updating favorites:', error);
         res.status(500).json({ message: 'Internal server error' });
     }
+});
+
+app.post('/submit-review', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const { restaurantName, comment, date } = req.body;
+
+    const users = await fetchAllUsers();
+    const currentUserIndex = users.findIndex(u => u.id === user.id);
+
+    if (currentUserIndex !== -1) {
+        if (!users[currentUserIndex].reviews) {
+            users[currentUserIndex].reviews = [];
+        }
+        users[currentUserIndex].reviews.push({ restaurantName, comment, date });
+        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
+        res.json({ success: true });
+    } else {
+        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
+    }
+});
+
+
+app.get('/get-user-reviews', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const users = await fetchAllUsers();
+    const currentUser = users.find(u => u.id === user.id);
+
+    if (currentUser) {
+        res.json({ reviews: currentUser.reviews || [] });
+    } else {
+        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
+    }
+});
+
+
+app.get('/get-user-favorites', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const users = await fetchAllUsers();
+    const currentUser = users.find(u => u.id === user.id);
+
+    if (currentUser) {
+        res.json({ favorites: currentUser.favorites || [] });
+    } else {
+        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
+    }
+});
+
+app.get('/favorites', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/favorites.html');
+});
+
+// 사용자 예약 정보를 가져오는 엔드포인트 추가
+app.get('/get-user-reservations', async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const users = await fetchAllUsers();
+    const currentUser = users.find(u => u.id === user.id);
+
+    if (currentUser) {
+        res.json({ reservations: currentUser.reservations || [] });
+    } else {
+        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
+    }
+});
+
+// 예약 정보 페이지 제공 경로 추가
+app.get('/reservations', (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.redirect('/login');
+        return;
+    }
+    res.sendFile(__dirname + '/reservations.html');
 });
 
 app.listen(port, () => console.log(`Page open in  port: ${port}`));
