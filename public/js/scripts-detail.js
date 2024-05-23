@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
             `;
             const holder = document.querySelector("#review");
             holder.appendChild(container);
-        })
+        });
 
         // 즐겨찾기 버튼 기능 추가
         const favoriteButton = document.querySelector("#favorite-button");
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } catch (error) {
             console.error('Error parsing user cookie:', error);
             alert('Invalid user cookie. Please log in again.');
-        }
+        };
 
         function updateFavoriteButton(isFavorite) {
             if (isFavorite) {
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else {
                 favoriteButton.innerHTML = '<i class="bi bi-heart"></i>';
             }
-        }
+        };
 
         function updateFavoriteStatus(email, favorite, action) {
             fetch('/update-favorites', {
@@ -184,49 +184,54 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
                 updateFavoriteButton(isFavorite);
             })
-           // 예약 버튼 이벤트 리스너 추가
-            document.getElementById('easyReservationButton').addEventListener('click', () => {
-                const date = document.getElementById('reservationDate').value;
-                const time = document.getElementById('reservationTime').value;
-                const people = document.getElementById('reservationPeople').value;
-
-                console.log("Reservation details:", { date, time, people });
-
-                const reservationData = {
-                    date,
-                    time,
-                    people,
-                    restaurantId: id,
-                    userId: JSON.parse(document.cookie.split('USER=')[1]).id // 현재 로그인한 사용자 ID 가져오기
-                };
-
-                console.log("Sending reservation data:", reservationData);
-
-                fetch('/reserve', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(reservationData)
-                })
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(result => {
-                    if (result.success) {
-                        alert('Reservation successful!');
-                    } else {
-                        alert('Reservation failed. Please try again.');
-                    }
-                })
             .catch(error => {
                 console.error('Error updating user favorites:', error);
             });
         }
     });
+});
+
+// 예약 버튼 이벤트 리스너 추가
+document.getElementById('easyReservationButton').addEventListener('click', () => {
+    const date = document.getElementById('reservationDate').value;
+    const time = document.getElementById('reservationTime').value;
+    const people = document.getElementById('reservationPeople').value;
+
+    console.log("Reservation details:", { date, time, people });
+
+    const reservationData = {
+        date,
+        time,
+        people,
+        restaurantId: id,
+        userId: JSON.parse(document.cookie.split('USER=')[1]).id // 현재 로그인한 사용자 ID 가져오기
+    };
+
+    console.log("Sending reservation data:", reservationData);
+
+    fetch('/reserve', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(reservationData)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then(result => {
+        if (result.success) {
+            alert('Reservation successful!');
+        } else {
+            alert('Reservation failed. Please try again.');
+        }
+    }).catch(error => {
+             console.error('Error:', error);
+             alert('Reservation failed. Please try again.');
+    })
 });
 
 window.addEventListener("load", () => {
