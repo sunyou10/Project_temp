@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
+const fs = require('fs').promises;
 const port = 3000;
+
 
 const cookieParser = require('cookie-parser');
 const USER_COOKIE_KEY = 'USER'; // 로그인 성공 시 할당할 쿠키 이름
@@ -104,14 +106,14 @@ app.post('/submit-your-register-form', async (req, res) => {
     } else {
         const users = await fetchAllUsers();
         const newUser = {
-            "index": users.length + 1,
-            "id": email,
-            "password": password,
-            "location": location,
-            "nickname": nickname,
-            "phone-number": phoneNum,
-            "review": "",
-            "favorites": []
+            "index" : users.length + 1,
+            "id" : email,
+            "password" : password,
+            "location" : location,
+            "nickname" : nickname,
+            "phone-number" : phoneNum,
+            "review" : "",
+            "favorites" : []
         };
         await createUser(newUser);
         res.status(200).json({ success: true });
@@ -265,4 +267,34 @@ app.post('/reserve', async (req, res) => {
     }
 });
 
-app.listen(port, () => console.log(`Page open in port: ${port}`));
+app.post('/update-favorites', async (req, res) => {
+    const { email, favorite, action } = req.body;
+
+    try {
+        const users = await fetchAllUsers();
+        const user = users.find(u => u.id === email);
+
+        if (user) {
+            if (action === 'add') {
+                if (!user.favorites.includes(favorite)) {
+                    user.favorites.push(favorite);
+                    await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2), 'utf-8');
+                    res.status(200).json({ message: 'Favorite added successfully' });
+                } else {
+                    res.status(400).json({ message: 'Favorite already exists' });
+                }
+            } else if (action === 'remove') {
+                user.favorites = user.favorites.filter(item => item !== favorite);
+                await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2), 'utf-8');
+                res.status(200).json({ message: 'Favorite removed successfully' });
+            }
+        } else {
+            res.status(404).json({ message: 'User not found' });
+        }
+    } catch (error) {
+        console.error('Error updating favorites:', error);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
+
+app.listen(port, () => console.log(`Page open in  port: ${port}`));
