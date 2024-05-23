@@ -36,16 +36,14 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#!">About</a></li> -->
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
                         <li class="nav-item dropdown" id="hidden-item" style="visibility: hidden;">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Page</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">My Account</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Reservation</a></li>
-                                <li><a class="dropdown-item" href="#!">Favorites</a></li>
-                                <li><a class="dropdown-item" href="#!">Setting</a></li>
+                                <li><a class="dropdown-item" href="#" id="myAccountLink">My Account</a></li>
+                                <li><a class="dropdown-item" href="#" id="reservationsLink">Reservations</a></li>
+                                <li><a class="dropdown-item" href="#" id="favoritesLink">Favorites</a></li>
+                                <li><a class="dropdown-item" href="#" id="settingsLink">Settings</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -214,6 +212,28 @@
                     console.error('Error:', error);
                     alert('Reservation failed. Please try again.');
                 });
+            });
+            
+            document.addEventListener('DOMContentLoaded', function() {
+                const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+                if (userCookie) {
+                    document.getElementById('myPageDropdown').style.display = 'block';
+                } else {
+                    document.getElementById('myPageDropdown').style.display = 'none';
+                }
+            });
+
+            document.getElementById('myAccountLink').addEventListener('click', function() {
+                window.location.href = '/mypage';
+            });
+            document.getElementById('reservationsLink').addEventListener('click', function() {
+                window.location.href = '/reservations';
+            });
+            document.getElementById('favoritesLink').addEventListener('click', function() {
+                window.location.href = '/favorites';
+            });
+            document.getElementById('settingsLink').addEventListener('click', function() {
+                window.location.href = '/profile';
             });
         </script>
         

@@ -229,8 +229,8 @@ document.getElementById('easyReservationButton').addEventListener('click', () =>
             alert('Reservation failed. Please try again.');
         }
     }).catch(error => {
-             console.error('Error:', error);
-             alert('Reservation failed. Please try again.');
+        console.error('Error:', error);
+        alert('Reservation failed. Please try again.');
     })
 });
 

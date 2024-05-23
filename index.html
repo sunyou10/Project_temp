@@ -174,7 +174,15 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script>
-        // 기존 로그인 버튼 이벤트 리스너
+        document.addEventListener('DOMContentLoaded', function() {
+            const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+            if (userCookie) {
+                document.getElementById('myPageDropdown').style.display = 'block';
+            } else {
+                document.getElementById('myPageDropdown').style.display = 'none';
+            }
+        });
+
         document.getElementById('login-button').addEventListener('click', function() {
             window.location.href = '/login';
         });
@@ -184,42 +192,14 @@
             window.location.href = '/mypage';
         });
         document.getElementById('reservationsLink').addEventListener('click', function() {
-            window.location.href = '/mypage';
+            window.location.href = '/reservations';
         });
         document.getElementById('favoritesLink').addEventListener('click', function() {
-            window.location.href = '/mypage';
+            window.location.href = '/favorites';
         });
         document.getElementById('settingsLink').addEventListener('click', function() {
-            window.location.href = '/mypage';
+            window.location.href = '/profile';
         });
     </script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
-        if (userCookie) {
-            document.getElementById('myPageDropdown').style.display = 'block';
-        } else {
-            document.getElementById('myPageDropdown').style.display = 'none';
-        }
-    });
-
-    document.getElementById('login-button').addEventListener('click', function() {
-        window.location.href = '/login';
-    });
-
-    document.getElementById('myAccountLink').addEventListener('click', function() {
-        window.location.href = '/mypage';
-    });
-    document.getElementById('reservationsLink').addEventListener('click', function() {
-        window.location.href = '/mypage';
-    });
-    document.getElementById('favoritesLink').addEventListener('click', function() {
-        window.location.href = '/mypage';
-    });
-    document.getElementById('settingsLink').addEventListener('click', function() {
-        window.location.href = '/mypage';
-    });
-</script>
 </body>
 </html>
