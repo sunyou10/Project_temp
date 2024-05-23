@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/panda-logo.png" type="image/png">
+
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            padding: 10px 20px;
+            background: #212529;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navigation {
+            display: flex;
+            gap: 10px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        .mypage-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            color: #333;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .link-item {
+            padding: 8px 0;
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+        }
+
+        .link-item:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>Reservation Panda<br>
+            예약판다</div>
+        <div class="navigation">
+            <a href="/">Home</a>
+            <a href="#" id="logout-link">Logout</a>
+        </div>
+    </header>
+    <div class="mypage-container">
+        <h2>My Page</h2>
+        <div class="section">
+            <h3>개인정보 관리</h3>
+            <a href="/profile" class="link-item">개인 정보 수정</a>
+        </div>
+        <div class="section">
+            <h3>즐겨찾기</h3>
+            <a href="/favorites" class="link-item">내 즐겨찾기 보기</a>
+        </div>
+        <div class="section">
+            <h3>후기</h3>
+            <a href="/reviews" class="link-item">내 후기 관리</a>
+        </div>
+        <!-- <div class="section"> 
+            <h3>저장한 레스토랑</h3>
+            <a href="/saved-restaurants" class="link-item">저장된 레스토랑 보기</a>
+        </div>-->
+        <div class="section">
+            <h3>나의 예약</h3>
+            <a href="/my-reservations" class="link-item">예약 정보 확인</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('logout-link').addEventListener('click', function(event) {
+            event.preventDefault(); // 기본 동작 막기
+            // 로그아웃 처리
+            fetch('/logout', {
+                method: 'GET',
+                credentials: 'same-origin'
+            }).then(response => {
+                if (response.ok) {
+                    window.location.href = '/';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

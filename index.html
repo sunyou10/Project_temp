@@ -1,109 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Reservation-Panda</title>
-        
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/panda-logo.png" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Reservation-Panda</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/panda-logo.png" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 
-        <style>
-            .mybtn {
-                background-color: white; 
-            }
-            .mybtn:hover {
-                border-color: white;
-            }
-            .search-area {
+    <style>
+        .mybtn {
+            background-color: white; 
+        }
+        .mybtn:hover {
+            border-color: white;
+        }
+        .search-area {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 20px;
-            }
-            .checkbox-area {
-                display: flex;
-                justify-content: space-evenly;
-                margin-top: 10px;
-            }
-            .range-slider {
-                margin: 20px 0;
-            }
-            .filter-header {
-                text-align: center;
-                font-size: 24px;
-                font-weight: bold;
-                margin-bottom: 20px;
-            }
-            .filter-bar {
+        }
+        .checkbox-area {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 10px;
+        }
+        .range-slider {
+            margin: 20px 0;
+        }
+        .filter-header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .filter-bar {
             box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-            }
-            .form-check-inline {
-                margin-right: 10px;
-            }
-        </style>
+        }
+        .form-check-inline {
+            margin-right: 10px;
+        }
+    </style>
 
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="/">
-                    <img src="assets/panda-logo.png" style="width: 30px;" />
-                    Reservation-Panda</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#!">About</a></li> -->
-                        <li class="nav-item dropdown" id="hidden-item" style="visibility: hidden;">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Page</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">My Account</a></li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Reservation</a></li>
-                                <li><a class="dropdown-item" href="#!">Favorites</a></li>
-                                <li><a class="dropdown-item" href="#!">Setting</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex" >
-                        <button class="btn btn-outline-dark" type="button" onclick="location.href='/login'" id="login-button">
-                            <i class="bi-person-circle me-1"></i>
-                            Login
-                            <!-- <span class="badge bg-dark text-white ms-1 rounded-pill">0</span> -->
-                        </button>
-                    </form>
-                </div>
+</head>
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="/">
+                <img src="assets/panda-logo.png" style="width: 30px;" />
+                Reservation-Panda
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="myPageDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Page</a>
+                        <ul class="dropdown-menu" aria-labelledby="myPageDropdown">
+                            <li><a class="dropdown-item" href="#" id="myAccountLink">My Account</a></li>
+                            <li><a class="dropdown-item" href="#" id="reservationsLink">Reservations</a></li>
+                            <li><a class="dropdown-item" href="#" id="favoritesLink">Favorites</a></li>
+                            <li><a class="dropdown-item" href="#" id="settingsLink">Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-dark" type="button" id="login-button">
+                        <i class="bi-person-circle me-1"></i>
+                        Login
+                    </button>
+                </form>
             </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-5">
-            <div class="container px-4 px-lg-5 my-5">
-                <div class="text-center text-white">
-                    <img src="assets/panda-logo.png" style="width: 70px;filter: invert(100%);" />
-                    <h1 class="display-4 fw-bolder">Reservation-Panda</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">easy reservation</p>
-                  <!-- <p class="location" style="font-size: 1.3em; margin-top: 1rem;">
-                    <img src="assets/free-icon-location-2776063.png" style="width: 30px" />
-                    <a href="/location">Setting your location</a>
-                  </p> -->
-                    <form class="d-flex" style="display:flex; flex-direction: column; align-items: center; margin-top: 20px;">
-                        <button class="btn btn-outline-dark mybtn" type="button" onclick="location.href='/location'">
-                            <img src="assets/free-icon-location-2776063.png" style="width: 30px;" />
-                            Location
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">Setting</span>
-                        </button>
-                    </form>
-                </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="text-center text-white">
+                <img src="assets/panda-logo.png" style="width: 70px;filter: invert(100%);" />
+                <h1 class="display-4 fw-bolder">Reservation-Panda</h1>
+                <p class="lead fw-normal text-white-50 mb-0">easy reservation</p>
+                <form class="d-flex" style="display:flex; flex-direction: column; align-items: center; margin-top: 20px;">
+                    <button class="btn btn-outline-dark mybtn" type="button" onclick="location.href='/location'">
+                        <img src="assets/free-icon-location-2776063.png" style="width: 30px;" />
+                        Location
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">Setting</span>
+                    </button>
+                </form>
             </div>
-        </header>
+        </div>
+    </header>
     <!-- Search Filters-->
     <section class="container mt-4">
         <div class="filter-bar bg-light p-3 rounded">
@@ -173,6 +168,7 @@
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <!-- 여기에 식당 목록이 표시될 것입니다. -->
             </div>
         </div>
     </section>
@@ -184,5 +180,53 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        // 기존 로그인 버튼 이벤트 리스너
+        document.getElementById('login-button').addEventListener('click', function() {
+            window.location.href = '/login';
+        });
+
+        // 마이 페이지 링크 이벤트 리스너
+        document.getElementById('myAccountLink').addEventListener('click', function() {
+            window.location.href = '/mypage';
+        });
+        document.getElementById('reservationsLink').addEventListener('click', function() {
+            window.location.href = '/mypage';
+        });
+        document.getElementById('favoritesLink').addEventListener('click', function() {
+            window.location.href = '/mypage';
+        });
+        document.getElementById('settingsLink').addEventListener('click', function() {
+            window.location.href = '/mypage';
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+        if (userCookie) {
+            document.getElementById('myPageDropdown').style.display = 'block';
+        } else {
+            document.getElementById('myPageDropdown').style.display = 'none';
+        }
+    });
+
+    document.getElementById('login-button').addEventListener('click', function() {
+        window.location.href = '/login';
+    });
+
+    document.getElementById('myAccountLink').addEventListener('click', function() {
+        window.location.href = '/mypage';
+    });
+    document.getElementById('reservationsLink').addEventListener('click', function() {
+        window.location.href = '/mypage';
+    });
+    document.getElementById('favoritesLink').addEventListener('click', function() {
+        window.location.href = '/mypage';
+    });
+    document.getElementById('settingsLink').addEventListener('click', function() {
+        window.location.href = '/mypage';
+    });
+</script>
 </body>
 </html>
