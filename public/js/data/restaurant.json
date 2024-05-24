@@ -1,3670 +1,3682 @@
 [
-  {
-    "id": "1",
-    "name": "(유) 강김박 일식",
-    "image": "",
-    "location": "전라남도 청주시 서원구 봉은사길",
-    "tag": [
-      "#청결",
-      "#감성",
-      "#가족외식"
-    ],
-    "priceRange": "최저가",
-    "rating": 4.8,
-    "menus": [
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 66,
-    "contact": {
-      "phone": "018-177-3101",
-      "email": "gimminseog@example.net"
-    },
-    "specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
-    "website": "https://jusighoesa.com/",
-    "reviews": [
-      {
-        "author": "최정훈",
-        "date": "2024-01-19",
-        "rating": 3.640147314618793,
-        "comment": "Nulla quaerat consequatur autem."
-      },
-      {
-        "author": "안윤서",
-        "date": "2024-01-06",
-        "rating": 4.15077314975418,
-        "comment": "Ad repellendus quae perferendis voluptatem."
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "(유) 박 양식",
-    "image": "",
-    "location": "부산광역시 성북구 언주로",
-    "tag": [
-      "#커플",
-      "#가족외식",
-      "#인스타"
-    ],
-    "priceRange": "최저가",
-    "rating": 1.1,
-    "menus": [
-      {
-        "name": "스테이크",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "버터 치킨",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리조또",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "뇨끼",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라따뚜이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "파스타",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "피시 앤 칩스",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "햄버거",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 91,
-    "contact": {
-      "phone": "053-575-2594",
-      "email": "seoyeon30@example.com"
-    },
-    "specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
-    "website": "https://yuhanhoesa.net/",
-    "reviews": [
-      {
-        "author": "성현지",
-        "date": "2024-01-17",
-        "rating": 4.579196781376002,
-        "comment": "Assumenda voluptatibus eaque impedit."
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "name": "유한회사 안조송 프랑스식",
-    "image": "",
-    "location": "대구광역시 송파구 역삼0로",
-    "tag": [
-      "#커플",
-      "#맛집",
-      "#청결"
-    ],
-    "priceRange": "최저가",
-    "rating": 2.2,
-    "menus": [
-      {
-        "name": "라따뚜이",
-        "price": "16000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "니코아즈 샐러드",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "부야베스",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "코퀴유 상장",
-        "price": "19000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "크림 브륄레",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "파테 드 캉파뉴",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "에스카르고",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "프랑스 온리온 수프",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 96,
-    "contact": {
-      "phone": "011-398-4941",
-      "email": "sugjahwang@example.com"
-    },
-    "specialNotes": "섬세하고 고급스러운 프랑스 요리의 진수를 맛볼 수 있는 식당입니다. 부야베스, 에스카르고와 같은 특색 있는 메뉴가 강점입니다.",
-    "website": "https://baeghwangjang.com/",
-    "reviews": [
-      {
-        "author": "권도윤",
-        "date": "2024-02-15",
-        "rating": 3.922578220205879,
-        "comment": "Delectus nemo eius alias quae iure."
-      },
-      {
-        "author": "김민지",
-        "date": "2024-05-01",
-        "rating": 3.61519707195823,
-        "comment": "Saepe quaerat rem mollitia dolores velit."
-      },
-      {
-        "author": "이상호",
-        "date": "2024-04-28",
-        "rating": 4.4251026257335,
-        "comment": "Non labore occaecati."
-      },
-      {
-        "author": "장옥순",
-        "date": "2024-04-15",
-        "rating": 3.434917286325519,
-        "comment": "Dolorum quam aliquid cumque aperiam."
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "name": "문김고 양식",
-    "image": "",
-    "location": "전라북도 단양군 석촌호수960길",
-    "tag": [
-      "#지역명물",
-      "#청결",
-      "#가족외식"
-    ],
-    "priceRange": "최저가",
-    "rating": 1.3,
-    "menus": [
-      {
-        "name": "파스타",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "스테이크",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "뇨끼",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "버터 치킨",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "피시 앤 칩스",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라따뚜이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리조또",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "햄버거",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 46,
-    "contact": {
-      "phone": "018-595-7812",
-      "email": "jeongsubag@example.net"
-    },
-    "specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
-    "website": "https://www.gangjin.net/",
-    "reviews": [
-      {
-        "author": "김정수",
-        "date": "2024-03-29",
-        "rating": 4.191003671242942,
-        "comment": "Voluptas libero reprehenderit amet eius laboriosam."
-      },
-      {
-        "author": "오성민",
-        "date": "2024-04-29",
-        "rating": 3.6628182419031763,
-        "comment": "Harum culpa animi similique recusandae asperiores eaque."
-      },
-      {
-        "author": "신보람",
-        "date": "2024-01-06",
-        "rating": 4.884458786147653,
-        "comment": "Odio et deserunt eaque fugit repudiandae aut eaque."
-      },
-      {
-        "author": "우하은",
-        "date": "2024-03-27",
-        "rating": 3.3919033242387324,
-        "comment": "Reprehenderit aspernatur adipisci blanditiis vero."
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "name": "김김양 프랑스식",
-    "image": "",
-    "location": "대구광역시 광진구 봉은사1길 (수진김김면)",
-    "tag": [
-      "#감성",
-      "#청결",
-      "#가족외식"
-    ],
-    "priceRange": "저가",
-    "rating": 1.6,
-    "menus": [
-      {
-        "name": "크림 브륄레",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "프랑스 온리온 수프",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "파테 드 캉파뉴",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라따뚜이",
-        "price": "16000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "부야베스",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "코퀴유 상장",
-        "price": "19000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "니코아즈 샐러드",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "에스카르고",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "예약 가능"
-    ],
-    "seatingCapacity": 14,
-    "contact": {
-      "phone": "041-363-8475",
-      "email": "qi@example.net"
-    },
-    "specialNotes": "섬세하고 고급스러운 프랑스 요리의 진수를 맛볼 수 있는 식당입니다. 부야베스, 에스카르고와 같은 특색 있는 메뉴가 강점입니다.",
-    "website": "http://songbag.com/",
-    "reviews": [
-      {
-        "author": "이서윤",
-        "date": "2024-01-07",
-        "rating": 3.2459499862693404,
-        "comment": "Ad ex consequuntur."
-      },
-      {
-        "author": "김영일",
-        "date": "2024-01-10",
-        "rating": 3.782094482243307,
-        "comment": "Asperiores sequi reprehenderit vero."
-      },
-      {
-        "author": "엄상호",
-        "date": "2024-04-07",
-        "rating": 4.86243510799583,
-        "comment": "Consequuntur tempora et dicta illum quo."
-      }
-    ]
-  },
-  {
-    "id": "6",
-    "name": "(유) 황 양식",
-    "image": "",
-    "location": "울산광역시 종로구 도산대로 (미경김읍)",
-    "tag": [
-      "#청결",
-      "#지역명물",
-      "#셀프서비스"
-    ],
-    "priceRange": "저가",
-    "rating": 3.3,
-    "menus": [
-      {
-        "name": "라따뚜이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "스테이크",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리조또",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "뇨끼",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "파스타",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "피시 앤 칩스",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "버터 치킨",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "햄버거",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 30,
-    "contact": {
-      "phone": "055-417-9732",
-      "email": "xryu@example.com"
-    },
-    "specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
-    "website": "http://www.ju.com/",
-    "reviews": [
-      {
-        "author": "이영일",
-        "date": "2024-04-16",
-        "rating": 4.138150967498228,
-        "comment": "Modi amet a odit."
-      },
-      {
-        "author": "송은영",
-        "date": "2024-01-17",
-        "rating": 3.3626854997891114,
-        "comment": "Soluta assumenda esse."
-      },
-      {
-        "author": "조진우",
-        "date": "2024-02-09",
-        "rating": 3.7005202335563427,
-        "comment": "Voluptas sunt corporis et explicabo consectetur voluptates rem."
-      },
-      {
-        "author": "유지민",
-        "date": "2024-04-18",
-        "rating": 3.9547817887641847,
-        "comment": "Repellat fugiat libero voluptates eum ullam."
-      },
-      {
-        "author": "박준서",
-        "date": "2024-03-14",
-        "rating": 4.99907109695551,
-        "comment": "Soluta esse adipisci nisi."
-      }
-    ]
-  },
-  {
-    "id": "7",
-    "name": "(유) 박 아메리칸 음식",
-    "image": "",
-    "location": "경상남도 고성군 서초대493로 (정숙황리)",
-    "tag": [
-      "#커플",
-      "#감성",
-      "#셀프서비스"
-    ],
-    "priceRange": "중간",
-    "rating": 2.7,
-    "menus": [
-      {
-        "name": "맥 앤 치즈",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "버팔로 윙",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "핫도그",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "치즈버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "바비큐 리브",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "콥 샐러드",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "머핀",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "클램 차우더",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 74,
-    "contact": {
-      "phone": "018-074-9695",
-      "email": "uhan@example.net"
-    },
-    "specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
-    "website": "http://www.yunmin.org/",
-    "reviews": [
-      {
-        "author": "한경숙",
-        "date": "2024-03-19",
-        "rating": 4.710067778598903,
-        "comment": "Quia cum modi ab aut aliquid dolorum."
-      },
-      {
-        "author": "이지원",
-        "date": "2024-02-24",
-        "rating": 3.470536769824684,
-        "comment": "Architecto est quia nostrum repellat beatae."
-      },
-      {
-        "author": "최성현",
-        "date": "2024-03-16",
-        "rating": 4.76413536885028,
-        "comment": "Odio ea veniam distinctio vero illo quod."
-      },
-      {
-        "author": "한민준",
-        "date": "2024-04-18",
-        "rating": 3.1415908766174843,
-        "comment": "Labore dolorem corporis exercitationem non ipsum aliquam voluptatem."
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "name": "(주) 김 태국식",
-    "image": "",
-    "location": "전라남도 청주시 청원구 선릉가 (동현김김면)",
-    "tag": [
-      "#지역명물",
-      "#감성",
-      "#가족외식"
-    ],
-    "priceRange": "최고가",
-    "rating": 3.9,
-    "menus": [
-      {
-        "name": "망고 스티키 라이스",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "레드 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소프트 쉘 크랩",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "그린 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카오 팟",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "팟타이",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "톰얌꿍",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "팟 시유",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 70,
-    "contact": {
-      "phone": "02-9160-0986",
-      "email": "yeonghwan85@example.com"
-    },
-    "specialNotes": "매콤하고 상큼한 맛의 태국 요리를 경험할 수 있는 곳입니다. 팟타이, 그린 커리와 같은 대표적인 태국 요리로 입맛을 사로잡습니다.",
-    "website": "https://www.yuhanhoesa.com/",
-    "reviews": [
-      {
-        "author": "최정희",
-        "date": "2024-01-20",
-        "rating": 4.256167010549105,
-        "comment": "Aut error consequuntur illo nemo commodi."
-      },
-      {
-        "author": "박성진",
-        "date": "2024-03-02",
-        "rating": 3.655157141241797,
-        "comment": "Accusamus optio maxime voluptate."
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "name": "서이 일식",
-    "image": "",
-    "location": "경상남도 수원시 석촌호수2로 (경수김리)",
-    "tag": [
-      "#셀프서비스",
-      "#커플",
-      "#맛집"
-    ],
-    "priceRange": "중간",
-    "rating": 1.4,
-    "menus": [
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "예약 가능"
-    ],
-    "seatingCapacity": 96,
-    "contact": {
-      "phone": "054-331-9182",
-      "email": "ryuyeongsu@example.org"
-    },
-    "specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
-    "website": "http://yu.com/",
-    "reviews": [
-      {
-        "author": "박영호",
-        "date": "2024-02-13",
-        "rating": 3.6218164413277205,
-        "comment": "Tenetur fuga esse a possimus."
-      },
-      {
-        "author": "홍지후",
-        "date": "2024-03-19",
-        "rating": 4.659415107004869,
-        "comment": "Nostrum at eveniet quos consequatur quod quo similique."
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "name": "주식회사 이박이 퓨전음식",
-    "image": "",
-    "location": "전라남도 논산시 역삼길 (영호정마을)",
-    "tag": [
-      "#셀프서비스",
-      "#커플",
-      "#지역명물"
-    ],
-    "priceRange": "중간",
-    "rating": 1.0,
-    "menus": [
-      {
-        "name": "와사비 마요네즈 치킨",
-        "price": "9500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "소고기 미소라멘",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "불고기 버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "커리 우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "시저 샐러드 킴밥",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "멕시칸 삼겹살",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "김치 파스타",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "토마토 탕수육",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 87,
-    "contact": {
-      "phone": "033-869-8666",
-      "email": "hyeonsugi@example.org"
-    },
-    "specialNotes": "전 세계의 요리를 혁신적으로 조합한 메뉴를 제공합니다. 기존 음식에 새로운 트위스트를 더해 독특하고 매력적인 맛을 창출합니다.",
-    "website": "http://www.bagcoe.com/",
-    "reviews": [
-      {
-        "author": "이예지",
-        "date": "2024-03-16",
-        "rating": 4.150493386646204,
-        "comment": "Dignissimos magni voluptate deleniti tempora."
-      },
-      {
-        "author": "김민준",
-        "date": "2024-03-24",
-        "rating": 3.653947386360632,
-        "comment": "Corrupti veritatis possimus."
-      },
-      {
-        "author": "김경숙",
-        "date": "2024-04-14",
-        "rating": 4.590785479322817,
-        "comment": "Nihil quisquam consectetur officiis ea."
-      },
-      {
-        "author": "권미경",
-        "date": "2024-03-20",
-        "rating": 3.939133733029053,
-        "comment": "Cupiditate debitis modi vero deserunt."
-      }
-    ]
-  },
-  {
-    "id": "11",
-    "name": "고최 이탈리아 음식",
-    "image": "",
-    "location": "경기도 부천시 소사구 오금0로 (은영구김동)",
-    "tag": [
-      "#인스타",
-      "#커플",
-      "#가족외식"
-    ],
-    "priceRange": "저가",
-    "rating": 3.7,
-    "menus": [
-      {
-        "name": "티라미수",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "페투치니 알프레도",
-        "price": "13500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "폴렌티나 스테이크",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "오소 부코",
-        "price": "24000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카르파초",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "미네스트로네 수프",
-        "price": "8500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "마르게리타 피자",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카르보나라",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 67,
-    "contact": {
-      "phone": "053-999-1068",
-      "email": "egim@example.org"
-    },
-    "specialNotes": "이탈리아 현지에서 느낄 수 있는 맛을 그대로 제공합니다. 신선한 재료로 만든 마르게리타 피자, 페투치니 알프레도가 인기 메뉴입니다.",
-    "website": "https://iyun.kr/",
-    "reviews": [
-      {
-        "author": "문영일",
-        "date": "2024-04-18",
-        "rating": 4.17137673204498,
-        "comment": "Pariatur amet reiciendis aperiam molestias."
-      },
-      {
-        "author": "손미경",
-        "date": "2024-04-28",
-        "rating": 4.073138516408511,
-        "comment": "Ex tempora qui unde ea minus."
-      }
-    ]
-  },
-  {
-    "id": "12",
-    "name": "고김 아메리칸 음식",
-    "image": "",
-    "location": "울산광역시 강남구 논현가",
-    "tag": [
-      "#커플",
-      "#맛집",
-      "#감성"
-    ],
-    "priceRange": "고가",
-    "rating": 4.1,
-    "menus": [
-      {
-        "name": "맥 앤 치즈",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "콥 샐러드",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "핫도그",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "버팔로 윙",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "바비큐 리브",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "머핀",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "클램 차우더",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "치즈버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 28,
-    "contact": {
-      "phone": "061-081-9145",
-      "email": "si@example.net"
-    },
-    "specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
-    "website": "https://ju.com/",
-    "reviews": [
-      {
-        "author": "박준혁",
-        "date": "2024-01-13",
-        "rating": 4.016383935688458,
-        "comment": "Soluta modi impedit quia."
-      },
-      {
-        "author": "문수진",
-        "date": "2024-05-05",
-        "rating": 4.791511096726047,
-        "comment": "Quibusdam excepturi omnis quasi ea magni."
-      }
-    ]
-  },
-  {
-    "id": "13",
-    "name": "주식회사 이김이 일식",
-    "image": "",
-    "location": "서울특별시 서대문구 도산대길 (민서안동)",
-    "tag": [
-      "#가족외식",
-      "#맛집",
-      "#인스타"
-    ],
-    "priceRange": "고가",
-    "rating": 3.7,
-    "menus": [
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 49,
-    "contact": {
-      "phone": "054-774-0585",
-      "email": "bagseunghyeon@example.org"
-    },
-    "specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
-    "website": "https://jusighoesa.net/",
-    "reviews": [
-      {
-        "author": "김수민",
-        "date": "2024-02-26",
-        "rating": 4.629450872292431,
-        "comment": "Ab minus repellendus placeat eius est."
-      },
-      {
-        "author": "노현지",
-        "date": "2024-02-27",
-        "rating": 4.884081590862981,
-        "comment": "Voluptatum at adipisci harum porro praesentium."
-      }
-    ]
-  },
-  {
-    "id": "14",
-    "name": "(주) 김이박 아시아음식",
-    "image": "",
-    "location": "서울특별시 남구 테헤란79가",
-    "tag": [
-      "#맛집",
-      "#감성",
-      "#셀프서비스"
-    ],
-    "priceRange": "중간",
-    "rating": 4.9,
-    "menus": [
-      {
-        "name": "사테",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "팟타이",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "불고기 바오",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "샤오롱바오",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "만두",
-        "price": "4000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "치킨 커리",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "데리야키",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "김밥",
-        "price": "3500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 40,
-    "contact": {
-      "phone": "053-817-3597",
-      "email": "sugjagim@example.net"
-    },
-    "specialNotes": "아시아 다양한 나라의 요리를 한 곳에서 맛볼 수 있습니다. 한국, 일본, 중국, 태국 등의 대표 요리를 섬세하게 조리하여 제공합니다.",
-    "website": "http://jusighoesa.kr/",
-    "reviews": [
-      {
-        "author": "한미경",
-        "date": "2024-04-07",
-        "rating": 3.49458789159789,
-        "comment": "Repellat nemo nihil officia vitae eum deleniti."
-      },
-      {
-        "author": "김영환",
-        "date": "2024-03-02",
-        "rating": 4.263145935564117,
-        "comment": "Ex ratione sed."
-      },
-      {
-        "author": "김춘자",
-        "date": "2024-02-27",
-        "rating": 3.806348917600704,
-        "comment": "Assumenda illum repudiandae dicta ipsam reiciendis magni."
-      },
-      {
-        "author": "양서영",
-        "date": "2024-03-10",
-        "rating": 4.199080008250036,
-        "comment": "Laudantium nam incidunt."
-      }
-    ]
-  },
-  {
-    "id": "15",
-    "name": "(유) 김 한식",
-    "image": "",
-    "location": "경상남도 과천시 개포990길",
-    "tag": [
-      "#커플",
-      "#지역명물",
-      "#인스타"
-    ],
-    "priceRange": "중간",
-    "rating": 1.1,
-    "menus": [
-      {
-        "name": "불고기",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "해장국",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "김치찌개",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "비빔밥",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "갈비탕",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "순두부찌개",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "보쌈",
-        "price": "16000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "된장찌개",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 34,
-    "contact": {
-      "phone": "041-056-1655",
-      "email": "hwangjihye@example.com"
-    },
-    "specialNotes": "따뜻한 국물과 얼큰한 매운맛이 특징인 한국 전통 음식들을 즐길 수 있는 곳입니다. 김치, 불고기 등 다양한 반찬과 함께 제공되어 한 끼 식사가 푸짐합니다.",
-    "website": "http://yuhanhoesa.net/",
-    "reviews": [
-      {
-        "author": "문현준",
-        "date": "2024-01-01",
-        "rating": 3.1143410555208346,
-        "comment": "Maiores delectus eius odio dolorum iure est laborum."
-      },
-      {
-        "author": "배수빈",
-        "date": "2024-04-29",
-        "rating": 3.2306297831601842,
-        "comment": "Expedita maiores labore qui nemo."
-      },
-      {
-        "author": "홍진우",
-        "date": "2024-01-18",
-        "rating": 3.815556911412071,
-        "comment": "Sit magnam culpa optio adipisci non."
-      },
-      {
-        "author": "김정웅",
-        "date": "2024-05-06",
-        "rating": 4.222543192924403,
-        "comment": "Omnis hic consectetur explicabo."
-      },
-      {
-        "author": "이영환",
-        "date": "2024-04-04",
-        "rating": 3.481620557944713,
-        "comment": "Pariatur maxime nesciunt consequatur dolore tenetur."
-      }
-    ]
-  },
-  {
-    "id": "16",
-    "name": "지황김 태국식",
-    "image": "",
-    "location": "세종특별자치시 광진구 서초중앙8가",
-    "tag": [
-      "#인스타",
-      "#감성",
-      "#맛집"
-    ],
-    "priceRange": "중간",
-    "rating": 3.5,
-    "menus": [
-      {
-        "name": "레드 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "그린 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "팟 시유",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카오 팟",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소프트 쉘 크랩",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "망고 스티키 라이스",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "팟타이",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "톰얌꿍",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 57,
-    "contact": {
-      "phone": "011-420-0529",
-      "email": "hyeonu87@example.net"
-    },
-    "specialNotes": "매콤하고 상큼한 맛의 태국 요리를 경험할 수 있는 곳입니다. 팟타이, 그린 커리와 같은 대표적인 태국 요리로 입맛을 사로잡습니다.",
-    "website": "http://www.jusighoesa.org/",
-    "reviews": [
-      {
-        "author": "김미정",
-        "date": "2024-03-07",
-        "rating": 3.0647566290632917,
-        "comment": "Officia quia ut."
-      },
-      {
-        "author": "류미숙",
-        "date": "2024-02-07",
-        "rating": 4.851009436116987,
-        "comment": "Assumenda voluptate porro quae earum pariatur."
-      },
-      {
-        "author": "김도윤",
-        "date": "2024-02-07",
-        "rating": 3.0625467196119383,
-        "comment": "Velit ullam repellendus."
-      },
-      {
-        "author": "박우진",
-        "date": "2024-04-30",
-        "rating": 3.9642573992572565,
-        "comment": "Neque laudantium ad."
-      },
-      {
-        "author": "박예지",
-        "date": "2024-02-09",
-        "rating": 4.395669501638537,
-        "comment": "Iste tempora quibusdam."
-      }
-    ]
-  },
-  {
-    "id": "17",
-    "name": "오이 퓨전음식",
-    "image": "",
-    "location": "충청북도 부천시 소사구 석촌호수2로 (진우서진면)",
-    "tag": [
-      "#커플",
-      "#가족외식",
-      "#맛집"
-    ],
-    "priceRange": "저가",
-    "rating": 3.7,
-    "menus": [
-      {
-        "name": "커리 우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "김치 파스타",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소고기 미소라멘",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "불고기 버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "토마토 탕수육",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "멕시칸 삼겹살",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "와사비 마요네즈 치킨",
-        "price": "9500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "시저 샐러드 킴밥",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 38,
-    "contact": {
-      "phone": "062-078-8512",
-      "email": "xgwag@example.org"
-    },
-    "specialNotes": "전 세계의 요리를 혁신적으로 조합한 메뉴를 제공합니다. 기존 음식에 새로운 트위스트를 더해 독특하고 매력적인 맛을 창출합니다.",
-    "website": "http://www.jusighoesa.com/",
-    "reviews": [
-      {
-        "author": "민예지",
-        "date": "2024-02-05",
-        "rating": 3.4888609111383677,
-        "comment": "Tempora ipsam sunt voluptates porro."
-      },
-      {
-        "author": "류정희",
-        "date": "2024-02-02",
-        "rating": 3.6105347909719385,
-        "comment": "Eum rem officiis ut asperiores qui."
-      }
-    ]
-  },
-  {
-    "id": "18",
-    "name": "주식회사 이손이 아메리칸 음식",
-    "image": "",
-    "location": "세종특별자치시 금천구 오금73로 (상훈장리)",
-    "tag": [
-      "#맛집",
-      "#지역명물",
-      "#청결"
-    ],
-    "priceRange": "저가",
-    "rating": 1.4,
-    "menus": [
-      {
-        "name": "맥 앤 치즈",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "클램 차우더",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "치즈버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "머핀",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "버팔로 윙",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "바비큐 리브",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "콥 샐러드",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "핫도그",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "주차 가능",
-      "예약 가능"
-    ],
-    "seatingCapacity": 80,
-    "contact": {
-      "phone": "043-792-7603",
-      "email": "yeonghwan79@example.org"
-    },
-    "specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
-    "website": "http://jusighoesa.com/",
-    "reviews": [
-      {
-        "author": "이준서",
-        "date": "2024-01-05",
-        "rating": 4.28859783712532,
-        "comment": "Neque numquam animi iure fugit aspernatur voluptatum dolor."
-      },
-      {
-        "author": "서현정",
-        "date": "2024-01-11",
-        "rating": 3.221820097632481,
-        "comment": "Laudantium iure repudiandae consequatur."
-      }
-    ]
-  },
-  {
-    "id": "19",
-    "name": "주식회사 김장심 아시아음식",
-    "image": "",
-    "location": "광주광역시 동대문구 압구정569로 (정자장면)",
-    "tag": [
-      "#맛집",
-      "#청결",
-      "#커플"
-    ],
-    "priceRange": "최고가",
-    "rating": 3.5,
-    "menus": [
-      {
-        "name": "치킨 커리",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "김밥",
-        "price": "3500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "만두",
-        "price": "4000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "불고기 바오",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "데리야키",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "팟타이",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사테",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "샤오롱바오",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 94,
-    "contact": {
-      "phone": "061-910-4774",
-      "email": "ii@example.net"
-    },
-    "specialNotes": "아시아 다양한 나라의 요리를 한 곳에서 맛볼 수 있습니다. 한국, 일본, 중국, 태국 등의 대표 요리를 섬세하게 조리하여 제공합니다.",
-    "website": "http://www.hongi.com/",
-    "reviews": [
-      {
-        "author": "진수진",
-        "date": "2024-04-01",
-        "rating": 4.465583743636154,
-        "comment": "Expedita placeat ipsam temporibus a molestiae."
-      },
-      {
-        "author": "김준서",
-        "date": "2024-01-15",
-        "rating": 4.627170201323953,
-        "comment": "Quidem qui exercitationem harum quidem voluptate laboriosam."
-      },
-      {
-        "author": "이은서",
-        "date": "2024-04-28",
-        "rating": 3.2320442470714084,
-        "comment": "Totam culpa magni ratione."
-      },
-      {
-        "author": "권춘자",
-        "date": "2024-01-26",
-        "rating": 4.570477219722647,
-        "comment": "Qui dolore voluptate laudantium beatae explicabo amet facere."
-      },
-      {
-        "author": "권우진",
-        "date": "2024-04-24",
-        "rating": 4.391918559275949,
-        "comment": "A blanditiis omnis quos."
-      }
-    ]
-  },
-  {
-    "id": "20",
-    "name": "(주) 김 일식",
-    "image": "",
-    "location": "인천광역시 동구 선릉6길 (상철강이마을)",
-    "tag": [
-      "#커플",
-      "#맛집",
-      "#인스타"
-    ],
-    "priceRange": "최저가",
-    "rating": 3.2,
-    "menus": [
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "주차 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 58,
-    "contact": {
-      "phone": "033-861-4990",
-      "email": "ni@example.org"
-    },
-    "specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
-    "website": "http://www.yu.com/",
-    "reviews": [
-      {
-        "author": "이예준",
-        "date": "2024-02-19",
-        "rating": 4.557346571646367,
-        "comment": "Nulla doloremque ab culpa ipsam fugit."
-      },
-      {
-        "author": "한진우",
-        "date": "2024-03-16",
-        "rating": 4.683368212967592,
-        "comment": "Asperiores libero possimus architecto expedita veniam."
-      },
-      {
-        "author": "정영순",
-        "date": "2024-03-26",
-        "rating": 4.738389672756426,
-        "comment": "Libero exercitationem corporis ipsum nemo voluptates voluptate."
-      },
-      {
-        "author": "박경숙",
-        "date": "2024-01-30",
-        "rating": 3.301398176658715,
-        "comment": "Magnam quibusdam autem eum."
-      }
-    ]
-  },
-  {
-    "id": "21",
-    "name": "유김최 일식",
-    "image": "",
-    "location": "강원도 안양시 만안구 오금7가",
-    "tag": [
-      "#지역명물",
-      "#청결",
-      "#커플"
-    ],
-    "priceRange": "최저가",
-    "rating": 1.5,
-    "menus": [
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 49,
-    "contact": {
-      "phone": "055-440-2590",
-      "email": "seonghyeongim@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "https://nami.org/",
-    "reviews": [
-      {
-        "author": "안우진",
-        "date": "2024-04-23",
-        "rating": 4.372932283365757,
-        "comment": "Veritatis cum ullam debitis neque eaque sint."
-      },
-      {
-        "author": "박지현",
-        "date": "2024-04-26",
-        "rating": 4.153110604601849,
-        "comment": "Ullam inventore odit."
-      },
-      {
-        "author": "우현정",
-        "date": "2024-02-04",
-        "rating": 3.6121081962658357,
-        "comment": "Cum quis ipsum minima culpa perspiciatis id."
-      },
-      {
-        "author": "김은정",
-        "date": "2024-04-24",
-        "rating": 3.2751113332356514,
-        "comment": "Animi iste adipisci voluptatum."
-      },
-      {
-        "author": "김은지",
-        "date": "2024-03-27",
-        "rating": 3.408534626592699,
-        "comment": "Laborum ullam minus quaerat rem est ipsam voluptates."
-      }
-    ]
-  },
-  {
-    "id": "22",
-    "name": "(주) 구 퓨전음식",
-    "image": "",
-    "location": "전라북도 양구군 삼성로 (서연엄동)",
-    "tag": [
-      "#셀프서비스",
-      "#가족외식",
-      "#맛집"
-    ],
-    "priceRange": "저가",
-    "rating": 1.1,
-    "menus": [
-      {
-        "name": "소고기 미소라멘",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "불고기 버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "시저 샐러드 킴밥",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "토마토 탕수육",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "멕시칸 삼겹살",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "김치 파스타",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "커리 우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "와사비 마요네즈 치킨",
-        "price": "9500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 66,
-    "contact": {
-      "phone": "064-794-8259",
-      "email": "seongjini@example.net"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "http://bagseogim.com/",
-    "reviews": [
-      {
-        "author": "김상철",
-        "date": "2024-04-09",
-        "rating": 3.0323911315158756,
-        "comment": "Hic amet in suscipit asperiores veritatis eligendi."
-      },
-      {
-        "author": "김지혜",
-        "date": "2024-03-15",
-        "rating": 4.133166602696161,
-        "comment": "Facilis earum temporibus aliquam a distinctio reiciendis."
-      },
-      {
-        "author": "홍현정",
-        "date": "2024-02-27",
-        "rating": 3.089197667197949,
-        "comment": "Sed delectus repellat nostrum perspiciatis."
-      },
-      {
-        "author": "양지혜",
-        "date": "2024-03-16",
-        "rating": 4.889349131705373,
-        "comment": "Natus vitae incidunt tenetur doloribus enim."
-      }
-    ]
-  },
-  {
-    "id": "23",
-    "name": "유한회사 김허박 프랑스식",
-    "image": "",
-    "location": "충청북도 광주시 강남대886가",
-    "tag": [
-      "#맛집",
-      "#인스타",
-      "#청결"
-    ],
-    "priceRange": "최고가",
-    "rating": 4.1,
-    "menus": [
-      {
-        "name": "니코아즈 샐러드",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "코퀴유 상장",
-        "price": "19000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "프랑스 온리온 수프",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "에스카르고",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라따뚜이",
-        "price": "16000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "크림 브륄레",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "파테 드 캉파뉴",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "부야베스",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 57,
-    "contact": {
-      "phone": "053-839-1176",
-      "email": "yeweoncoe@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "https://www.bagsinjang.com/",
-    "reviews": [
-      {
-        "author": "김민수",
-        "date": "2024-05-08",
-        "rating": 3.1014748595495116,
-        "comment": "Rerum explicabo veniam quod dolore nesciunt amet."
-      }
-    ]
-  },
-  {
-    "id": "24",
-    "name": "김송김 태국식",
-    "image": "",
-    "location": "전라북도 이천시 오금7길",
-    "tag": [
-      "#커플",
-      "#지역명물",
-      "#감성"
-    ],
-    "priceRange": "최저가",
-    "rating": 2.9,
-    "menus": [
-      {
-        "name": "톰얌꿍",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카오 팟",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "팟타이",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소프트 쉘 크랩",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "팟 시유",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "망고 스티키 라이스",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "그린 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "레드 커리",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 17,
-    "contact": {
-      "phone": "054-617-6208",
-      "email": "gimjeongsug@example.net"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "http://yuhanhoesa.com/",
-    "reviews": [
-      {
-        "author": "박은경",
-        "date": "2024-01-18",
-        "rating": 3.6295299259046727,
-        "comment": "Minima dolores magni aperiam maiores dolor."
-      },
-      {
-        "author": "양지훈",
-        "date": "2024-04-01",
-        "rating": 3.5796194533723487,
-        "comment": "Fuga similique maxime quisquam tempora quasi."
-      },
-      {
-        "author": "주경수",
-        "date": "2024-04-08",
-        "rating": 3.6084945851116315,
-        "comment": "Omnis facere exercitationem quidem illo."
-      },
-      {
-        "author": "손재현",
-        "date": "2024-04-21",
-        "rating": 3.9309206916748054,
-        "comment": "Praesentium aspernatur ad excepturi soluta pariatur."
-      }
-    ]
-  },
-  {
-    "id": "25",
-    "name": "김김강 일식",
-    "image": "",
-    "location": "서울특별시 서초구 반포대09로 (진호김강읍)",
-    "tag": [
-      "#인스타",
-      "#가족외식",
-      "#커플"
-    ],
-    "priceRange": "중간",
-    "rating": 1.7,
-    "menus": [
-      {
-        "name": "야키니쿠",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "초밥",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "소바",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라멘",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "돈부리",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사케동",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 39,
-    "contact": {
-      "phone": "055-219-1697",
-      "email": "gimjihun@example.net"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "https://www.gimcoe.net/",
-    "reviews": [
-      {
-        "author": "오민준",
-        "date": "2024-03-30",
-        "rating": 3.4256936081841656,
-        "comment": "Laboriosam molestiae asperiores perspiciatis ab alias nobis."
-      },
-      {
-        "author": "박상철",
-        "date": "2024-05-04",
-        "rating": 3.374504726407525,
-        "comment": "Magnam quis id sapiente fugit odit quasi."
-      }
-    ]
-  },
-  {
-    "id": "26",
-    "name": "유한회사 김 아시아음식",
-    "image": "",
-    "location": "울산광역시 도봉구 개포21가",
-    "tag": [
-      "#청결",
-      "#지역명물",
-      "#맛집"
-    ],
-    "priceRange": "고가",
-    "rating": 2.1,
-    "menus": [
-      {
-        "name": "데리야키",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "불고기 바오",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "팟타이",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "사테",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "만두",
-        "price": "4000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "김밥",
-        "price": "3500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "치킨 커리",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "샤오롱바오",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "포장 가능",
-      "예약 가능"
-    ],
-    "seatingCapacity": 32,
-    "contact": {
-      "phone": "018-408-2193",
-      "email": "zryu@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "https://yuhanhoesa.kr/",
-    "reviews": [
-      {
-        "author": "김경수",
-        "date": "2024-01-10",
-        "rating": 3.868195106599837,
-        "comment": "Natus ab illo voluptatum."
-      },
-      {
-        "author": "김순옥",
-        "date": "2024-02-28",
-        "rating": 3.0009866964096035,
-        "comment": "Quas occaecati suscipit minima."
-      },
-      {
-        "author": "박하윤",
-        "date": "2024-05-04",
-        "rating": 3.791219250466784,
-        "comment": "Necessitatibus officia reiciendis dolor enim vel velit."
-      },
-      {
-        "author": "김은주",
-        "date": "2024-02-15",
-        "rating": 4.257157747680466,
-        "comment": "Labore dicta asperiores placeat inventore expedita."
-      },
-      {
-        "author": "송채원",
-        "date": "2024-01-29",
-        "rating": 4.851764806531724,
-        "comment": "Impedit sequi accusamus nobis veniam iste nemo."
-      }
-    ]
-  },
-  {
-    "id": "27",
-    "name": "주식회사 서 이탈리아 음식",
-    "image": "",
-    "location": "전라북도 당진시 도산대8길",
-    "tag": [
-      "#감성",
-      "#가족외식",
-      "#청결"
-    ],
-    "priceRange": "고가",
-    "rating": 3.8,
-    "menus": [
-      {
-        "name": "마르게리타 피자",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카르보나라",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "미네스트로네 수프",
-        "price": "8500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "오소 부코",
-        "price": "24000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "티라미수",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "카르파초",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "폴렌티나 스테이크",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "페투치니 알프레도",
-        "price": "13500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "주차 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 38,
-    "contact": {
-      "phone": "033-911-7053",
-      "email": "imijeong@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "http://www.songjangi.com/",
-    "reviews": [
-      {
-        "author": "이은주",
-        "date": "2024-01-25",
-        "rating": 4.410574972630562,
-        "comment": "Magni dolore possimus itaque amet et eum."
-      },
-      {
-        "author": "전준혁",
-        "date": "2024-04-04",
-        "rating": 4.4656821056242455,
-        "comment": "Praesentium voluptates velit quae iste."
-      },
-      {
-        "author": "김영길",
-        "date": "2024-01-28",
-        "rating": 3.186667888718582,
-        "comment": "Ipsam consectetur maxime iure minima eos."
-      },
-      {
-        "author": "박정숙",
-        "date": "2024-04-14",
-        "rating": 4.464198644762687,
-        "comment": "Pariatur impedit quibusdam voluptas."
-      },
-      {
-        "author": "김성민",
-        "date": "2024-03-29",
-        "rating": 3.3483866206719024,
-        "comment": "Quod asperiores eius maiores."
-      }
-    ]
-  },
-  {
-    "id": "28",
-    "name": "안이구 아메리칸 음식",
-    "image": "",
-    "location": "광주광역시 용산구 오금가",
-    "tag": [
-      "#가족외식",
-      "#인스타",
-      "#지역명물"
-    ],
-    "priceRange": "최저가",
-    "rating": 2.1,
-    "menus": [
-      {
-        "name": "버팔로 윙",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "머핀",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "핫도그",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "치즈버거",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "클램 차우더",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "바비큐 리브",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "콥 샐러드",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "맥 앤 치즈",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 63,
-    "contact": {
-      "phone": "018-187-5580",
-      "email": "sangceolnam@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "http://jusighoesa.kr/",
-    "reviews": [
-      {
-        "author": "이민수",
-        "date": "2024-04-08",
-        "rating": 4.174547092709883,
-        "comment": "Dicta aliquid voluptas recusandae facilis ipsa repellat."
-      },
-      {
-        "author": "윤춘자",
-        "date": "2024-01-11",
-        "rating": 3.7506436604442923,
-        "comment": "Accusamus quod sed ut tempora corporis."
-      },
-      {
-        "author": "진윤서",
-        "date": "2024-01-20",
-        "rating": 4.859158796992789,
-        "comment": "Vero ut error vel alias."
-      },
-      {
-        "author": "이성진",
-        "date": "2024-01-23",
-        "rating": 4.340989601276778,
-        "comment": "Officia molestiae reprehenderit minima rerum provident iusto."
-      },
-      {
-        "author": "이민서",
-        "date": "2024-04-02",
-        "rating": 3.7436383336848094,
-        "comment": "Adipisci voluptatum placeat velit iste quidem."
-      }
-    ]
-  },
-  {
-    "id": "29",
-    "name": "김김 양식",
-    "image": "",
-    "location": "서울특별시 성동구 잠실길 (주원박마을)",
-    "tag": [
-      "#맛집",
-      "#가족외식",
-      "#지역명물"
-    ],
-    "priceRange": "최저가",
-    "rating": 2.7,
-    "menus": [
-      {
-        "name": "스테이크",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "뇨끼",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "버터 치킨",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "햄버거",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "파스타",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "라따뚜이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리조또",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "피시 앤 칩스",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "배달 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 76,
-    "contact": {
-      "phone": "055-452-0837",
-      "email": "seongsuan@example.net"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "https://www.yuhanhoesa.kr/",
-    "reviews": [
-      {
-        "author": "권현주",
-        "date": "2024-04-07",
-        "rating": 4.2081235524455645,
-        "comment": "Vero ex excepturi laboriosam."
-      },
-      {
-        "author": "장영길",
-        "date": "2024-01-09",
-        "rating": 3.233687875142272,
-        "comment": "Tempore magni magnam nulla quasi minima sequi."
-      },
-      {
-        "author": "남상훈",
-        "date": "2024-05-08",
-        "rating": 3.997658097271425,
-        "comment": "Ipsa eveniet deleniti."
-      },
-      {
-        "author": "엄수진",
-        "date": "2024-04-27",
-        "rating": 3.6360159252797963,
-        "comment": "Exercitationem praesentium sapiente repellat laborum ipsam consequatur."
-      },
-      {
-        "author": "이경수",
-        "date": "2024-01-23",
-        "rating": 4.710440184649238,
-        "comment": "Veniam aut qui numquam minima eius rerum ea."
-      }
-    ]
-  },
-  {
-    "id": "30",
-    "name": "(주) 장김양 양식",
-    "image": "",
-    "location": "서울특별시 동구 강남대로 (은영윤마을)",
-    "tag": [
-      "#지역명물",
-      "#인스타",
-      "#가족외식"
-    ],
-    "priceRange": "저가",
-    "rating": 4.9,
-    "menus": [
-      {
-        "name": "라따뚜이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "피시 앤 칩스",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "버터 치킨",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "파스타",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "뇨끼",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리조또",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "스테이크",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "햄버거",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 34,
-    "contact": {
-      "phone": "018-784-9275",
-      "email": "fi@example.com"
-    },
-    "specialNotes": "주말에는 예약이 필요할 수 있습니다.",
-    "website": "http://jusighoesa.com/",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "Tempora laborum vel veniam nesciunt."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "Numquam rerum vel reiciendis consequuntur dicta."
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "Aliquam ipsa nisi omnis aliquam quam nobis."
-      }
-    ]
-  },
-  {
-    "id": "31",
-    "name": "춘보만두",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDZfNjQg%2FMDAxNzE0OTg3NDA5Mzcz.-aMEYpbb987-ScFowzRCm3-Jmx5n7S35m4CSseHHR6Yg._qcnTb5Pd_qgrq1YOABYqJaogEKe38jaqOjsoJNuvNog.JPEG%2F20240502_123654.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울특별시 노원구 공릉1동 571-30",
-    "tag": [
-      "#만두",
-      "#인스타",
-      "#가족외식"
-    ],
-    "priceRange": "저가",
-    "rating": 4.4,
-    "menus": [
-      {
-        "name": "떡만두국",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "칼만두국",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "만두국",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "떡국",
-        "price": "10000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "떡만두국(특)",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "칼만두국(특)",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "만두국(특)",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "떡국(특)",
-        "price": "12000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 11시 - 오후 14시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 34,
-    "contact": {
-      "phone": "02-975-2407",
-      "email": ""
-    },
-    "specialNotes": "뽀얀 사골국물에서 헤엄치는 이북식 만두",
-    "website": "https://map.naver.com/p/search/%EC%B6%98%EB%B3%B4%EB%A7%8C%EB%91%90/place/19885689?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "가끔와서 먹는 공릉 맛집입니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "맛있습니다 ~"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "양 많아요~!!"
-      }
-    ]
-  },
-  {
-    "id": "32",
-    "name": "소문난멸치국수",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDVfMTA1%2FMDAxNzE0ODkwNzk2OTY3.Klii7tNRuxCiw_lLSGdwl654cmHP8ABiqsKfAYdb1gog.-lqr1Vly9iTDleneN-w8NPoNFt_eSLZG8f5N5cBBJMkg.JPEG%2F20240428_160340.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울특별시 노원구 공릉동 571-16",
-    "tag": [
-      "#국수",
-      "#가성비",
-      "#가족외식"
-    ],
-    "priceRange": "저가",
-    "rating": 4.3,
-    "menus": [
-      {
-        "name": "멸치국수",
-        "price": "4500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "비빔국수",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "고추장칼국수",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "수제비",
-        "price": "6000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "김밥",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 8시 - 오후 6시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능"
-    ],
-    "seatingCapacity": 24,
-    "contact": {
-      "phone": "02-973-4337",
-      "email": ""
-    },
-    "specialNotes": "당신만 모르는 양념장과 멸치국물이 시원한 국수",
-    "website": "https://map.naver.com/p/entry/place/19867575?c=15.00,0,0,0,dh",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "가끔와서 먹는 공릉 맛집입니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "가성비 좋아요~"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "양 많아요~!!"
-      }
-    ]
-  },
-  {
-    "id": "33",
-    "name": "동학",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211229_133%2F1640763715447ST9Mj_JPEG%2F1640763692250.jpg",
-    "location": "서울특별시 노원구 공릉로51길 6 동학",
-    "tag": [
-      "#한식",
-      "#가성비",
-      "#회식"
-    ],
-    "priceRange": "고가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "칠면조",
-        "price": "20000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "파전",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "매운 무뼈 닭발",
-        "price": "16000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "스팸전",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "모둠 오뎅탕",
-        "price": "17000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "두부김치",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "치즈 계란말이",
-        "price": "14000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "막걸리",
-        "price": "4000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오후 5시 - 오전 2시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 30,
-    "contact": {
-      "phone": "010-8686-7283",
-      "email": ""
-    },
-    "specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
-    "website": "https://map.naver.com/p/entry/place/1624710324?c=13.00,0,0,0,dh&placePath=/home",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "가끔와서 먹는 공릉 맛집입니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "가성비 좋아요~"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다 ~!"
-      }
-    ]
-  },
-  {
-    "id": "34",
-    "name": "아소코",
-    "image": "https://lh5.googleusercontent.com/p/AF1QipPE5sm6-2cSdnFcISZerL4jZNQuKt_g-yVX00zh=w90-h90-n-k-no",
-    "location": "서울특별시 노원구 동일로184길 53 1층 아소코",
-    "tag": [
-      "#일식",
-      "#데이트",
-      "#회식"
-    ],
-    "priceRange": "고가",
-    "rating": 4.0,
-    "menus": [
-      {
-        "name": "항정살덮밥",
-        "price": "9900원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "스키야키우동",
-        "price": "10900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "연어덮밥",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "냉우동",
-        "price": "9000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "하와이안롤카츠",
-        "price": "13000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "반반튀김",
-        "price": "6000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "치킨 가라아게",
-        "price": "4500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "수제고로케",
-        "price": "4000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 11시 30분 - 오후 10시(오후 3~5시 브레이크 타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 30,
-    "contact": {
-      "phone": "0507-1491-1003",
-      "email": ""
-    },
-    "specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
-    "website": "http://www.instagram.com/asoko_seoul",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "가끔와서 먹는 공릉 맛집입니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "연어 미쳤습니다~"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다 ~!"
-      }
-    ]
-  },
-  {
-    "id": "35",
-    "name": "일상다반",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_101%2F1667449943533SdGm7_JPEG%2FScreenshot_20221103_132838.jpg",
-    "location": "서울특별시 노원구 동일로186길 77-17",
-    "tag": [
-      "#일식",
-      "#데이트",
-      "#가정식"
-    ],
-    "priceRange": "고가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "부타동",
-        "price": "14000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230114_163%2F1673672590054a8gfx_JPEG%2F20230114_135337.jpg"
-      },
-      {
-        "name": "명란 아보카도 덮밥",
-        "price": "15000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240306_113%2F1709732192623CoGb0_JPEG%2F1709732113574.jpg"
-      },
-      {
-        "name": "연어덮밥",
-        "price": "14000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_101%2F1667449943533SdGm7_JPEG%2FScreenshot_20221103_132838.jpg"
-      },
-      {
-        "name": "가츠동",
-        "price": "11000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_108%2F1667450025006oejVL_JPEG%2FScreenshot_20221103_131256.jpg"
-      },
-      {
-        "name": "에비동",
-        "price": "11000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_204%2F16674500478349x6hP_JPEG%2FScreenshot_20221103_131837.jpg"
-      },
-      {
-        "name": "튀김우동",
-        "price": "10000원",
-        "image" : "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_47%2F1667450073359LAuk2_JPEG%2FScreenshot_20221103_132803.jpg"
-      }
-    ],
-    "businessHours": "오전 11시 30분 - 오후 9시(오후 2시 30분 ~ 5시 브레이크 타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 20,
-    "contact": {
-      "phone": "02-971-0666",
-      "email": ""
-    },
-    "specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
-    "website": "https://map.naver.com/p/search/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98/place/37053142?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "재료가 신선해요~"
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "덮밥 꼭 먹으세요. 미쳤습니다~"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다 ~!"
-      }
-    ]
-  },
-  {
-    "id": "36",
-    "name": "핏짜굽는언니",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240209_271%2F1707447214890SS8oh_JPEG%2F1000004884.jpg",
-    "location": "서울특별시 노원구 동일로198길 58",
-    "tag": [
-      "#양식",
-      "#데이트",
-      "#피자 맛집"
-    ],
-    "priceRange": "고가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "마르게리타 피자",
-        "price": "15000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "페퍼로니",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "쥬카",
-        "price": "21000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "빠따따",
-        "price": "21000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "알리오올리오",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "감바스",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "리코타 샐러드",
-        "price": "18000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "언니 샐러드",
-        "price": "17000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 11시 - 오후 10시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 15,
-    "contact": {
-      "phone": "02-979-0234",
-      "email": ""
-    },
-    "specialNotes": "앞 화덕피자와 파스타가 맛있는 곳~ 데이트하기 좋은 장소",
-    "website": "https://map.naver.com/p/entry/place/31032820?c=15.00,0,0,0,dh&placePath=/home",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "가끔와서 먹는 공릉 맛집입니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "인테리어가 너무 마음에 들어요"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다 데이트하기 좋아요~!"
-      }
-    ]
-  },
-  {
-    "id": "37",
-    "name": "백소정 공릉점",
-    "image": "https://lh5.googleusercontent.com/p/AF1QipPcJiUdkT4QZv-vr7bQqA3vt4MZOihGX7c5o66P=w90-h90-n-k-no",
-    "location": "서울특별시 노원구 동일로 1024 1층",
-    "tag": [
-      "#돈카츠",
-      "#데이트",
-      "#리뷰1등"
-    ],
-    "priceRange": "고가",
-    "rating": 4.9,
-    "menus": [
-      {
-        "name": "마제소바 + 돈카츠",
-        "price": "14900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "냉소바 + 돈카츠",
-        "price": "14500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "스폐셜가츠동",
-        "price": "13900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "모짜렐라치즈카츠",
-        "price": "12900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "에비텐모듬카츠",
-        "price": "11000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "카라이 마제소바 + 돈카츠",
-        "price": "15500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 11시 - 오후 21시 (오후3시 - 5시 브레이크타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 15,
-    "contact": {
-      "phone": "02-979-8505",
-      "email": ""
-    },
-    "specialNotes": "리뷰 1등의 보증된 일식 맛집 !!",
-    "website": "https://baeksojeong.com/",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "맛과 친절 모두 다 잡았습니다."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "정말 청결하고 재료가 신선해요"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다 데이트하기 좋아요~!"
-      }
-    ]
-  },
-  {
-    "id": "38",
-    "name": "만두장성",
-    "image": "https://lh5.googleusercontent.com/p/AF1QipNimOtpV_rhhLreqcJ1v4VeCRffy1rjy1yvzog-=w90-h90-n-k-no",
-    "location": "서울특별시 노원구 동일로180길 32 도깨비시장 나-20호",
-    "tag": [
-      "#만두",
-      "#맛집",
-      "#도깨비시장"
-    ],
-    "priceRange": "저가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "찹쌀도넛",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "Donut",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "dumpling",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "고기만두",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 11시 - 오후 21시",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 10,
-    "contact": {
-      "phone": "02-972-1005",
-      "email": ""
-    },
-    "specialNotes": "만두와 도넛이 맛있는 도깨비 시장 맛집",
-    "website": "http://pf.kakao.com/_axexkKxb",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "만두 집인데 찹쌀도넛이 진짜 맛있네요."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "만두 먹고 싶으면 여기로 오세요"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "정말 맛있습니다~!"
-      }
-    ]
-  },
-  {
-    "id": "39",
-    "name": "네코정",
-    "image": "https://lh5.googleusercontent.com/p/AF1QipO5cIy73dPshSca0VNPF2silSnOG9SywL-VTQjz=w90-h90-n-k-no",
-    "location": "서울특별시 노원구 동일로192길 77 2층201호",
-    "tag": [
-      "#일식",
-      "#데이트",
-      "#맛집"
-    ],
-    "priceRange": "고가",
-    "rating": 4.0,
-    "menus": [
-      {
-        "name": "텐동",
-        "price": "11900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "아나고 텐동",
-        "price": "15900원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "오야꼬동",
-        "price": "9900원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "규동",
-        "price": "9500원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "스테이크동",
-        "price": "13500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "가라아게동",
-        "price": "10500원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      }
-    ],
-    "businessHours": "오전 11시 - 오후 21시 (오후3시 - 5시 브레이크타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "배달 가능",
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 15,
-    "contact": {
-      "phone": "070-4110-5224",
-      "email": ""
-    },
-    "specialNotes": "편하게 맛볼 수 있는 일식집",
-    "website": "https://map.naver.com/p/search/%EB%84%A4%EC%BD%94%EC%A0%95/place/38556378?c=15.00,0,0,0,dh&isCorrectAnswer=true",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "텐동 먹고 싶으면 여기로 오세요."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "가성비가 좋아요"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "혼밥하기 좋은데 튀김이 살짝 아쉽네요!"
-      }
-    ]
-  },
-  {
-    "id": "40",
-    "name": "공릉동 닭한마리 본점",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDZfMTEz%2FMDAxNzE0OTcwMDg5NTIz.F5LlWUnKpRUJAe6oRsdgXQ6o0jGSNOD0-MU2MgKWgUgg.4Fjh6x1KS3iL2u9P_90JAxRss-ofB3wbYonhcl8Lv4Eg.JPEG%2F20240506_113934.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울특별시 노원구 동일로192길 77 2층201호",
-    "tag": [
-      "#닭집",
-      "#원조",
-      "#맛집"
-    ], 
-    "priceRange": "고가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "닭한마리",
-        "price": "25000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "칼국수",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "떡사리",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "감자사리",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "음료수",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "소주",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 11시 30분 - 오후 22시 (오후3시 - 5시 브레이크타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능"
-    ],
-    "seatingCapacity": 30,
-    "contact": {
-      "phone": "02-972-7459",
-      "email": ""
-    },
-    "specialNotes": "공릉동 닭한마리 원조 본점 얼큰한 해장",
-    "website": "https://map.naver.com/p/entry/place/19877349?c=15.00,0,0,0,dh",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "닭한마리는 공릉이 찐입니다. 먹고 싶으면 여기로 오세요."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "가성비가 좋아요!!"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "유명한 이유가 있습니다."
-      }
-    ]
-  },
-  {
-    "id": "41",
-    "name": "경복식당",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDRfMTgw%2FMDAxNzE0ODI0NjI5MDYz.7Sljf47O7Ji0ss7uCxkeMCyfga8_0qe4b3Y8FKhMb1Ug.k_EPn1CAsms2X21tXO7RZgUssckgQ83-ILUE2PcByggg.JPEG%2F20240503_103648.heic.jpg%3Ftype%3Dw1500_60_sharpen",
-    "location": "서울특별시 노원구 공릉로39길 10 대아아파트 상가 경복식당",
-    "tag": [
-      "#백반",
-      "#원조",
-      "#가정식"
-    ], 
-    "priceRange": "저가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "가정식 백반",
-        "price": "8000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "제육볶음",
-        "price": "3000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 10시 30분 - 오후 20시 (오후3시 - 5시 브레이크타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능"
-    ],
-    "seatingCapacity": 30,
-    "contact": {
-      "phone": "02-949-7331",
-      "email": ""
-    },
-    "specialNotes": "백종원의 골목식당 극찬한 찌개 백반전문점",
-    "website": "https://map.naver.com/p/entry/place/1797596093?c=15.00,0,0,0,dh",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "정말 맛있습니다 ~"
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "제육볶음이 진짜 불맛이 장난이 아니네요."
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "유명한 이유가 있습니다."
-      }
-    ]
-  },
-  {
-    "id": "42",
-    "name": "경성초밥",
-    "image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190917_223%2F1568730028449uDd2T_JPEG%2F8RA9Ar72Rs5rq8p-1OPyXY8H.jpeg.jpg",
-    "location": "서울특별시 노원구 공릉로 119-5 1층 좌측 경성초밥",
-    "tag": [
-      "#초밥",
-      "#일식",
-      "#맛집"
-    ], 
-    "priceRange": "고가",
-    "rating": 4.5,
-    "menus": [
-      {
-        "name": "모둠초밥(11p)",
-        "price": "22000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "우동",
-        "price": "7000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "특초밥(11p)",
-        "price": "29000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "회",
-        "price": "39000원",
-        "image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-      },
-      {
-        "name": "음료수",
-        "price": "2000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      },
-      {
-        "name": "소주",
-        "price": "5000원"
-,
-"image" : "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"      }
-    ],
-    "businessHours": "오전 11시 30분 - 오후 22시 (오후3시 - 5시 브레이크타임)",
-    "reservations": [],
-    "additionalServices": [
-      "예약 가능",
-      "포장 가능",
-      "주차 가능"
-    ],
-    "seatingCapacity": 10,
-    "contact": {
-      "phone": "0507-1384-8864",
-      "email": ""
-    },
-    "specialNotes": "공트럴파크 새로 생긴 초밥 맛집",
-    "website": "https://map.naver.com/p/entry/place/1453394676?c=15.00,0,0,0,dh&placePath=/home",
-    "reviews": [
-      {
-        "author": "김지원",
-        "date": "2024-02-16",
-        "rating": 3.8497763927143493,
-        "comment": "공릉 철길 맛집. 먹고 싶으면 여기로 오세요."
-      },
-      {
-        "author": "손미정",
-        "date": "2024-02-04",
-        "rating": 3.04862600324911,
-        "comment": "가성비가 좋지 않아요!"
-      },
-      {
-        "author": "이예준",
-        "date": "2024-04-13",
-        "rating": 4.665368847608018,
-        "comment": "유명한 이유가 있습니다."
-      }
-    ]
-  }
+	{
+		"id": "1",
+		"name": "(유) 강김박 일식",
+		"image": "",
+		"location": "전라남도 청주시 서원구 봉은사길",
+		"tag": [
+			"#청결",
+			"#감성",
+			"#가족외식"
+		],
+		"priceRange": "최저가",
+		"rating": 3.8954602321864864,
+		"menus": [
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 66,
+		"contact": {
+			"phone": "018-177-3101",
+			"email": "gimminseog@example.net"
+		},
+		"specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
+		"website": "https://jusighoesa.com/",
+		"reviews": [
+			{
+				"author": "최정훈",
+				"date": "2024-01-19",
+				"rating": 3.640147314618793,
+				"comment": "Nulla quaerat consequatur autem."
+			},
+			{
+				"author": "안윤서",
+				"date": "2024-01-06",
+				"rating": 4.15077314975418,
+				"comment": "Ad repellendus quae perferendis voluptatem."
+			}
+		]
+	},
+	{
+		"id": "2",
+		"name": "(유) 박 양식",
+		"image": "",
+		"location": "부산광역시 성북구 언주로",
+		"tag": [
+			"#커플",
+			"#가족외식",
+			"#인스타"
+		],
+		"priceRange": "최저가",
+		"rating": 4.579196781376002,
+		"menus": [
+			{
+				"name": "스테이크",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버터 치킨",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리조또",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "뇨끼",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라따뚜이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파스타",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "피시 앤 칩스",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "햄버거",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 91,
+		"contact": {
+			"phone": "053-575-2594",
+			"email": "seoyeon30@example.com"
+		},
+		"specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
+		"website": "https://yuhanhoesa.net/",
+		"reviews": [
+			{
+				"author": "성현지",
+				"date": "2024-01-17",
+				"rating": 4.579196781376002,
+				"comment": "Assumenda voluptatibus eaque impedit."
+			}
+		]
+	},
+	{
+		"id": "3",
+		"name": "유한회사 안조송 프랑스식",
+		"image": "",
+		"location": "대구광역시 송파구 역삼0로",
+		"tag": [
+			"#커플",
+			"#맛집",
+			"#청결"
+		],
+		"priceRange": "최저가",
+		"rating": 3.849448801055782,
+		"menus": [
+			{
+				"name": "라따뚜이",
+				"price": "16000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "니코아즈 샐러드",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "부야베스",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "코퀴유 상장",
+				"price": "19000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "크림 브륄레",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파테 드 캉파뉴",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "에스카르고",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "프랑스 온리온 수프",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 96,
+		"contact": {
+			"phone": "011-398-4941",
+			"email": "sugjahwang@example.com"
+		},
+		"specialNotes": "섬세하고 고급스러운 프랑스 요리의 진수를 맛볼 수 있는 식당입니다. 부야베스, 에스카르고와 같은 특색 있는 메뉴가 강점입니다.",
+		"website": "https://baeghwangjang.com/",
+		"reviews": [
+			{
+				"author": "권도윤",
+				"date": "2024-02-15",
+				"rating": 3.922578220205879,
+				"comment": "Delectus nemo eius alias quae iure."
+			},
+			{
+				"author": "김민지",
+				"date": "2024-05-01",
+				"rating": 3.61519707195823,
+				"comment": "Saepe quaerat rem mollitia dolores velit."
+			},
+			{
+				"author": "이상호",
+				"date": "2024-04-28",
+				"rating": 4.4251026257335,
+				"comment": "Non labore occaecati."
+			},
+			{
+				"author": "장옥순",
+				"date": "2024-04-15",
+				"rating": 3.434917286325519,
+				"comment": "Dolorum quam aliquid cumque aperiam."
+			}
+		]
+	},
+	{
+		"id": "4",
+		"name": "문김고 양식",
+		"image": "",
+		"location": "전라북도 단양군 석촌호수960길",
+		"tag": [
+			"#지역명물",
+			"#청결",
+			"#가족외식"
+		],
+		"priceRange": "최저가",
+		"rating": 4.032546005883126,
+		"menus": [
+			{
+				"name": "파스타",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스테이크",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "뇨끼",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버터 치킨",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "피시 앤 칩스",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라따뚜이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리조또",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "햄버거",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 46,
+		"contact": {
+			"phone": "018-595-7812",
+			"email": "jeongsubag@example.net"
+		},
+		"specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
+		"website": "https://www.gangjin.net/",
+		"reviews": [
+			{
+				"author": "김정수",
+				"date": "2024-03-29",
+				"rating": 4.191003671242942,
+				"comment": "Voluptas libero reprehenderit amet eius laboriosam."
+			},
+			{
+				"author": "오성민",
+				"date": "2024-04-29",
+				"rating": 3.6628182419031763,
+				"comment": "Harum culpa animi similique recusandae asperiores eaque."
+			},
+			{
+				"author": "신보람",
+				"date": "2024-01-06",
+				"rating": 4.884458786147653,
+				"comment": "Odio et deserunt eaque fugit repudiandae aut eaque."
+			},
+			{
+				"author": "우하은",
+				"date": "2024-03-27",
+				"rating": 3.3919033242387324,
+				"comment": "Reprehenderit aspernatur adipisci blanditiis vero."
+			}
+		]
+	},
+	{
+		"id": "5",
+		"name": "김김양 프랑스식",
+		"image": "",
+		"location": "대구광역시 광진구 봉은사1길 (수진김김면)",
+		"tag": [
+			"#감성",
+			"#청결",
+			"#가족외식"
+		],
+		"priceRange": "저가",
+		"rating": 3.963493192169492,
+		"menus": [
+			{
+				"name": "크림 브륄레",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "프랑스 온리온 수프",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파테 드 캉파뉴",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라따뚜이",
+				"price": "16000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "부야베스",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "코퀴유 상장",
+				"price": "19000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "니코아즈 샐러드",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "에스카르고",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"예약 가능"
+		],
+		"seatingCapacity": 14,
+		"contact": {
+			"phone": "041-363-8475",
+			"email": "qi@example.net"
+		},
+		"specialNotes": "섬세하고 고급스러운 프랑스 요리의 진수를 맛볼 수 있는 식당입니다. 부야베스, 에스카르고와 같은 특색 있는 메뉴가 강점입니다.",
+		"website": "http://songbag.com/",
+		"reviews": [
+			{
+				"author": "이서윤",
+				"date": "2024-01-07",
+				"rating": 3.2459499862693404,
+				"comment": "Ad ex consequuntur."
+			},
+			{
+				"author": "김영일",
+				"date": "2024-01-10",
+				"rating": 3.782094482243307,
+				"comment": "Asperiores sequi reprehenderit vero."
+			},
+			{
+				"author": "엄상호",
+				"date": "2024-04-07",
+				"rating": 4.86243510799583,
+				"comment": "Consequuntur tempora et dicta illum quo."
+			}
+		]
+	},
+	{
+		"id": "6",
+		"name": "(유) 황 양식",
+		"image": "",
+		"location": "울산광역시 종로구 도산대로 (미경김읍)",
+		"tag": [
+			"#청결",
+			"#지역명물",
+			"#셀프서비스"
+		],
+		"priceRange": "저가",
+		"rating": 4.031041917312676,
+		"menus": [
+			{
+				"name": "라따뚜이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스테이크",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리조또",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "뇨끼",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파스타",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "피시 앤 칩스",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버터 치킨",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "햄버거",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 30,
+		"contact": {
+			"phone": "055-417-9732",
+			"email": "xryu@example.com"
+		},
+		"specialNotes": "유럽 전통의 클래식한 요리부터 현대적인 퓨전 요리까지 다양합니다. 스테이크, 파스타와 같은 대표적인 서양 요리를 맛볼 수 있습니다.",
+		"website": "http://www.ju.com/",
+		"reviews": [
+			{
+				"author": "이영일",
+				"date": "2024-04-16",
+				"rating": 4.138150967498228,
+				"comment": "Modi amet a odit."
+			},
+			{
+				"author": "송은영",
+				"date": "2024-01-17",
+				"rating": 3.3626854997891114,
+				"comment": "Soluta assumenda esse."
+			},
+			{
+				"author": "조진우",
+				"date": "2024-02-09",
+				"rating": 3.7005202335563427,
+				"comment": "Voluptas sunt corporis et explicabo consectetur voluptates rem."
+			},
+			{
+				"author": "유지민",
+				"date": "2024-04-18",
+				"rating": 3.9547817887641847,
+				"comment": "Repellat fugiat libero voluptates eum ullam."
+			},
+			{
+				"author": "박준서",
+				"date": "2024-03-14",
+				"rating": 4.99907109695551,
+				"comment": "Soluta esse adipisci nisi."
+			}
+		]
+	},
+	{
+		"id": "7",
+		"name": "(유) 박 아메리칸 음식",
+		"image": "",
+		"location": "경상남도 고성군 서초대493로 (정숙황리)",
+		"tag": [
+			"#커플",
+			"#감성",
+			"#셀프서비스"
+		],
+		"priceRange": "중간",
+		"rating": 4.021582698472838,
+		"menus": [
+			{
+				"name": "맥 앤 치즈",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버팔로 윙",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "핫도그",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치즈버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "바비큐 리브",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "콥 샐러드",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "머핀",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "클램 차우더",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 74,
+		"contact": {
+			"phone": "018-074-9695",
+			"email": "uhan@example.net"
+		},
+		"specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
+		"website": "http://www.yunmin.org/",
+		"reviews": [
+			{
+				"author": "한경숙",
+				"date": "2024-03-19",
+				"rating": 4.710067778598903,
+				"comment": "Quia cum modi ab aut aliquid dolorum."
+			},
+			{
+				"author": "이지원",
+				"date": "2024-02-24",
+				"rating": 3.470536769824684,
+				"comment": "Architecto est quia nostrum repellat beatae."
+			},
+			{
+				"author": "최성현",
+				"date": "2024-03-16",
+				"rating": 4.76413536885028,
+				"comment": "Odio ea veniam distinctio vero illo quod."
+			},
+			{
+				"author": "한민준",
+				"date": "2024-04-18",
+				"rating": 3.1415908766174843,
+				"comment": "Labore dolorem corporis exercitationem non ipsum aliquam voluptatem."
+			}
+		]
+	},
+	{
+		"id": "8",
+		"name": "(주) 김 태국식",
+		"image": "",
+		"location": "전라남도 청주시 청원구 선릉가 (동현김김면)",
+		"tag": [
+			"#지역명물",
+			"#감성",
+			"#가족외식"
+		],
+		"priceRange": "최고가",
+		"rating": 3.955662075895451,
+		"menus": [
+			{
+				"name": "망고 스티키 라이스",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "레드 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소프트 쉘 크랩",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "그린 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카오 팟",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "톰얌꿍",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟 시유",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 70,
+		"contact": {
+			"phone": "02-9160-0986",
+			"email": "yeonghwan85@example.com"
+		},
+		"specialNotes": "매콤하고 상큼한 맛의 태국 요리를 경험할 수 있는 곳입니다. 팟타이, 그린 커리와 같은 대표적인 태국 요리로 입맛을 사로잡습니다.",
+		"website": "https://www.yuhanhoesa.com/",
+		"reviews": [
+			{
+				"author": "최정희",
+				"date": "2024-01-20",
+				"rating": 4.256167010549105,
+				"comment": "Aut error consequuntur illo nemo commodi."
+			},
+			{
+				"author": "박성진",
+				"date": "2024-03-02",
+				"rating": 3.655157141241797,
+				"comment": "Accusamus optio maxime voluptate."
+			}
+		]
+	},
+	{
+		"id": "9",
+		"name": "서이 일식",
+		"image": "",
+		"location": "경상남도 수원시 석촌호수2로 (경수김리)",
+		"tag": [
+			"#셀프서비스",
+			"#커플",
+			"#맛집"
+		],
+		"priceRange": "중간",
+		"rating": 4.140615774166295,
+		"menus": [
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"예약 가능"
+		],
+		"seatingCapacity": 96,
+		"contact": {
+			"phone": "054-331-9182",
+			"email": "ryuyeongsu@example.org"
+		},
+		"specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
+		"website": "http://yu.com/",
+		"reviews": [
+			{
+				"author": "박영호",
+				"date": "2024-02-13",
+				"rating": 3.6218164413277205,
+				"comment": "Tenetur fuga esse a possimus."
+			},
+			{
+				"author": "홍지후",
+				"date": "2024-03-19",
+				"rating": 4.659415107004869,
+				"comment": "Nostrum at eveniet quos consequatur quod quo similique."
+			}
+		]
+	},
+	{
+		"id": "10",
+		"name": "주식회사 이박이 퓨전음식",
+		"image": "",
+		"location": "전라남도 논산시 역삼길 (영호정마을)",
+		"tag": [
+			"#셀프서비스",
+			"#커플",
+			"#지역명물"
+		],
+		"priceRange": "중간",
+		"rating": 4.0835899963396765,
+		"menus": [
+			{
+				"name": "와사비 마요네즈 치킨",
+				"price": "9500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소고기 미소라멘",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "커리 우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "시저 샐러드 킴밥",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "멕시칸 삼겹살",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김치 파스타",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "토마토 탕수육",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 87,
+		"contact": {
+			"phone": "033-869-8666",
+			"email": "hyeonsugi@example.org"
+		},
+		"specialNotes": "전 세계의 요리를 혁신적으로 조합한 메뉴를 제공합니다. 기존 음식에 새로운 트위스트를 더해 독특하고 매력적인 맛을 창출합니다.",
+		"website": "http://www.bagcoe.com/",
+		"reviews": [
+			{
+				"author": "이예지",
+				"date": "2024-03-16",
+				"rating": 4.150493386646204,
+				"comment": "Dignissimos magni voluptate deleniti tempora."
+			},
+			{
+				"author": "김민준",
+				"date": "2024-03-24",
+				"rating": 3.653947386360632,
+				"comment": "Corrupti veritatis possimus."
+			},
+			{
+				"author": "김경숙",
+				"date": "2024-04-14",
+				"rating": 4.590785479322817,
+				"comment": "Nihil quisquam consectetur officiis ea."
+			},
+			{
+				"author": "권미경",
+				"date": "2024-03-20",
+				"rating": 3.939133733029053,
+				"comment": "Cupiditate debitis modi vero deserunt."
+			}
+		]
+	},
+	{
+		"id": "11",
+		"name": "고최 이탈리아 음식",
+		"image": "",
+		"location": "경기도 부천시 소사구 오금0로 (은영구김동)",
+		"tag": [
+			"#인스타",
+			"#커플",
+			"#가족외식"
+		],
+		"priceRange": "저가",
+		"rating": 4.122257624226745,
+		"menus": [
+			{
+				"name": "티라미수",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "페투치니 알프레도",
+				"price": "13500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "폴렌티나 스테이크",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "오소 부코",
+				"price": "24000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카르파초",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "미네스트로네 수프",
+				"price": "8500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "마르게리타 피자",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카르보나라",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 67,
+		"contact": {
+			"phone": "053-999-1068",
+			"email": "egim@example.org"
+		},
+		"specialNotes": "이탈리아 현지에서 느낄 수 있는 맛을 그대로 제공합니다. 신선한 재료로 만든 마르게리타 피자, 페투치니 알프레도가 인기 메뉴입니다.",
+		"website": "https://iyun.kr/",
+		"reviews": [
+			{
+				"author": "문영일",
+				"date": "2024-04-18",
+				"rating": 4.17137673204498,
+				"comment": "Pariatur amet reiciendis aperiam molestias."
+			},
+			{
+				"author": "손미경",
+				"date": "2024-04-28",
+				"rating": 4.073138516408511,
+				"comment": "Ex tempora qui unde ea minus."
+			}
+		]
+	},
+	{
+		"id": "12",
+		"name": "고김 아메리칸 음식",
+		"image": "",
+		"location": "울산광역시 강남구 논현가",
+		"tag": [
+			"#커플",
+			"#맛집",
+			"#감성"
+		],
+		"priceRange": "고가",
+		"rating": 4.403947516207252,
+		"menus": [
+			{
+				"name": "맥 앤 치즈",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "콥 샐러드",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "핫도그",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버팔로 윙",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "바비큐 리브",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "머핀",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "클램 차우더",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치즈버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 28,
+		"contact": {
+			"phone": "061-081-9145",
+			"email": "si@example.net"
+		},
+		"specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
+		"website": "https://ju.com/",
+		"reviews": [
+			{
+				"author": "박준혁",
+				"date": "2024-01-13",
+				"rating": 4.016383935688458,
+				"comment": "Soluta modi impedit quia."
+			},
+			{
+				"author": "문수진",
+				"date": "2024-05-05",
+				"rating": 4.791511096726047,
+				"comment": "Quibusdam excepturi omnis quasi ea magni."
+			}
+		]
+	},
+	{
+		"id": "13",
+		"name": "주식회사 이김이 일식",
+		"image": "",
+		"location": "서울특별시 서대문구 도산대길 (민서안동)",
+		"tag": [
+			"#가족외식",
+			"#맛집",
+			"#인스타"
+		],
+		"priceRange": "고가",
+		"rating": 4.756766231577705,
+		"menus": [
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 49,
+		"contact": {
+			"phone": "054-774-0585",
+			"email": "bagseunghyeon@example.org"
+		},
+		"specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
+		"website": "https://jusighoesa.net/",
+		"reviews": [
+			{
+				"author": "김수민",
+				"date": "2024-02-26",
+				"rating": 4.629450872292431,
+				"comment": "Ab minus repellendus placeat eius est."
+			},
+			{
+				"author": "노현지",
+				"date": "2024-02-27",
+				"rating": 4.884081590862981,
+				"comment": "Voluptatum at adipisci harum porro praesentium."
+			}
+		]
+	},
+	{
+		"id": "14",
+		"name": "(주) 김이박 아시아음식",
+		"image": "",
+		"location": "서울특별시 남구 테헤란79가",
+		"tag": [
+			"#맛집",
+			"#감성",
+			"#셀프서비스"
+		],
+		"priceRange": "중간",
+		"rating": 3.9407906882531867,
+		"menus": [
+			{
+				"name": "사테",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 바오",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "샤오롱바오",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "만두",
+				"price": "4000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치킨 커리",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "데리야키",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김밥",
+				"price": "3500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 40,
+		"contact": {
+			"phone": "053-817-3597",
+			"email": "sugjagim@example.net"
+		},
+		"specialNotes": "아시아 다양한 나라의 요리를 한 곳에서 맛볼 수 있습니다. 한국, 일본, 중국, 태국 등의 대표 요리를 섬세하게 조리하여 제공합니다.",
+		"website": "http://jusighoesa.kr/",
+		"reviews": [
+			{
+				"author": "한미경",
+				"date": "2024-04-07",
+				"rating": 3.49458789159789,
+				"comment": "Repellat nemo nihil officia vitae eum deleniti."
+			},
+			{
+				"author": "김영환",
+				"date": "2024-03-02",
+				"rating": 4.263145935564117,
+				"comment": "Ex ratione sed."
+			},
+			{
+				"author": "김춘자",
+				"date": "2024-02-27",
+				"rating": 3.806348917600704,
+				"comment": "Assumenda illum repudiandae dicta ipsam reiciendis magni."
+			},
+			{
+				"author": "양서영",
+				"date": "2024-03-10",
+				"rating": 4.199080008250036,
+				"comment": "Laudantium nam incidunt."
+			}
+		]
+	},
+	{
+		"id": "15",
+		"name": "(유) 김 한식",
+		"image": "",
+		"location": "경상남도 과천시 개포990길",
+		"tag": [
+			"#커플",
+			"#지역명물",
+			"#인스타"
+		],
+		"priceRange": "중간",
+		"rating": 3.5729383001924413,
+		"menus": [
+			{
+				"name": "불고기",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "해장국",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김치찌개",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "비빔밥",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "갈비탕",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "순두부찌개",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "보쌈",
+				"price": "16000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "된장찌개",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 34,
+		"contact": {
+			"phone": "041-056-1655",
+			"email": "hwangjihye@example.com"
+		},
+		"specialNotes": "따뜻한 국물과 얼큰한 매운맛이 특징인 한국 전통 음식들을 즐길 수 있는 곳입니다. 김치, 불고기 등 다양한 반찬과 함께 제공되어 한 끼 식사가 푸짐합니다.",
+		"website": "http://yuhanhoesa.net/",
+		"reviews": [
+			{
+				"author": "문현준",
+				"date": "2024-01-01",
+				"rating": 3.1143410555208346,
+				"comment": "Maiores delectus eius odio dolorum iure est laborum."
+			},
+			{
+				"author": "배수빈",
+				"date": "2024-04-29",
+				"rating": 3.2306297831601842,
+				"comment": "Expedita maiores labore qui nemo."
+			},
+			{
+				"author": "홍진우",
+				"date": "2024-01-18",
+				"rating": 3.815556911412071,
+				"comment": "Sit magnam culpa optio adipisci non."
+			},
+			{
+				"author": "김정웅",
+				"date": "2024-05-06",
+				"rating": 4.222543192924403,
+				"comment": "Omnis hic consectetur explicabo."
+			},
+			{
+				"author": "이영환",
+				"date": "2024-04-04",
+				"rating": 3.481620557944713,
+				"comment": "Pariatur maxime nesciunt consequatur dolore tenetur."
+			}
+		]
+	},
+	{
+		"id": "16",
+		"name": "지황김 태국식",
+		"image": "",
+		"location": "세종특별자치시 광진구 서초중앙8가",
+		"tag": [
+			"#인스타",
+			"#감성",
+			"#맛집"
+		],
+		"priceRange": "중간",
+		"rating": 3.867647937137602,
+		"menus": [
+			{
+				"name": "레드 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "그린 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟 시유",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카오 팟",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소프트 쉘 크랩",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "망고 스티키 라이스",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "톰얌꿍",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 57,
+		"contact": {
+			"phone": "011-420-0529",
+			"email": "hyeonu87@example.net"
+		},
+		"specialNotes": "매콤하고 상큼한 맛의 태국 요리를 경험할 수 있는 곳입니다. 팟타이, 그린 커리와 같은 대표적인 태국 요리로 입맛을 사로잡습니다.",
+		"website": "http://www.jusighoesa.org/",
+		"reviews": [
+			{
+				"author": "김미정",
+				"date": "2024-03-07",
+				"rating": 3.0647566290632917,
+				"comment": "Officia quia ut."
+			},
+			{
+				"author": "류미숙",
+				"date": "2024-02-07",
+				"rating": 4.851009436116987,
+				"comment": "Assumenda voluptate porro quae earum pariatur."
+			},
+			{
+				"author": "김도윤",
+				"date": "2024-02-07",
+				"rating": 3.0625467196119383,
+				"comment": "Velit ullam repellendus."
+			},
+			{
+				"author": "박우진",
+				"date": "2024-04-30",
+				"rating": 3.9642573992572565,
+				"comment": "Neque laudantium ad."
+			},
+			{
+				"author": "박예지",
+				"date": "2024-02-09",
+				"rating": 4.395669501638537,
+				"comment": "Iste tempora quibusdam."
+			}
+		]
+	},
+	{
+		"id": "17",
+		"name": "오이 퓨전음식",
+		"image": "",
+		"location": "충청북도 부천시 소사구 석촌호수2로 (진우서진면)",
+		"tag": [
+			"#커플",
+			"#가족외식",
+			"#맛집"
+		],
+		"priceRange": "저가",
+		"rating": 3.549697851055153,
+		"menus": [
+			{
+				"name": "커리 우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김치 파스타",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소고기 미소라멘",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "토마토 탕수육",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "멕시칸 삼겹살",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "와사비 마요네즈 치킨",
+				"price": "9500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "시저 샐러드 킴밥",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 38,
+		"contact": {
+			"phone": "062-078-8512",
+			"email": "xgwag@example.org"
+		},
+		"specialNotes": "전 세계의 요리를 혁신적으로 조합한 메뉴를 제공합니다. 기존 음식에 새로운 트위스트를 더해 독특하고 매력적인 맛을 창출합니다.",
+		"website": "http://www.jusighoesa.com/",
+		"reviews": [
+			{
+				"author": "민예지",
+				"date": "2024-02-05",
+				"rating": 3.4888609111383677,
+				"comment": "Tempora ipsam sunt voluptates porro."
+			},
+			{
+				"author": "류정희",
+				"date": "2024-02-02",
+				"rating": 3.6105347909719385,
+				"comment": "Eum rem officiis ut asperiores qui."
+			}
+		]
+	},
+	{
+		"id": "18",
+		"name": "주식회사 이손이 아메리칸 음식",
+		"image": "",
+		"location": "세종특별자치시 금천구 오금73로 (상훈장리)",
+		"tag": [
+			"#맛집",
+			"#지역명물",
+			"#청결"
+		],
+		"priceRange": "저가",
+		"rating": 3.7552089673789006,
+		"menus": [
+			{
+				"name": "맥 앤 치즈",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "클램 차우더",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치즈버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "머핀",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버팔로 윙",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "바비큐 리브",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "콥 샐러드",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "핫도그",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"주차 가능",
+			"예약 가능"
+		],
+		"seatingCapacity": 80,
+		"contact": {
+			"phone": "043-792-7603",
+			"email": "yeonghwan79@example.org"
+		},
+		"specialNotes": "진정한 미국식 다이닝을 경험할 수 있는 곳으로, 바비큐 리브와 버거, 샐러드 등을 즐길 수 있습니다. 푸짐한 양과 다양한 선택이 가능합니다.",
+		"website": "http://jusighoesa.com/",
+		"reviews": [
+			{
+				"author": "이준서",
+				"date": "2024-01-05",
+				"rating": 4.28859783712532,
+				"comment": "Neque numquam animi iure fugit aspernatur voluptatum dolor."
+			},
+			{
+				"author": "서현정",
+				"date": "2024-01-11",
+				"rating": 3.221820097632481,
+				"comment": "Laudantium iure repudiandae consequatur."
+			}
+		]
+	},
+	{
+		"id": "19",
+		"name": "주식회사 김장심 아시아음식",
+		"image": "",
+		"location": "광주광역시 동대문구 압구정569로 (정자장면)",
+		"tag": [
+			"#맛집",
+			"#청결",
+			"#커플"
+		],
+		"priceRange": "최고가",
+		"rating": 4.257438794206022,
+		"menus": [
+			{
+				"name": "치킨 커리",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김밥",
+				"price": "3500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "만두",
+				"price": "4000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 바오",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "데리야키",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사테",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "샤오롱바오",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 94,
+		"contact": {
+			"phone": "061-910-4774",
+			"email": "ii@example.net"
+		},
+		"specialNotes": "아시아 다양한 나라의 요리를 한 곳에서 맛볼 수 있습니다. 한국, 일본, 중국, 태국 등의 대표 요리를 섬세하게 조리하여 제공합니다.",
+		"website": "http://www.hongi.com/",
+		"reviews": [
+			{
+				"author": "진수진",
+				"date": "2024-04-01",
+				"rating": 4.465583743636154,
+				"comment": "Expedita placeat ipsam temporibus a molestiae."
+			},
+			{
+				"author": "김준서",
+				"date": "2024-01-15",
+				"rating": 4.627170201323953,
+				"comment": "Quidem qui exercitationem harum quidem voluptate laboriosam."
+			},
+			{
+				"author": "이은서",
+				"date": "2024-04-28",
+				"rating": 3.2320442470714084,
+				"comment": "Totam culpa magni ratione."
+			},
+			{
+				"author": "권춘자",
+				"date": "2024-01-26",
+				"rating": 4.570477219722647,
+				"comment": "Qui dolore voluptate laudantium beatae explicabo amet facere."
+			},
+			{
+				"author": "권우진",
+				"date": "2024-04-24",
+				"rating": 4.391918559275949,
+				"comment": "A blanditiis omnis quos."
+			}
+		]
+	},
+	{
+		"id": "20",
+		"name": "(주) 김 일식",
+		"image": "",
+		"location": "인천광역시 동구 선릉6길 (상철강이마을)",
+		"tag": [
+			"#커플",
+			"#맛집",
+			"#인스타"
+		],
+		"priceRange": "최저가",
+		"rating": 4.3201256585072745,
+		"menus": [
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"주차 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 58,
+		"contact": {
+			"phone": "033-861-4990",
+			"email": "ni@example.org"
+		},
+		"specialNotes": "신선한 해산물과 정갈한 맛이 특징인 일본 요리를 제공합니다. 초밥, 라멘 등 다양한 일식 메뉴를 섬세하게 조리하여 제공합니다.",
+		"website": "http://www.yu.com/",
+		"reviews": [
+			{
+				"author": "이예준",
+				"date": "2024-02-19",
+				"rating": 4.557346571646367,
+				"comment": "Nulla doloremque ab culpa ipsam fugit."
+			},
+			{
+				"author": "한진우",
+				"date": "2024-03-16",
+				"rating": 4.683368212967592,
+				"comment": "Asperiores libero possimus architecto expedita veniam."
+			},
+			{
+				"author": "정영순",
+				"date": "2024-03-26",
+				"rating": 4.738389672756426,
+				"comment": "Libero exercitationem corporis ipsum nemo voluptates voluptate."
+			},
+			{
+				"author": "박경숙",
+				"date": "2024-01-30",
+				"rating": 3.301398176658715,
+				"comment": "Magnam quibusdam autem eum."
+			}
+		]
+	},
+	{
+		"id": "21",
+		"name": "유김최 일식",
+		"image": "",
+		"location": "강원도 안양시 만안구 오금7가",
+		"tag": [
+			"#지역명물",
+			"#청결",
+			"#커플"
+		],
+		"priceRange": "최저가",
+		"rating": 3.7643594088123584,
+		"menus": [
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 49,
+		"contact": {
+			"phone": "055-440-2590",
+			"email": "seonghyeongim@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "https://nami.org/",
+		"reviews": [
+			{
+				"author": "안우진",
+				"date": "2024-04-23",
+				"rating": 4.372932283365757,
+				"comment": "Veritatis cum ullam debitis neque eaque sint."
+			},
+			{
+				"author": "박지현",
+				"date": "2024-04-26",
+				"rating": 4.153110604601849,
+				"comment": "Ullam inventore odit."
+			},
+			{
+				"author": "우현정",
+				"date": "2024-02-04",
+				"rating": 3.6121081962658357,
+				"comment": "Cum quis ipsum minima culpa perspiciatis id."
+			},
+			{
+				"author": "김은정",
+				"date": "2024-04-24",
+				"rating": 3.2751113332356514,
+				"comment": "Animi iste adipisci voluptatum."
+			},
+			{
+				"author": "김은지",
+				"date": "2024-03-27",
+				"rating": 3.408534626592699,
+				"comment": "Laborum ullam minus quaerat rem est ipsam voluptates."
+			}
+		]
+	},
+	{
+		"id": "22",
+		"name": "(주) 구 퓨전음식",
+		"image": "",
+		"location": "전라북도 양구군 삼성로 (서연엄동)",
+		"tag": [
+			"#셀프서비스",
+			"#가족외식",
+			"#맛집"
+		],
+		"priceRange": "저가",
+		"rating": 3.7860261332788396,
+		"menus": [
+			{
+				"name": "소고기 미소라멘",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "시저 샐러드 킴밥",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "토마토 탕수육",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "멕시칸 삼겹살",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김치 파스타",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "커리 우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "와사비 마요네즈 치킨",
+				"price": "9500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 66,
+		"contact": {
+			"phone": "064-794-8259",
+			"email": "seongjini@example.net"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "http://bagseogim.com/",
+		"reviews": [
+			{
+				"author": "김상철",
+				"date": "2024-04-09",
+				"rating": 3.0323911315158756,
+				"comment": "Hic amet in suscipit asperiores veritatis eligendi."
+			},
+			{
+				"author": "김지혜",
+				"date": "2024-03-15",
+				"rating": 4.133166602696161,
+				"comment": "Facilis earum temporibus aliquam a distinctio reiciendis."
+			},
+			{
+				"author": "홍현정",
+				"date": "2024-02-27",
+				"rating": 3.089197667197949,
+				"comment": "Sed delectus repellat nostrum perspiciatis."
+			},
+			{
+				"author": "양지혜",
+				"date": "2024-03-16",
+				"rating": 4.889349131705373,
+				"comment": "Natus vitae incidunt tenetur doloribus enim."
+			}
+		]
+	},
+	{
+		"id": "23",
+		"name": "유한회사 김허박 프랑스식",
+		"image": "",
+		"location": "충청북도 광주시 강남대886가",
+		"tag": [
+			"#맛집",
+			"#인스타",
+			"#청결"
+		],
+		"priceRange": "최고가",
+		"rating": 3.1014748595495116,
+		"menus": [
+			{
+				"name": "니코아즈 샐러드",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "코퀴유 상장",
+				"price": "19000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "프랑스 온리온 수프",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "에스카르고",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라따뚜이",
+				"price": "16000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "크림 브륄레",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파테 드 캉파뉴",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "부야베스",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 57,
+		"contact": {
+			"phone": "053-839-1176",
+			"email": "yeweoncoe@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "https://www.bagsinjang.com/",
+		"reviews": [
+			{
+				"author": "김민수",
+				"date": "2024-05-08",
+				"rating": 3.1014748595495116,
+				"comment": "Rerum explicabo veniam quod dolore nesciunt amet."
+			}
+		]
+	},
+	{
+		"id": "24",
+		"name": "김송김 태국식",
+		"image": "",
+		"location": "전라북도 이천시 오금7길",
+		"tag": [
+			"#커플",
+			"#지역명물",
+			"#감성"
+		],
+		"priceRange": "최저가",
+		"rating": 3.6871411640158644,
+		"menus": [
+			{
+				"name": "톰얌꿍",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카오 팟",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소프트 쉘 크랩",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟 시유",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "망고 스티키 라이스",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "그린 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "레드 커리",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 17,
+		"contact": {
+			"phone": "054-617-6208",
+			"email": "gimjeongsug@example.net"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "http://yuhanhoesa.com/",
+		"reviews": [
+			{
+				"author": "박은경",
+				"date": "2024-01-18",
+				"rating": 3.6295299259046727,
+				"comment": "Minima dolores magni aperiam maiores dolor."
+			},
+			{
+				"author": "양지훈",
+				"date": "2024-04-01",
+				"rating": 3.5796194533723487,
+				"comment": "Fuga similique maxime quisquam tempora quasi."
+			},
+			{
+				"author": "주경수",
+				"date": "2024-04-08",
+				"rating": 3.6084945851116315,
+				"comment": "Omnis facere exercitationem quidem illo."
+			},
+			{
+				"author": "손재현",
+				"date": "2024-04-21",
+				"rating": 3.9309206916748054,
+				"comment": "Praesentium aspernatur ad excepturi soluta pariatur."
+			}
+		]
+	},
+	{
+		"id": "25",
+		"name": "김김강 일식",
+		"image": "",
+		"location": "서울특별시 서초구 반포대09로 (진호김강읍)",
+		"tag": [
+			"#인스타",
+			"#가족외식",
+			"#커플"
+		],
+		"priceRange": "중간",
+		"rating": 3.4000991672958456,
+		"menus": [
+			{
+				"name": "야키니쿠",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "초밥",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소바",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라멘",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "돈부리",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사케동",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 39,
+		"contact": {
+			"phone": "055-219-1697",
+			"email": "gimjihun@example.net"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "https://www.gimcoe.net/",
+		"reviews": [
+			{
+				"author": "오민준",
+				"date": "2024-03-30",
+				"rating": 3.4256936081841656,
+				"comment": "Laboriosam molestiae asperiores perspiciatis ab alias nobis."
+			},
+			{
+				"author": "박상철",
+				"date": "2024-05-04",
+				"rating": 3.374504726407525,
+				"comment": "Magnam quis id sapiente fugit odit quasi."
+			}
+		]
+	},
+	{
+		"id": "26",
+		"name": "유한회사 김 아시아음식",
+		"image": "",
+		"location": "울산광역시 도봉구 개포21가",
+		"tag": [
+			"#청결",
+			"#지역명물",
+			"#맛집"
+		],
+		"priceRange": "고가",
+		"rating": 3.9538647215376828,
+		"menus": [
+			{
+				"name": "데리야키",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "불고기 바오",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "팟타이",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "사테",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "만두",
+				"price": "4000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김밥",
+				"price": "3500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치킨 커리",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "샤오롱바오",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"포장 가능",
+			"예약 가능"
+		],
+		"seatingCapacity": 32,
+		"contact": {
+			"phone": "018-408-2193",
+			"email": "zryu@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "https://yuhanhoesa.kr/",
+		"reviews": [
+			{
+				"author": "김경수",
+				"date": "2024-01-10",
+				"rating": 3.868195106599837,
+				"comment": "Natus ab illo voluptatum."
+			},
+			{
+				"author": "김순옥",
+				"date": "2024-02-28",
+				"rating": 3.0009866964096035,
+				"comment": "Quas occaecati suscipit minima."
+			},
+			{
+				"author": "박하윤",
+				"date": "2024-05-04",
+				"rating": 3.791219250466784,
+				"comment": "Necessitatibus officia reiciendis dolor enim vel velit."
+			},
+			{
+				"author": "김은주",
+				"date": "2024-02-15",
+				"rating": 4.257157747680466,
+				"comment": "Labore dicta asperiores placeat inventore expedita."
+			},
+			{
+				"author": "송채원",
+				"date": "2024-01-29",
+				"rating": 4.851764806531724,
+				"comment": "Impedit sequi accusamus nobis veniam iste nemo."
+			}
+		]
+	},
+	{
+		"id": "27",
+		"name": "주식회사 서 이탈리아 음식",
+		"image": "",
+		"location": "전라북도 당진시 도산대8길",
+		"tag": [
+			"#감성",
+			"#가족외식",
+			"#청결"
+		],
+		"priceRange": "고가",
+		"rating": 3.9751020464815965,
+		"menus": [
+			{
+				"name": "마르게리타 피자",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카르보나라",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "미네스트로네 수프",
+				"price": "8500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "오소 부코",
+				"price": "24000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "티라미수",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카르파초",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "폴렌티나 스테이크",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "페투치니 알프레도",
+				"price": "13500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"주차 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 38,
+		"contact": {
+			"phone": "033-911-7053",
+			"email": "imijeong@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "http://www.songjangi.com/",
+		"reviews": [
+			{
+				"author": "이은주",
+				"date": "2024-01-25",
+				"rating": 4.410574972630562,
+				"comment": "Magni dolore possimus itaque amet et eum."
+			},
+			{
+				"author": "전준혁",
+				"date": "2024-04-04",
+				"rating": 4.4656821056242455,
+				"comment": "Praesentium voluptates velit quae iste."
+			},
+			{
+				"author": "김영길",
+				"date": "2024-01-28",
+				"rating": 3.186667888718582,
+				"comment": "Ipsam consectetur maxime iure minima eos."
+			},
+			{
+				"author": "박정숙",
+				"date": "2024-04-14",
+				"rating": 4.464198644762687,
+				"comment": "Pariatur impedit quibusdam voluptas."
+			},
+			{
+				"author": "김성민",
+				"date": "2024-03-29",
+				"rating": 3.3483866206719024,
+				"comment": "Quod asperiores eius maiores."
+			}
+		]
+	},
+	{
+		"id": "28",
+		"name": "안이구 아메리칸 음식",
+		"image": "",
+		"location": "광주광역시 용산구 오금가",
+		"tag": [
+			"#가족외식",
+			"#인스타",
+			"#지역명물"
+		],
+		"priceRange": "최저가",
+		"rating": 4.17379549702171,
+		"menus": [
+			{
+				"name": "버팔로 윙",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "머핀",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "핫도그",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치즈버거",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "클램 차우더",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "바비큐 리브",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "콥 샐러드",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "맥 앤 치즈",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 63,
+		"contact": {
+			"phone": "018-187-5580",
+			"email": "sangceolnam@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "http://jusighoesa.kr/",
+		"reviews": [
+			{
+				"author": "이민수",
+				"date": "2024-04-08",
+				"rating": 4.174547092709883,
+				"comment": "Dicta aliquid voluptas recusandae facilis ipsa repellat."
+			},
+			{
+				"author": "윤춘자",
+				"date": "2024-01-11",
+				"rating": 3.7506436604442923,
+				"comment": "Accusamus quod sed ut tempora corporis."
+			},
+			{
+				"author": "진윤서",
+				"date": "2024-01-20",
+				"rating": 4.859158796992789,
+				"comment": "Vero ut error vel alias."
+			},
+			{
+				"author": "이성진",
+				"date": "2024-01-23",
+				"rating": 4.340989601276778,
+				"comment": "Officia molestiae reprehenderit minima rerum provident iusto."
+			},
+			{
+				"author": "이민서",
+				"date": "2024-04-02",
+				"rating": 3.7436383336848094,
+				"comment": "Adipisci voluptatum placeat velit iste quidem."
+			}
+		]
+	},
+	{
+		"id": "29",
+		"name": "김김 양식",
+		"image": "",
+		"location": "서울특별시 성동구 잠실길 (주원박마을)",
+		"tag": [
+			"#맛집",
+			"#가족외식",
+			"#지역명물"
+		],
+		"priceRange": "최저가",
+		"rating": 3.95718512695766,
+		"menus": [
+			{
+				"name": "스테이크",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "뇨끼",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버터 치킨",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "햄버거",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파스타",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "라따뚜이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리조또",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "피시 앤 칩스",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"배달 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 76,
+		"contact": {
+			"phone": "055-452-0837",
+			"email": "seongsuan@example.net"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "https://www.yuhanhoesa.kr/",
+		"reviews": [
+			{
+				"author": "권현주",
+				"date": "2024-04-07",
+				"rating": 4.2081235524455645,
+				"comment": "Vero ex excepturi laboriosam."
+			},
+			{
+				"author": "장영길",
+				"date": "2024-01-09",
+				"rating": 3.233687875142272,
+				"comment": "Tempore magni magnam nulla quasi minima sequi."
+			},
+			{
+				"author": "남상훈",
+				"date": "2024-05-08",
+				"rating": 3.997658097271425,
+				"comment": "Ipsa eveniet deleniti."
+			},
+			{
+				"author": "엄수진",
+				"date": "2024-04-27",
+				"rating": 3.6360159252797963,
+				"comment": "Exercitationem praesentium sapiente repellat laborum ipsam consequatur."
+			},
+			{
+				"author": "이경수",
+				"date": "2024-01-23",
+				"rating": 4.710440184649238,
+				"comment": "Veniam aut qui numquam minima eius rerum ea."
+			}
+		]
+	},
+	{
+		"id": "30",
+		"name": "(주) 장김양 양식",
+		"image": "",
+		"location": "서울특별시 동구 강남대로 (은영윤마을)",
+		"tag": [
+			"#지역명물",
+			"#인스타",
+			"#가족외식"
+		],
+		"priceRange": "저가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "라따뚜이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "피시 앤 칩스",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "버터 치킨",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파스타",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "뇨끼",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리조또",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스테이크",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "햄버거",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 34,
+		"contact": {
+			"phone": "018-784-9275",
+			"email": "fi@example.com"
+		},
+		"specialNotes": "주말에는 예약이 필요할 수 있습니다.",
+		"website": "http://jusighoesa.com/",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "Tempora laborum vel veniam nesciunt."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "Numquam rerum vel reiciendis consequuntur dicta."
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "Aliquam ipsa nisi omnis aliquam quam nobis."
+			}
+		]
+	},
+	{
+		"id": "31",
+		"name": "춘보만두",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDZfNjQg%2FMDAxNzE0OTg3NDA5Mzcz.-aMEYpbb987-ScFowzRCm3-Jmx5n7S35m4CSseHHR6Yg._qcnTb5Pd_qgrq1YOABYqJaogEKe38jaqOjsoJNuvNog.JPEG%2F20240502_123654.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
+		"location": "서울특별시 노원구 공릉1동 571-30",
+		"tag": [
+			"#만두",
+			"#인스타",
+			"#가족외식"
+		],
+		"priceRange": "저가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "떡만두국",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "칼만두국",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "만두국",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "떡국",
+				"price": "10000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "떡만두국(특)",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "칼만두국(특)",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "만두국(특)",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "떡국(특)",
+				"price": "12000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 - 오후 14시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 34,
+		"contact": {
+			"phone": "02-975-2407",
+			"email": ""
+		},
+		"specialNotes": "뽀얀 사골국물에서 헤엄치는 이북식 만두",
+		"website": "https://map.naver.com/p/search/%EC%B6%98%EB%B3%B4%EB%A7%8C%EB%91%90/place/19885689?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "가끔와서 먹는 공릉 맛집입니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "맛있습니다 ~"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "양 많아요~!!"
+			}
+		]
+	},
+	{
+		"id": "32",
+		"name": "소문난멸치국수",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDVfMTA1%2FMDAxNzE0ODkwNzk2OTY3.Klii7tNRuxCiw_lLSGdwl654cmHP8ABiqsKfAYdb1gog.-lqr1Vly9iTDleneN-w8NPoNFt_eSLZG8f5N5cBBJMkg.JPEG%2F20240428_160340.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
+		"location": "서울특별시 노원구 공릉동 571-16",
+		"tag": [
+			"#국수",
+			"#가성비",
+			"#가족외식"
+		],
+		"priceRange": "저가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "멸치국수",
+				"price": "4500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "비빔국수",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "고추장칼국수",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "수제비",
+				"price": "6000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "김밥",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 8시 - 오후 6시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능"
+		],
+		"seatingCapacity": 24,
+		"contact": {
+			"phone": "02-973-4337",
+			"email": ""
+		},
+		"specialNotes": "당신만 모르는 양념장과 멸치국물이 시원한 국수",
+		"website": "https://map.naver.com/p/entry/place/19867575?c=15.00,0,0,0,dh",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "가끔와서 먹는 공릉 맛집입니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "가성비 좋아요~"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "양 많아요~!!"
+			}
+		]
+	},
+	{
+		"id": "33",
+		"name": "동학",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20211229_133%2F1640763715447ST9Mj_JPEG%2F1640763692250.jpg",
+		"location": "서울특별시 노원구 공릉로51길 6 동학",
+		"tag": [
+			"#한식",
+			"#가성비",
+			"#회식"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "칠면조",
+				"price": "20000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "파전",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "매운 무뼈 닭발",
+				"price": "16000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스팸전",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "모둠 오뎅탕",
+				"price": "17000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "두부김치",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치즈 계란말이",
+				"price": "14000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "막걸리",
+				"price": "4000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오후 5시 - 오전 2시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 30,
+		"contact": {
+			"phone": "010-8686-7283",
+			"email": ""
+		},
+		"specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
+		"website": "https://map.naver.com/p/entry/place/1624710324?c=13.00,0,0,0,dh&placePath=/home",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "가끔와서 먹는 공릉 맛집입니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "가성비 좋아요~"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다 ~!"
+			}
+		]
+	},
+	{
+		"id": "34",
+		"name": "아소코",
+		"image": "https://lh5.googleusercontent.com/p/AF1QipPE5sm6-2cSdnFcISZerL4jZNQuKt_g-yVX00zh=w90-h90-n-k-no",
+		"location": "서울특별시 노원구 동일로184길 53 1층 아소코",
+		"tag": [
+			"#일식",
+			"#데이트",
+			"#회식"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "항정살덮밥",
+				"price": "9900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스키야키우동",
+				"price": "10900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "연어덮밥",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "냉우동",
+				"price": "9000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "하와이안롤카츠",
+				"price": "13000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "반반튀김",
+				"price": "6000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "치킨 가라아게",
+				"price": "4500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "수제고로케",
+				"price": "4000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 30분 - 오후 10시(오후 3~5시 브레이크 타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 30,
+		"contact": {
+			"phone": "0507-1491-1003",
+			"email": ""
+		},
+		"specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
+		"website": "http://www.instagram.com/asoko_seoul",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "가끔와서 먹는 공릉 맛집입니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "연어 미쳤습니다~"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다 ~!"
+			}
+		]
+	},
+	{
+		"id": "35",
+		"name": "일상다반",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_101%2F1667449943533SdGm7_JPEG%2FScreenshot_20221103_132838.jpg",
+		"location": "서울특별시 노원구 동일로186길 77-17",
+		"tag": [
+			"#일식",
+			"#데이트",
+			"#가정식"
+		],
+		"priceRange": "고가",
+		"rating": 4.015942810892869,
+		"menus": [
+			{
+				"name": "부타동",
+				"price": "14000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230114_163%2F1673672590054a8gfx_JPEG%2F20230114_135337.jpg"
+			},
+			{
+				"name": "명란 아보카도 덮밥",
+				"price": "15000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240306_113%2F1709732192623CoGb0_JPEG%2F1709732113574.jpg"
+			},
+			{
+				"name": "연어덮밥",
+				"price": "14000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_101%2F1667449943533SdGm7_JPEG%2FScreenshot_20221103_132838.jpg"
+			},
+			{
+				"name": "가츠동",
+				"price": "11000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_108%2F1667450025006oejVL_JPEG%2FScreenshot_20221103_131256.jpg"
+			},
+			{
+				"name": "에비동",
+				"price": "11000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_204%2F16674500478349x6hP_JPEG%2FScreenshot_20221103_131837.jpg"
+			},
+			{
+				"name": "튀김우동",
+				"price": "10000원",
+				"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221103_47%2F1667450073359LAuk2_JPEG%2FScreenshot_20221103_132803.jpg"
+			}
+		],
+		"businessHours": "오전 11시 30분 - 오후 9시(오후 2시 30분 ~ 5시 브레이크 타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 20,
+		"contact": {
+			"phone": "02-971-0666",
+			"email": ""
+		},
+		"specialNotes": "비오는 날 찾게되는 맛 좋은 장소",
+		"website": "https://map.naver.com/p/search/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98/place/37053142?c=15.00,0,0,0,dh&placePath=/home&isCorrectAnswer=true",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "재료가 신선해요~"
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "덮밥 꼭 먹으세요. 미쳤습니다~"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다 ~!"
+			},
+			{
+				"author": "익명의돌고래",
+				"date": "2024-05-24",
+				"rating": 4.5,
+				"comment": "최고의 사케동."
+			}
+		]
+	},
+	{
+		"id": "36",
+		"name": "핏짜굽는언니",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240209_271%2F1707447214890SS8oh_JPEG%2F1000004884.jpg",
+		"location": "서울특별시 노원구 동일로198길 58",
+		"tag": [
+			"#양식",
+			"#데이트",
+			"#피자 맛집"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "마르게리타 피자",
+				"price": "15000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "페퍼로니",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "쥬카",
+				"price": "21000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "빠따따",
+				"price": "21000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "알리오올리오",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "감바스",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "리코타 샐러드",
+				"price": "18000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "언니 샐러드",
+				"price": "17000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 - 오후 10시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 15,
+		"contact": {
+			"phone": "02-979-0234",
+			"email": ""
+		},
+		"specialNotes": "앞 화덕피자와 파스타가 맛있는 곳~ 데이트하기 좋은 장소",
+		"website": "https://map.naver.com/p/entry/place/31032820?c=15.00,0,0,0,dh&placePath=/home",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "가끔와서 먹는 공릉 맛집입니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "인테리어가 너무 마음에 들어요"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다 데이트하기 좋아요~!"
+			}
+		]
+	},
+	{
+		"id": "37",
+		"name": "백소정 공릉점",
+		"image": "https://lh5.googleusercontent.com/p/AF1QipPcJiUdkT4QZv-vr7bQqA3vt4MZOihGX7c5o66P=w90-h90-n-k-no",
+		"location": "서울특별시 노원구 동일로 1024 1층",
+		"tag": [
+			"#돈카츠",
+			"#데이트",
+			"#리뷰1등"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "마제소바 + 돈카츠",
+				"price": "14900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "냉소바 + 돈카츠",
+				"price": "14500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스폐셜가츠동",
+				"price": "13900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "모짜렐라치즈카츠",
+				"price": "12900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "에비텐모듬카츠",
+				"price": "11000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "카라이 마제소바 + 돈카츠",
+				"price": "15500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 - 오후 21시 (오후3시 - 5시 브레이크타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 15,
+		"contact": {
+			"phone": "02-979-8505",
+			"email": ""
+		},
+		"specialNotes": "리뷰 1등의 보증된 일식 맛집 !!",
+		"website": "https://baeksojeong.com/",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "맛과 친절 모두 다 잡았습니다."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "정말 청결하고 재료가 신선해요"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다 데이트하기 좋아요~!"
+			}
+		]
+	},
+	{
+		"id": "38",
+		"name": "만두장성",
+		"image": "https://lh5.googleusercontent.com/p/AF1QipNimOtpV_rhhLreqcJ1v4VeCRffy1rjy1yvzog-=w90-h90-n-k-no",
+		"location": "서울특별시 노원구 동일로180길 32 도깨비시장 나-20호",
+		"tag": [
+			"#만두",
+			"#맛집",
+			"#도깨비시장"
+		],
+		"priceRange": "저가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "찹쌀도넛",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "Donut",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "dumpling",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "고기만두",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 - 오후 21시",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 10,
+		"contact": {
+			"phone": "02-972-1005",
+			"email": ""
+		},
+		"specialNotes": "만두와 도넛이 맛있는 도깨비 시장 맛집",
+		"website": "http://pf.kakao.com/_axexkKxb",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "만두 집인데 찹쌀도넛이 진짜 맛있네요."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "만두 먹고 싶으면 여기로 오세요"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "정말 맛있습니다~!"
+			}
+		]
+	},
+	{
+		"id": "39",
+		"name": "네코정",
+		"image": "https://lh5.googleusercontent.com/p/AF1QipO5cIy73dPshSca0VNPF2silSnOG9SywL-VTQjz=w90-h90-n-k-no",
+		"location": "서울특별시 노원구 동일로192길 77 2층201호",
+		"tag": [
+			"#일식",
+			"#데이트",
+			"#맛집"
+		],
+		"priceRange": "고가",
+		"rating": 4.090942810892869,
+		"menus": [
+			{
+				"name": "텐동",
+				"price": "11900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "아나고 텐동",
+				"price": "15900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "오야꼬동",
+				"price": "9900원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "규동",
+				"price": "9500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "스테이크동",
+				"price": "13500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "가라아게동",
+				"price": "10500원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 - 오후 21시 (오후3시 - 5시 브레이크타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"배달 가능",
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 15,
+		"contact": {
+			"phone": "070-4110-5224",
+			"email": ""
+		},
+		"specialNotes": "편하게 맛볼 수 있는 일식집",
+		"website": "https://map.naver.com/p/search/%EB%84%A4%EC%BD%94%EC%A0%95/place/38556378?c=15.00,0,0,0,dh&isCorrectAnswer=true",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "텐동 먹고 싶으면 여기로 오세요."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "가성비가 좋아요"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "혼밥하기 좋은데 튀김이 살짝 아쉽네요!"
+			},
+			{
+				"author": "익명의너구리",
+				"date": "2024-05-24",
+				"rating": 4.8,
+				"comment": "텐동 국가대표가 있다면 여기 사장님이 가셔야 될듯."
+			}
+		]
+	},
+	{
+		"id": "40",
+		"name": "공릉동 닭한마리 본점",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDZfMTEz%2FMDAxNzE0OTcwMDg5NTIz.F5LlWUnKpRUJAe6oRsdgXQ6o0jGSNOD0-MU2MgKWgUgg.4Fjh6x1KS3iL2u9P_90JAxRss-ofB3wbYonhcl8Lv4Eg.JPEG%2F20240506_113934.jpg.jpg%3Ftype%3Dw1500_60_sharpen",
+		"location": "서울특별시 노원구 동일로192길 77 2층201호",
+		"tag": [
+			"#닭집",
+			"#원조",
+			"#맛집"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "닭한마리",
+				"price": "25000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "칼국수",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "떡사리",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "감자사리",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "음료수",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소주",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 30분 - 오후 22시 (오후3시 - 5시 브레이크타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능"
+		],
+		"seatingCapacity": 30,
+		"contact": {
+			"phone": "02-972-7459",
+			"email": ""
+		},
+		"specialNotes": "공릉동 닭한마리 원조 본점 얼큰한 해장",
+		"website": "https://map.naver.com/p/entry/place/19877349?c=15.00,0,0,0,dh",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "닭한마리는 공릉이 찐입니다. 먹고 싶으면 여기로 오세요."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "가성비가 좋아요!!"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "유명한 이유가 있습니다."
+			}
+		]
+	},
+	{
+		"id": "41",
+		"name": "경복식당",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA1MDRfMTgw%2FMDAxNzE0ODI0NjI5MDYz.7Sljf47O7Ji0ss7uCxkeMCyfga8_0qe4b3Y8FKhMb1Ug.k_EPn1CAsms2X21tXO7RZgUssckgQ83-ILUE2PcByggg.JPEG%2F20240503_103648.heic.jpg%3Ftype%3Dw1500_60_sharpen",
+		"location": "서울특별시 노원구 공릉로39길 10 대아아파트 상가 경복식당",
+		"tag": [
+			"#백반",
+			"#원조",
+			"#가정식"
+		],
+		"priceRange": "저가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "가정식 백반",
+				"price": "8000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "제육볶음",
+				"price": "3000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 10시 30분 - 오후 20시 (오후3시 - 5시 브레이크타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능"
+		],
+		"seatingCapacity": 30,
+		"contact": {
+			"phone": "02-949-7331",
+			"email": ""
+		},
+		"specialNotes": "백종원의 골목식당 극찬한 찌개 백반전문점",
+		"website": "https://map.naver.com/p/entry/place/1797596093?c=15.00,0,0,0,dh",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "정말 맛있습니다 ~"
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "제육볶음이 진짜 불맛이 장난이 아니네요."
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "유명한 이유가 있습니다."
+			}
+		]
+	},
+	{
+		"id": "42",
+		"name": "경성초밥",
+		"image": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190917_223%2F1568730028449uDd2T_JPEG%2F8RA9Ar72Rs5rq8p-1OPyXY8H.jpeg.jpg",
+		"location": "서울특별시 노원구 공릉로 119-5 1층 좌측 경성초밥",
+		"tag": [
+			"#초밥",
+			"#일식",
+			"#맛집"
+		],
+		"priceRange": "고가",
+		"rating": 3.8545904145238254,
+		"menus": [
+			{
+				"name": "모둠초밥(11p)",
+				"price": "22000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "우동",
+				"price": "7000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "특초밥(11p)",
+				"price": "29000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "회",
+				"price": "39000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "음료수",
+				"price": "2000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			},
+			{
+				"name": "소주",
+				"price": "5000원",
+				"image": "https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
+			}
+		],
+		"businessHours": "오전 11시 30분 - 오후 22시 (오후3시 - 5시 브레이크타임)",
+		"reservations": [],
+		"additionalServices": [
+			"예약 가능",
+			"포장 가능",
+			"주차 가능"
+		],
+		"seatingCapacity": 10,
+		"contact": {
+			"phone": "0507-1384-8864",
+			"email": ""
+		},
+		"specialNotes": "공트럴파크 새로 생긴 초밥 맛집",
+		"website": "https://map.naver.com/p/entry/place/1453394676?c=15.00,0,0,0,dh&placePath=/home",
+		"reviews": [
+			{
+				"author": "김지원",
+				"date": "2024-02-16",
+				"rating": 3.8497763927143493,
+				"comment": "공릉 철길 맛집. 먹고 싶으면 여기로 오세요."
+			},
+			{
+				"author": "손미정",
+				"date": "2024-02-04",
+				"rating": 3.04862600324911,
+				"comment": "가성비가 좋지 않아요!"
+			},
+			{
+				"author": "이예준",
+				"date": "2024-04-13",
+				"rating": 4.665368847608018,
+				"comment": "유명한 이유가 있습니다."
+			}
+		]
+	}
 ]

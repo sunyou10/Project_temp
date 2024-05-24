@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
             container.className = "col mb-5";
             container.innerHTML = `
             <div class="card h-100">
-                <img class="card-img-top" src="${elem.image}" alt="" />
+                <img class="card-img-top" src="${elem.image}" alt="" height="240" />
                 <div class="card-body p-4">
                     <div class="text-center">
                         <h5 class="fw-bolder">${elem.name}</h5>

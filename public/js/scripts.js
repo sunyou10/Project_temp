@@ -37,7 +37,7 @@ function displayRestaurants(restaurants) {
         element.className = 'col mb-5';
         let inner = `
             <div class="card h-100">
-                <img class="card-img-top" src="${restaurant.image || 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg'}" alt="${restaurant.name}" />
+                <img class="card-img-top" src="${restaurant.image || 'https://dummyimage.com/450x300/dee2e6/6c757d.jpg'}" alt="${restaurant.name}" height="170" />
                 <div class="card-body p-4">
                     <div class="text-center">
                         <h5 class="fw-bolder">${restaurant.name}</h5>

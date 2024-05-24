@@ -13,6 +13,7 @@ const { GMAIL_OAUTH_USER, GMAIL_OAUTH_CLIENT_ID, GMAIL_OAUTH_CLIENT_SECRET, GMAI
 const fs = require('fs').promises;
 const path = require('path'); // path 모듈을 상단으로 이동
 const USERS_JSON_FILENAME = 'public/js/data/user.json';
+const RESTAURANT_JSON_FILENAME = 'public/js/data/restaurant.json';
 
 async function fetchAllUsers() {
     const data = await fs.readFile(USERS_JSON_FILENAME);
@@ -30,6 +31,46 @@ async function createUser(newUser) {
     const users = await fetchAllUsers();
     users.push(newUser);
     await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, '\t'));
+}
+
+// 전체 레스토랑 가져오는 로직
+async function fetchAllRestaurants() {
+    const data = await fs.readFile(RESTAURANT_JSON_FILENAME);
+    const restaurants = JSON.parse(data.toString());
+    return restaurants;
+}
+
+// 아이디로 레스토랑 일부 빼오는 로직
+async function fetchRestaurant(restaurantId) {
+    const restaurants = await fetchAllRestaurants();
+    const restaurant = restaurants.find((restaurant) => restaurant.id === String(restaurantId));
+    return restaurant;
+}
+
+// 현재 restaurant.json 내 후기 정보를 바탕으로 후기 평점을 계산하는 함수
+async function updateStarRate(restaurantId) {
+    const restaurants = await fetchAllRestaurants();
+    const restaurantIndex = restaurants.findIndex(r => r.id === String(restaurantId));
+    if (restaurantIndex === -1) throw new Error('Restaurant not found');
+    const reviews = restaurants[restaurantIndex].reviews;
+
+    let count = 0;
+    reviews.forEach(review => count += review.rating );
+    try {restaurants[restaurantIndex].rating = count / reviews.length ;}
+    catch { restaurants[restaurantIndex].rating = 0;}
+    await fs.writeFile(RESTAURANT_JSON_FILENAME, JSON.stringify(restaurants, null, '\t'));
+    console.log(`Update Star-rate : ${restaurants[restaurantIndex].name} by rating ${restaurants[restaurantIndex].rating}`);
+}
+
+// 후기 데이터 추가하는 함수
+async function createReview(restaurantId, newReview) {
+    const restaurants = await fetchAllRestaurants();
+    const restaurantIndex = restaurants.findIndex(r => r.id === String(restaurantId));
+    if (restaurantIndex === -1) throw new Error('Restaurant not found');
+    restaurants[restaurantIndex].reviews.push(newReview);
+
+    await fs.writeFile(RESTAURANT_JSON_FILENAME, JSON.stringify(restaurants, null, '\t'));
+    updateStarRate(restaurantId);
 }
 
 const sendMail = async (to, subject, html) => {
@@ -138,7 +179,16 @@ app.post('/submit-your-register-form', async (req, res) => {
         res.status(200).json({ success: false });
         return;
     } else {
-        await sendMail(email, '예약판다 가입을 환영합니다!', `환영합니다, ${nickname} 님 :)`);
+        await sendMail(email, '예약판다 가입을 환영합니다!', `
+        <html>
+        <body style ="width : 500px">
+        <h1>${nickname}님 가입을 환영합니다 :) </h1>
+        <hr/>
+        <div>이름 : ${nickname}</div>
+        <div>전화번호 : ${phoneNum}</div>
+        </body>
+        </html>
+        `);
         const users = await fetchAllUsers();
         const newUser = {
             "index" : users.length + 1,
@@ -147,7 +197,7 @@ app.post('/submit-your-register-form', async (req, res) => {
             "location" : location,
             "nickname" : nickname,
             "phone-number" : phoneNum,
-            "review" : "",
+            "review" : [],
             "favorites" : []
         };
         await createUser(newUser);
@@ -293,6 +343,11 @@ app.post('/delete-account', async (req, res) => {
 
 app.post('/reserve', async (req, res) => {
     const reservation = req.body;
+
+    // 레스토랑 이름 정보 추가
+    const restaurant = await fetchRestaurant(reservation.restaurantId);
+    reservation.restaurantName = restaurant.name;
+
     console.log('Reservation request received:', reservation); // 요청 로그 추가
 
     // 현재 로그인한 사용자 정보 가져오기 (쿠키 또는 세션에서)

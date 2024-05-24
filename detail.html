@@ -126,27 +126,27 @@
                     <form id="reservationForm" data-aos="fade-up" data-aos-delay="100">
                     <div class="row gy-4">
                       <div class="col-lg-4 col-md-6">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
                         <div class="validate"></div>
                       </div>
                       <div class="col-lg-4 col-md-6">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required>
                         <div class="validate"></div>
                       </div>
                       <div class="col-lg-4 col-md=6">
-                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
                         <div class="validate"></div>
                       </div>
                       <div class="col-lg-4 col-md-6">
-                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="date" class="form-control" name="date" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
                         <div class="validate"></div>
                       </div>
                       <div class="col-lg-4 col-md-6">
-                        <input type="time" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                        <input type="time" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required>
                         <div class="validate"></div>
                       </div>
                       <div class="col-lg-4 col-md-6">
-                        <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                        <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars" required>
                         <div class="validate"></div>
                       </div>
                     </div>
@@ -188,6 +188,7 @@
         
                 // 폼 데이터 수집
                 const formData = new FormData(this);
+                const restaurantId = window.location.pathname.split('/').pop();
                 const data = {
                     name: formData.get('name'),
                     email: formData.get('email'),
@@ -196,7 +197,7 @@
                     time: formData.get('time'),
                     people: formData.get('people'),
                     message: formData.get('message'),
-                    restaurantId: new URLSearchParams(window.location.search).get('id') // 레스토랑 ID를 URL에서 가져옴
+                    restaurantId: restaurantId // 레스토랑 ID를 URL에서 가져옴
                 };
         
                 // Fetch API를 사용하여 POST 요청 전송
