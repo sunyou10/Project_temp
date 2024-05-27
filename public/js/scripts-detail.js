@@ -152,7 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         } catch (error) {
             console.error('Error parsing user cookie:', error);
-            alert('Invalid user cookie. Please log in again.');
         };
 
         function updateFavoriteButton(isFavorite) {
@@ -223,21 +222,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
     
             const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
-    
+            const restaurantId = window.location.pathname.split('/').pop();
             if (confirm('정말로 모든 예약을 삭제하시겠습니까?')) {
                 fetch('/delete-all-reservations', {
+                    
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ email: userEmail })
+                    body: JSON.stringify({ email: userEmail, restaurantId: restaurantId })
                 })
                 .then(response => response.json())
                 .then(data => {
                     if (data.success) {
                         alert(data.message);
                     } else {
-                        alert('예약 삭제 중 문제가 발생했습니다.');
+                        alert(`${data.message}` ||'예약 삭제 중 문제가 발생했습니다.');
                     }
                 })
                 .catch(error => {
@@ -260,8 +260,7 @@ document.getElementById('easyReservationButton').addEventListener('click', () =>
         date,
         time,
         people,
-        restaurantId: id,
-        userId: JSON.parse(document.cookie.split('USER=')[1]).id // 현재 로그인한 사용자 ID 가져오기
+        restaurantId: id
     };
 
     console.log("Sending reservation data:", reservationData);
@@ -283,11 +282,11 @@ document.getElementById('easyReservationButton').addEventListener('click', () =>
         if (result.success) {
             alert('Reservation successful!');
         } else {
-            alert('Reservation failed. Please try again.');
+            alert(result.message ||'Reservation failed. Please try again.');
         }
     }).catch(error => {
         console.error('Error:', error);
-        alert('Reservation failed. Please try again.');
+        alert(error.message || 'Reservation failed. Please try again.');
     })
 });
 
@@ -299,5 +298,8 @@ window.addEventListener("load", () => {
 
         const mypage = document.querySelector("#hidden-item");
         mypage.style.visibility = "visible";
+
+        const favoriteButton = document.querySelector("#favorite-button");
+        favoriteButton.style.visibility = "visible";
     }
 });

@@ -11,20 +11,24 @@ function applyFilters() {
     const selectedPriceRange = document.querySelector('input[name="priceRange"]:checked')?.value;
     const parkingAvailable = document.getElementById('parkingAvailable').checked;
 
-    fetch('./js/data/restaurant.json')
-        .then(response => response.json())
-        .then(data => {
-            let filteredData = data.filter(restaurant => {
-                const matchesName = restaurant.name.toLowerCase().includes(searchInput);
-                const matchesLocation = restaurant.location.toLowerCase().includes(searchInput);
-                const matchesTags = selectedTags.length === 0 || selectedTags.some(tag => restaurant.tag.includes(tag));
-                const matchesPrice = !selectedPriceRange || restaurant.priceRange === selectedPriceRange;
-                const matchesParking = !parkingAvailable || restaurant.additionalServices.includes("주차 가능");
+    const filters = {
+        searchInput,
+        selectedTags,
+        selectedPriceRange,
+        parkingAvailable
+    };
 
-                return (matchesName || matchesLocation) && matchesTags && matchesPrice && matchesParking;
-            });
-            displayRestaurants(filteredData);
-        });
+    fetch('/api/restaurants', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(filters)
+    })
+    .then(response => response.json())
+    .then(data => {
+        displayRestaurants(data);
+    });
 }
 
 function displayRestaurants(restaurants) {

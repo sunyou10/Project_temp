@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Reservations</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="icon" href="assets/panda-logo.png" type="image/png">
     <style>
         body {
@@ -71,6 +72,10 @@
         </div>
     </header>
     <div class="reservations-container">
+        <button type="button" id="clearBtn" style="float: right;">
+            <i class="bi bi-calendar-x"></i>
+            예약 일괄 삭제
+        </button>
         <h2>My Reservations</h2>
         <div id="reservations">
             <p class="no-reservations">아직 예약하신 정보가 없습니다.</p>
@@ -89,6 +94,31 @@
             });
         });
 
+        document.querySelector("#clearBtn").addEventListener("click", () =>{
+            const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+            const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
+            if (confirm('정말로 모든 예약을 삭제하시겠습니까?')) {
+                fetch('/clear-all-reservations', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ email: userEmail })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert(data.message);
+                        location.reload();
+                    } else {
+                        alert(`${data.message}` ||'예약 삭제 중 문제가 발생했습니다.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            }
+        });
 
         document.addEventListener('DOMContentLoaded', function() {
             fetch('/get-user-reservations')
