@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const restaurantId = window.location.pathname.split('/').pop();
             if (confirm('정말로 모든 예약을 삭제하시겠습니까?')) {
                 fetch('/delete-all-reservations', {
-                    
+
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -303,3 +303,27 @@ window.addEventListener("load", () => {
         favoriteButton.style.visibility = "visible";
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    checkReservationTime();
+});
+
+function checkReservationTime() {
+    const userCookie = document.cookie.split('; ').find(row => row.startsWith('USER='));
+    if (!userCookie) return;
+    
+    const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
+    fetch(`/time-to-reservation?email=${userEmail}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.message === 'Reservation time has already passed.') {
+                const reviewButtonContainer = document.createElement('div');
+                reviewButtonContainer.innerHTML = `
+                    <button type="button" class="btn btn-primary" onclick="location.href='/review'" style="margin-left: 10px;">
+                        후기 작성하러 가기!
+                    </button>`;
+                document.querySelector('.d-flex').appendChild(reviewButtonContainer);
+            }
+        })
+        .catch(error => console.error('Error:', error));
+}

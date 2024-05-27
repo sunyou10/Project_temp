@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
 const nodemailer = require('nodemailer');
 const moment = require('moment'); // moment.js 추가
 
@@ -71,6 +73,13 @@ async function createReview(restaurantId, newReview) {
 
     await fs.writeFile(RESTAURANT_JSON_FILENAME, JSON.stringify(restaurants, null, '\t'));
     updateStarRate(restaurantId);
+}
+
+// id로 레스토랑 이름 조회하는 함수
+async function fetchRestaurantName(restaurantId) {
+    const restaurants = await fetchAllRestaurants();
+    const restaurant = restaurants.find(r => r.id === String(restaurantId));
+    return restaurant ? restaurant.name : '';
 }
 
 // 레스토랑 예약 내역 추가하는 함수
@@ -291,6 +300,10 @@ app.get('/profile', (req, res) => {
     res.sendFile(__dirname + '/profile.html');
 });
 
+app.get('/review', (req, res) => {
+    res.sendFile(__dirname + '/review.html');
+})
+
 app.post('/change-password', async (req, res) => {
     const userCookie = req.cookies[USER_COOKIE_KEY];
     if (!userCookie) {
@@ -463,32 +476,6 @@ app.post('/update-favorites', async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 });
-
-app.post('/submit-review', async (req, res) => {
-    const userCookie = req.cookies[USER_COOKIE_KEY];
-    if (!userCookie) {
-        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
-        return;
-    }
-
-    const user = JSON.parse(userCookie);
-    const { restaurantName, comment, date } = req.body;
-
-    const users = await fetchAllUsers();
-    const currentUserIndex = users.findIndex(u => u.id === user.id);
-
-    if (currentUserIndex !== -1) {
-        if (!users[currentUserIndex].reviews) {
-            users[currentUserIndex].reviews = [];
-        }
-        users[currentUserIndex].reviews.push({ restaurantName, comment, date });
-        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, 2));
-        res.json({ success: true });
-    } else {
-        res.status(404).json({ success: false, message: "사용자를 찾을 수 없습니다." });
-    }
-});
-
 
 app.get('/get-user-reviews', async (req, res) => {
     const userCookie = req.cookies[USER_COOKIE_KEY];
@@ -681,6 +668,50 @@ app.post('/api/restaurants', async (req, res) => {
     });
 
     res.json(filteredData);
+});
+
+// 리뷰 제출하기
+app.post('/submit-review', upload.array('photo', 5), async (req, res) => {
+    const userCookie = req.cookies[USER_COOKIE_KEY];
+    if (!userCookie) {
+        res.status(403).json({ success: false, message: "로그인이 필요합니다." });
+        return;
+    }
+
+    const user = JSON.parse(userCookie);
+    const { comment, keywords, rating, restaurantId } = req.body;
+    console.log(req.body);
+    const files = req.files;
+
+    const newReview = {
+        author: user.nickname,
+        comment,
+        rating: parseFloat(rating),
+        date: new Date().toISOString().split('T')[0],
+        keywords: keywords,
+        photos: files.map(file => file.path),
+        restaurantName: await fetchRestaurantName(restaurantId)
+    };
+
+    try {
+        // restaurant.json에 추가
+        await createReview(restaurantId, newReview);
+        
+        // user.json에 추가
+        const users = await fetchAllUsers();
+        const userIndex = users.findIndex(u => u.id === user.id);
+        if (userIndex === -1) throw new Error('User not found');
+        if (!users[userIndex].reviews) {
+            users[userIndex].reviews = [];
+        }
+        users[userIndex].reviews.push(newReview);
+        await fs.writeFile(USERS_JSON_FILENAME, JSON.stringify(users, null, '\t'));
+
+        res.json({ success: true });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, message: '후기 제출에 실패했습니다.' });
+    }
 });
 
 app.listen(port, () => console.log(`Page open in  port: ${port}`));
