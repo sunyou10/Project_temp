@@ -103,6 +103,18 @@
                                 <h3>${review.restaurantName}</h3>
                                 <div class="review-text">${review.comment}</div>
                                 <div class="review-date">${review.date}</div>
+                                <div class="review-media">
+                                    ${review.photos.map(photo => {
+                                        const fileType = photo.split('.').pop();
+                                        if (['jpg', 'jpeg', 'png', 'gif'].includes(fileType)) {
+                                            return `<img src="${photo}" alt="Review Media">`;
+                                        } else if (['mp4', 'mov', 'avi'].includes(fileType)) {
+                                            return `<video controls src="${photo}"></video>`;
+                                        } else {
+                                            return '';
+                                        }
+                                    }).join('')}
+                                </div>
                             `;
                             reviewsContainer.appendChild(reviewItem);
                         });
