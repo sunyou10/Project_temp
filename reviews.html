@@ -100,21 +100,12 @@
                             const reviewItem = document.createElement('div');
                             reviewItem.className = 'review-item';
                             reviewItem.innerHTML = `
-                                <h3>${review.restaurantName}</h3>
-                                <div class="review-text">${review.comment}</div>
-                                <div class="review-date">${review.date}</div>
-                                <div class="review-media">
-                                    ${review.photos.map(photo => {
-                                        const fileType = photo.split('.').pop();
-                                        if (['jpg', 'jpeg', 'png', 'gif'].includes(fileType)) {
-                                            return `<img src="${photo}" alt="Review Media">`;
-                                        } else if (['mp4', 'mov', 'avi'].includes(fileType)) {
-                                            return `<video controls src="${photo}"></video>`;
-                                        } else {
-                                            return '';
-                                        }
-                                    }).join('')}
-                                </div>
+                            <h3>${review.restaurantName}</h3>
+                                <div class="review-text">Date: ${review.date}</div>     
+                                <div class="review-text">Rating: ${review.rating}</div>
+                                <div class="review-text">Comment: ${review.comment}</div>
+                                <div class="review-text">Keywords: ${review.keywords}</div>
+                                <div class="review-text">Photos: ${review.photos.map(photo => `<img src="/${photo.replace(/\\/g, '/')}" class="review-photo" width="100%">`).join(' ')}</div>
                             `;
                             reviewsContainer.appendChild(reviewItem);
                         });

@@ -223,7 +223,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
             const userEmail = JSON.parse(decodeURIComponent(userCookie.split('=')[1])).id;
             const restaurantId = window.location.pathname.split('/').pop();
-            if (confirm('정말로 모든 예약을 삭제하시겠습니까?')) {
+            if (confirm('정말로 이 식당의 예약을 전부 삭제하시겠습니까?')) {
                 fetch('/delete-all-reservations', {
 
                     method: 'POST',
