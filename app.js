@@ -167,6 +167,8 @@ app.use('/restaurant', express.static('public'));
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use('/uploads', express.static('uploads')); // 업로드된 파일 경로 설정  새로 추가한 부분! 5.29
 
 app.get('/', (req, res) => res.sendFile(__dirname + '/index.html'));
 
