@@ -2,6 +2,8 @@
 
 주제: 식당 예약 웹 서비스 개발
 
+[웹프_데모영상.mp4.zip](https://github.com/sunyou10/Web-Programming-Project/files/15503543/_.mp4.zip)
+
 ---
 
 ## ✅ 파일 소개
